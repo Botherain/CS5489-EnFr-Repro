@@ -1,0 +1,482 @@
+[
+  {
+    "en": "haematoma",
+    "fr_claimed": "hématome",
+    "claimed_decision": "keep",
+    "model_reason": "例句使用 hématome sous-cutané。",
+    "examples": [
+      [
+        "Common side effects Bleeding in the stomach or bowels Bleeding from a needle puncture site Nose bleeds Skin rash Small red bruises on the skin (ecchymoses) Blood in urine Haematoma (bleeding under the skin at the site of an injection, or into a muscle, causing",
+        "Effets indésirables fréquents Saignement dans l'estomac ou les intestins Saignement au niveau du site de ponction de l'aiguille Saignement de nez Éruption cutanée Petites lésions rouges sur la peau (ecchymoses) Sang dans les urines"
+      ],
+      [
+        "Rare side effects Subcutaneous haematoma (bleeding under the skin causing a swelling)",
+        "Effets indésirables rares Hématome sous-cutané (saignement sous la peau responsable d’un gonflement)"
+      ]
+    ]
+  },
+  {
+    "en": "risk factors",
+    "fr_claimed": "facteurs de risque",
+    "claimed_decision": "keep",
+    "model_reason": "例句均使用“facteurs de risque”，该医学风险概念译法相符。",
+    "examples": [
+      [
+        "In the treatment of congenital antithrombin deficiency, the dosage and duration of treatment should be individualised for each patient taking into account the family history with regard to thromboembolic events, the actual clinical risk factors, and the labora",
+        "Dans le traitement du déficit congénital en antithrombine, la posologie et la durée du traitement doivent être individualisées pour chaque patient en tenant compte des antécédents familiaux relatifs à des événements thromboemboliques, des facteurs de risque cl"
+      ],
+      [
+        "The incidence of lactic acidosis can and should be reduced by also assessing other associated risk factors such as poorly controlled diabetes, ketosis,",
+        "L'incidence de l'acidose lactique peut et doit être réduite par une évaluation des autres facteurs de risque associés, tels qu'un diabète mal équilibré, une cétose, un jeûne prolongé, l'éthylisme, une insuffisance hépatocellulaire, ainsi que toute affection as"
+      ]
+    ]
+  },
+  {
+    "en": "liquid paraffin",
+    "fr_claimed": "Paraffine liquide",
+    "claimed_decision": "keep",
+    "model_reason": "例句将该辅料译为“paraffine liquide”。",
+    "examples": [
+      [
+        "Pharmacologically active substance Light liquid paraffin Polysorbate 80 Sorbitan mono oleate (E494) Glycine",
+        "Paraffine liquide légère Polysorbate 80 Oléate de monosorbitan Glycine"
+      ],
+      [
+        "The vaccine also contains an ‘ adjuvant’ (liquid paraffin) to stimulate a better response.",
+        "Le vaccin contient également un « adjuvant » (paraffine liquide) qui vise à stimuler l’ organisme afin d'obtenir une meilleure réponse."
+      ]
+    ]
+  },
+  {
+    "en": "Shelf life",
+    "fr_claimed": "Durée de conservation",
+    "claimed_decision": "keep",
+    "model_reason": "EMEA标题例句使用“Durée de conservation”。",
+    "examples": [
+      [
+        "5 6.3 Shelf life",
+        "6.3 Durée de conservation"
+      ],
+      [
+        "6.3 Shelf life uc",
+        "6 6.3 Durée de conservation"
+      ]
+    ]
+  },
+  {
+    "en": "rubber stopper",
+    "fr_claimed": "bouchon en caoutchouc",
+    "claimed_decision": "keep",
+    "model_reason": "例句使用“bouchon en caoutchouc”，该包装部件名称译法正确。",
+    "examples": [
+      [
+        "Clear glass (Type I) vials with a non-latex bromobutyl rubber stopper, sealed with an aluminium cap.",
+        "Flacons de verre transparents (type I) avec un bouchon en caoutchouc ne contenant pas de latex, scellé par un film détachable en aluminium."
+      ],
+      [
+        "What Avastin looks like and contents of the pack Avastin is a clear, colourless to pale brown liquid in a glass vial with a rubber stopper.",
+        "Qu’ est ce que Avastin et contenu de l’ emballage extérieur Avastin est un liquide limpide à légèrement opalescent, incolore à brun pâle contenu dans un flacon avec un bouchon en caoutchouc."
+      ]
+    ]
+  },
+  {
+    "en": "healthy subjects",
+    "fr_claimed": "sujets sains",
+    "claimed_decision": "keep",
+    "model_reason": "例句出现“sujets sains”，现译准确；另一例使用同义的“volontaires sains”。",
+    "examples": [
+      [
+        "In healthy subjects, the mean half-life in whole blood is approximately 43 hours.",
+        "Chez des sujets sains, la demi-vie moyenne dans le sang total est d’ environ 43 heures."
+      ],
+      [
+        "In a pharmacokinetic study, healthy subjects received oral brinzolamide (1 mg) twice daily for 2 weeks to shorten the time to reach steady-state prior to starting AZARGA administration.",
+        "Dans une étude pharmacocinétique, des volontaires sains ont reçu du brinzolamide par voie orale (1 mg) deux fois par jour pendant 2 semaines avant de débuter l’administration d’AZARGA pour diminuer le temps nécessaire pour atteindre l’état d’équilibre."
+      ]
+    ]
+  },
+  {
+    "en": "overall survival",
+    "fr_claimed": "survie globale",
+    "claimed_decision": "keep",
+    "model_reason": "例句均将该临床结局指标译为“survie globale”。",
+    "examples": [
+      [
+        "Overall survival was also significantly longer (p = 0.0201) in favor of the TCF arm with a risk reduction of mortality of 22.7%.",
+        "La survie globale était également significativement plus longue (p = 0,0201) en faveur du bras TCF avec une réduction du risque de mortalité de 22,7%."
+      ],
+      [
+        "The primary efficacy endpoint in this study, overall survival (OS) was significantly longer (log-rank test, p = 0.0058) with the docetaxel-containing regimen compared to PF (median OS:",
+        "La survie globale (SG), critère d’ évaluation principal de cette étude, était significativement plus longue (test du log-rank, p = 0,0058) dans le bras contenant le docétaxel que dans le bras PF (SG médiane:"
+      ]
+    ]
+  },
+  {
+    "en": "active metabolite",
+    "fr_claimed": "métabolite actif",
+    "claimed_decision": "keep",
+    "model_reason": "例句明确使用“métabolite actif”。",
+    "examples": [
+      [
+        "In systemic circulation only one of the inactive metabolites is present at low concentrations.",
+        "Dans la circulation systémique, un seul des métabolites inactifs est présent à faible concentration."
+      ],
+      [
+        "MPA (mycophenolic acid) is the active metabolite of mycophenolate mofetil.",
+        "Traitement pendant les épisodes de rejet: l’ acide mycophénolique (MPA) est le métabolite actif du mycophénolate mofétil."
+      ]
+    ]
+  },
+  {
+    "en": "first opening",
+    "fr_claimed": "première ouverture",
+    "claimed_decision": "keep",
+    "model_reason": "例句将 after first opening 表达为 après première ouverture，也见 suivant la première utilisation。",
+    "examples": [
+      [
+        "EXP Use within 6 months after first opening.",
+        "EXP A utiliser dans les 6 mois après première ouverture."
+      ],
+      [
+        "Avamys nasal spray should be used within 2 months after first opening.",
+        "Le pulvérisateur nasal d’ Avamys doit être utilisé dans les 2 mois suivant la première utilisation."
+      ]
+    ]
+  },
+  {
+    "en": "Pharmacokinetic properties",
+    "fr_claimed": "Propriétés pharmacocinétiques",
+    "claimed_decision": "keep",
+    "model_reason": "例句直接使用 propriétés pharmacocinétiques。",
+    "examples": [
+      [
+        "Renal impairment The pharmacokinetic properties of insulin glulisine are generally maintained in patients with renal impairment.",
+        "Insuffisance rénale Les propriétés pharmacocinétiques de l’ insuline glulisine sont généralement inchangées chez les patients insuffisants rénaux."
+      ],
+      [
+        "Hepatic impairment The pharmacokinetic properties of insulin glulisine have not been investigated in patients with decreased liver function.",
+        "Insuffisance hépatique Les propriétés pharmacocinétiques de l’ insuline glulisine n’ ont pas été évaluées chez les patients ayant une altération de la fonction hépatique."
+      ]
+    ]
+  },
+  {
+    "en": "insulin aspart",
+    "fr_claimed": "insuline asparte",
+    "claimed_decision": "fix",
+    "model_reason": "例句明确将“insulin aspart”译为“insuline asparte”，当前译文漏译了insulin。",
+    "examples": [
+      [
+        "NovoRapid contains the active ingredient insulin aspart.",
+        "Le principe actif de NovoRapid est l’ insuline asparte."
+      ],
+      [
+        "Careful glucose monitoring and dose adjustments of insulin aspart are recommended in these patients.",
+        "Un contrôle attentif de la glycémie et un ajustement des doses de l’ insuline asparte sont recommandés chez ces patients."
+      ]
+    ]
+  },
+  {
+    "en": "visual acuity",
+    "fr_claimed": "acuité visuelle",
+    "claimed_decision": "fix",
+    "model_reason": "例句完整术语为 meilleure acuité visuelle corrigée，现译漏掉 acuity。",
+    "examples": [
+      [
+        "keratitis, keratopathy, increased optic nerve cup/disc ratio, corneal epithelium defect, corneal epithelium disorder, increased intraocular pressure, eye deposit, corneal staining, corneal oedema, conjunctivitis, meibomianitis, diplopia, glare, photophobia, ph",
+        "kératite, kératopathie, augmentation du ratio cup/disc du nerf optique, anomalie de l'épithélium cornéen, affection de l'épithélium cornéen, augmentation de la pression intraoculaire, dépôt oculaire, coloration cornéenne, œdème cornéen, conjonctivite, meibomit"
+      ],
+      [
+        "Results from both trials indicated that continued ranibizumab-treatment may also be of benefit in patients who lost ≥ 15 letters of best-corrected visual acuity (BCVA) in the first year of treatment.",
+        "Les résultats des deux études montrent que la poursuite du traitement par ranibizumab peut également présenter un bénéfice chez les patients ayant perdu ≥ 15 lettres de meilleure acuité visuelle corrigée (MAVC) au cours de la première année de traitement."
+      ]
+    ]
+  },
+  {
+    "en": "precautions for storage",
+    "fr_claimed": "Précautions particulières de conservation",
+    "claimed_decision": "fix",
+    "model_reason": "例句中的规范标题为“Précautions particulières de conservation”，现译漏掉首词。",
+    "examples": [
+      [
+        "15 6.4 Special precautions for storage",
+        "6.4 Précautions particulières de conservation"
+      ],
+      [
+        "42 6.4 Special precautions for storage",
+        "48 6.4 Précautions particulières de conservation"
+      ]
+    ]
+  },
+  {
+    "en": "spot-on solution",
+    "fr_claimed": "solution pour spot-on",
+    "claimed_decision": "fix",
+    "model_reason": "例句使用“solution pour spot-on”，现译遗漏 on。",
+    "examples": [
+      [
+        "The recommended minimum dose is 12.5 mg pyriprole per kg bodyweight, equivalent to 0.1 ml Prac- tic spot-on solution per kg bodyweight.",
+        "La dose minimale recommandée est de 12,5 mg de pyriprole par kg de poids corporel, correspondant à 0,1 ml de Prac-tic solution pour spot -on par kg de poids corporel."
+      ],
+      [
+        "Profender spot-on solution for small cats Profender spot-on solution for medium cats Profender spot-on solution for large cats",
+        "Profender solution pour spot -on pour petits chats Profender solution pour spot -on pour chats moyens Profender solution pour spot -on pour grands chats"
+      ]
+    ]
+  },
+  {
+    "en": "mild to moderate",
+    "fr_claimed": "légère à modérée",
+    "claimed_decision": "fix",
+    "model_reason": "例句将 mild to moderate 译为 légère à modérée。",
+    "examples": [
+      [
+        "Most skin reactions were mild to moderate in severity and resolved within 2 weeks of treatment discontinuation.",
+        "La plupart des réactions cutanées ont été d'intensité légère à modérée et ont disparu dans les 2 semaines qui ont suivi l'arrêt du traitement."
+      ],
+      [
+        "These are generally mild to moderate in intensity and decrease with time.",
+        "Ces effets sont généralement d’ intensité légère à modérée et diminuent au fil du temps."
+      ]
+    ]
+  },
+  {
+    "en": "acetylsalicylic acid",
+    "fr_claimed": "acide acétylsalicylique",
+    "claimed_decision": "fix",
+    "model_reason": "两条例句均使用“acide acétylsalicylique”，当前译文缺少 acide。",
+    "examples": [
+      [
+        "You should also be given acetylsalicylic acid (a substance present in many medicines used to relieve pain and lower fever as well as to prevent blood clotting) by your doctor.",
+        "Votre médecin doit également vous prescrire de l'acide acétylsalicylique (substance présente dans de nombreux médicaments utilisée pour soulager la douleur et faire baisser la fièvre, mais aussi pour prévenir la formation de caillots sanguins)."
+      ],
+      [
+        "An occasional use of acetylsalicylic acid (no more than 1,000 mg in any 24 hour period) should generally not cause a problem, but prolonged use in other circumstances should be discussed with your doctor.",
+        "Une utilisation occasionnelle d'acide acétylsalicylique (pas plus de 1000 mg sur une période de 24 heures) ne doit généralement pas poser de problèmes, mais une utilisation prolongée dans d'autres circonstances doit être discutée avec votre médecin."
+      ]
+    ]
+  },
+  {
+    "en": "mycophenolate mofetil",
+    "fr_claimed": "mycophénolate mofétil",
+    "claimed_decision": "fix",
+    "model_reason": "例句明确将 mycophenolate mofetil 译为“mycophénolate mofétil”，当前译文漏掉 mofétil。",
+    "examples": [
+      [
+        "CellCept is a medicine containing the active substance mycophenolate mofetil.",
+        "CellCept est un médicament dont le principe actif est le mycophénolate mofétil."
+      ],
+      [
+        "Each capsule contains 250 mg mycophenolate mofetil.",
+        "Chaque gélule contient 250 mg de mycophénolate mofétil."
+      ]
+    ]
+  },
+  {
+    "en": "pulmonary oedema",
+    "fr_claimed": "œdème pulmonaire",
+    "claimed_decision": "fix",
+    "model_reason": "例句用 œdème aigu du poumon，现译漏掉词首字符。",
+    "examples": [
+      [
+        "Elderly patients receiving CellCept as part of a combination immunosuppressive regimen, may be at increased risk of certain infections (including cytomegalovirus tissue invasive disease) and possibly gastrointestinal haemorrhage and pulmonary oedema, compared ",
+        "Les patients âgés traités par CellCept comme composante d’ un traitement immunosuppresseur, peuvent présenter un risque accru par rapport aux patients plus jeunes d’ apparition de certaines infections (incluant les infections tissulaires invasives à cytomégalo"
+      ],
+      [
+        "In addition, rare cases of pulmonary infiltrates, acute respiratory distress syndrome, pneumonia, pneumonitis, pleural effusion, respiratory distress, acute pulmonary oedema and respiratory insufficiency have been reported.",
+        "De plus, des cas isolés d'infiltrats pulmonaires, de syndrome de détresse respiratoire aiguë, de pneumonie, de pneumopathie, d'épanchement pleural, de détresse respiratoire, d 'œ dème aigu du poumon et d'insuffisance respiratoire ont été rapportés."
+      ]
+    ]
+  },
+  {
+    "en": "cisapride",
+    "fr_claimed": "cisapride",
+    "claimed_decision": "fix",
+    "model_reason": "例句保留药物通用名 cisapride，现译 terfénadine 是另一种药物。",
+    "examples": [
+      [
+        "mefloquine, halofantrine, pentamidine, cisapride, erythromycin IV).",
+        "sertindole, méfloquine, halofantrine, pentamidine, cisapride, érythromycine IV)."
+      ],
+      [
+        "FIRMAGON might interfere with some medicines used to treat heart rhythm problems (e. g. quinidine, procainamide, amiodarone and sotalol) or other medicines which can have an effect on heart rhythm (e. g. methadone, cisapride, moxifloxacine, antipsychotics).",
+        "FIRMAGON peut interagir avec certains médicaments utilisés pour traiter les problèmes de rythme cardiaque (ex. quinidine, procaïnamide, amiodarone et sotalol) ou certains médicaments pouvant avoir un effet sur le rythme cardiaque (ex. méthadone, cisapride, mox"
+      ]
+    ]
+  },
+  {
+    "en": "sunset yellow",
+    "fr_claimed": "jaune orangé sunset",
+    "claimed_decision": "fix",
+    "model_reason": "例句对含 E110 的名称采用“jaune orangé sunset”，现译遗漏 sunset。",
+    "examples": [
+      [
+        "Translucent polyethylene backing film printed with proprietary ink containing sunset yellow FCF (E110), latolrubine BK (E180) and copper phthalocyanine blue pigment.",
+        "Film support translucide en polyéthylène imprimé avec une encre exclusive contenant du jaune orangé sunset (E110), du lithol-rubine BK (E180) et un pigment bleu à base de phthalocyanine de cuivre."
+      ],
+      [
+        "Anhydrized liquid sorbitol – glycerol blend Sunset yellow (E110)",
+        "Mélange de sorbitol liquide anhydre – glycérol"
+      ]
+    ]
+  },
+  {
+    "en": "Committee recommended",
+    "fr_claimed": "recommandé l'octroi",
+    "claimed_decision": "reject",
+    "model_reason": "Committee recommended 是句子谓语片段，不是法规程序名称。",
+    "examples": [
+      [
+        "The Committee recommended that Aldurazyme be given marketing authorisation.",
+        "Le comité a recommandé l’ octroi d’ une autorisation de mise sur le marché pour Aldurazyme."
+      ],
+      [
+        "The Committee recommended that Altargo be given marketing authorisation.",
+        "Le CHMP a recommandé l’ octroi d’ une autorisation de mise sur le marché pour Altargo."
+      ]
+    ]
+  },
+  {
+    "en": "first month",
+    "fr_claimed": "premier mois",
+    "claimed_decision": "reject",
+    "model_reason": "普通时间短语，不构成独立专业术语。",
+    "examples": [
+      [
+        "Patients taking CellCept should have complete blood counts weekly during the first month, twice monthly for the second and third months of treatment, then monthly through the first year.",
+        "Chez les patients traités par CellCept, la numération globulaire doit être contrôlée chaque semaine pendant le premier mois de traitement, deux fois par mois au cours des deuxième et troisième mois, puis une fois par mois pendant le reste de la première année."
+      ],
+      [
+        "Other common side effects are blurred vision, bradycardia (very slow heart rate), irregular heartbeat, headache (generally during the first month of treatment) and dizziness.",
+        "D’ autres effets indésirables tels que la vision trouble, la bradycardie (fréquence cardiaque très faible), des battements cardiaques irréguliers, des céphalées (généralement pendant le premier mois de traitement) et des vertiges ont été rapportés."
+      ]
+    ]
+  },
+  {
+    "en": "concentrate for solution",
+    "fr_claimed": "diluer pour perfusion",
+    "claimed_decision": "reject",
+    "model_reason": "concentrate for solution 是不完整剂型名称，例句对应完整的溶液配制剂型。",
+    "examples": [
+      [
+        "Concentrate for solution for infusion",
+        "voie intraveineuse voie intraveineuse voie intraveineuse"
+      ],
+      [
+        "ALIMTA is a powder for concentrate for solution for infusion in a vial.",
+        "ALIMTA est une poudre pour solution à diluer pour perfusion dans un flacon."
+      ]
+    ]
+  },
+  {
+    "en": "four hours",
+    "fr_claimed": "quatre heures",
+    "claimed_decision": "reject",
+    "model_reason": "“four hours”是普通时长表达，不构成专业术语。",
+    "examples": [
+      [
+        "Check AT activity level 30 minutes after any change in infusion rate, or four hours after a value within the target range.",
+        "Vérifier l’ activité en AT 30 minutes après tout changement du débit de perfusion, ou quatre heures après une valeur comprise dans la zone cible."
+      ],
+      [
+        "one or four hours every eight or 12 hours",
+        "administrée sur une ou quatre heures toutes les huit ou 12 heures"
+      ]
+    ]
+  },
+  {
+    "en": "single subcutaneous",
+    "fr_claimed": "sous-cutanée unique",
+    "claimed_decision": "reject",
+    "model_reason": "英文短语缺少剂量或给药方式的中心词，完整例句为“single subcutaneous dose”。",
+    "examples": [
+      [
+        "After a single subcutaneous dose of 1 to 10 µg/ kg romiplostim in ITP patients, the peak platelet count was 1.3 to 14.9 times greater than the baseline platelet count over a 2 to 3 week period and the response was variable among patients.",
+        "Après une administration unique sous-cutanée de 1 à 10 µg/ kg de romiplostim chez des patients présentant un PTI, le pic du taux de plaquettes était 1,3 à 14,9 fois le taux avant instauration du traitement pendant une période de 2 à 3 semaines, et la réponse é"
+      ],
+      [
+        "Patients received single subcutaneous weekly injections for 24 weeks.",
+        "Les patients recevaient une injection hebdomadaire sous-cutanée pendant 24 semaines."
+      ]
+    ]
+  },
+  {
+    "en": "contain lactose",
+    "fr_claimed": "contiennent du lactose",
+    "claimed_decision": "reject",
+    "model_reason": "contain lactose 是说明性谓语，不是独立术语。",
+    "examples": [
+      [
+        "Lactose OLANZAPINE NEOPHARMA tablets contain lactose.",
+        "Lactose Les comprimés de OLANZAPINE NEOPHARMA contiennent du lactose."
+      ],
+      [
+        "Lactose Olanzapine Teva film-coated tablets contain lactose.",
+        "Lactose Olanzapine Teva, comprimés pelliculés, contient du lactose."
+      ]
+    ]
+  },
+  {
+    "en": "does not inhibit",
+    "fr_claimed": "n'inhibe",
+    "claimed_decision": "reject",
+    "model_reason": "这是谓语动词片段，不是独立术语。",
+    "examples": [
+      [
+        "Based on in vitro studies, palonosetron does not inhibit or induce cytochrome P450 isoenzyme at clinically relevant concentrations.",
+        "Sur la base des études in vitro, le palonosétron n'est ni inducteur ni inhibiteur de l'isoenzyme du cytochrome P450 aux concentrations cliniques."
+      ],
+      [
+        "In-vitro studies indicate that ertapenem does not inhibit P-glycoprotein-mediated transport of digoxin or vinblastine and that ertapenem is not a substrate for P-glycoprotein-mediated transport.",
+        "Les études in-vitro indiquent que l'ertapénème n'inhibe pas le transport de la digoxine ou de la vinblastine par la glycoprotéine P et que l'ertapénème n'est pas un substrat pour la glycoprotéine P."
+      ]
+    ]
+  },
+  {
+    "en": "Cardboard box",
+    "fr_claimed": "boîte en carton",
+    "claimed_decision": "reject",
+    "model_reason": "普通包装物名称，现有证据未显示其作为专门医药术语。",
+    "examples": [
+      [
+        "The risk resulting from the separation of a package leaflet from cardboard wallets is comparable with the risk resulting from separation of blisters from conventional external packaging (cardboard box).",
+        "Le risque résultant de la séparation de la notice des étuis en carton est comparable à celui que présente la séparation des plaquettes d’ un emballage externe traditionnel (boîte en carton)."
+      ],
+      [
+        "Cardboard box with one vial",
+        "boîte en carton contenant un flacon"
+      ]
+    ]
+  },
+  {
+    "en": "locally advanced",
+    "fr_claimed": "localement avancé",
+    "claimed_decision": "reject",
+    "model_reason": "locally advanced 是依附疾病名的修饰片段，不能独立作为术语。",
+    "examples": [
+      [
+        "In this study, 358 patients with inoperable locally advanced SCCHN, and WHO perfomance status 0 or 1, were randomized to one of two treatment arms.",
+        "Dans cette étude, 358 patients présentant un carcinome épidermoïde des VADS, localement avancé et inopérable, et un état général (échelle OMS) de 0 ou 1, étaient randomisés dans l’ un des deux bras de traitement."
+      ],
+      [
+        "Patients eligible for enrolment had ErbB2 (HER2)-over-expressing, locally advanced or metastatic breast cancer, progressing after prior treatment that included taxanes, anthracyclines and trastuzumab.",
+        "A l’ inclusion, les patientes éligibles avaient un cancer du sein à un stade localement avancé ou métastatique, surexprimant ERbB2 (HER2), en progression après un traitement antérieur incluant taxanes, anthracyclines et trastuzumab."
+      ]
+    ]
+  },
+  {
+    "en": "six months",
+    "fr_claimed": "six mois",
+    "claimed_decision": "reject",
+    "model_reason": "“six months”是普通时间表达，不构成专业术语。",
+    "examples": [
+      [
+        "• take one capsule whole with water, three times a day with each main meal containing fat. • do not take more than three capsules a day. • you should take a multivitamin (containing vitamins A, D, E and K) once a day, at bedtime. • you should not take alli for",
+        "• prenez une gélule entière avec de l’eau, trois fois par jour avec chaque repas principal contenant des graisses. • ne prenez pas plus de trois gélules par jour. • prenez un supplément multivitaminique (contenant des vitamines A, D, E et K) une fois par jour,"
+      ],
+      [
+        "All of the children received two doses of Ambirix six months apart.",
+        "Tous les enfants ont reçu deux doses d’ Ambirix à six mois d’ intervalle."
+      ]
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+# training / inference / retrieval environment
+# python -m venv .venv && .venv/Scripts/python -m pip install -r requirements-main.txt
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0+cu128
+transformers==5.17.0
+trl==1.18.0
+peft==0.21.3
+datasets==5.2.0
+accelerate==1.15.0
+sentence-transformers==6.3.0
+faiss-cpu==1.16.0
+sacrebleu==2.6.0
+rank-bm25==0.2.2
+langdetect==1.0.9
+sentencepiece==0.2.2
+numpy==2.5.3
+pandas==3.0.5

@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\emea.train.jsonl",
+  "rows": 27000,
+  "sha256": "3c0d7a814c59a908032a6a94445c138a4f8f77a66b3021d2908eed2e424ea1b3",
+  "domain": "emea",
+  "split": "train",
+  "seed": 42
+}

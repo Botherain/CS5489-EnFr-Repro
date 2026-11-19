@@ -1,0 +1,54 @@
+# G5 前置：DPO 偏好对齐。键名按 TRL 1.18 实测（DPOConfig 无 max_prompt_length、无 warmup_ratio）。
+inherit: base.yaml
+
+run_id: g5_dpo_r16_s42
+task: dpo
+init_adapter: runs/g3_sft_r16_s42/adapter     # 在 SFT adapter 之上继续训（合并后再挂新 adapter 亦可）
+
+data:
+  file: data/processed/dpo.pairs.train.jsonl  # 由 src/train/mine_dpo_pairs.py 产出
+  eval_file: data/processed/dpo.pairs.dev.jsonl
+  format: standard                            # {prompt, chosen, rejected}
+  max_length: 384
+  truncation_mode: keep_end
+
+mining:                   # 偏好对构造参数
+  prompts: {mtnt: 12000, emea: 8000}
+  candidates_per_prompt: 4
+  sampling: {do_sample: true, temperature: 0.9, top_p: 0.95, max_new_tokens: 160}
+  scorer_primary: comet_da        # 有参考，用于排序
+  scorer_secondary: cometkiwi     # 免参考，用于交叉验证与路由信号可靠性分析
+  min_delta_da: 0.10
+  length_ratio_range: [0.6, 1.6]
+  hard_negatives: 2000            # 术语剔除型负例
+  expected_pairs: "15k-18k"
+
+trainer:                        # 直接映射 trl.DPOConfig
+  beta: 0.1
+  loss_type: sigmoid
+  label_smoothing: 0.0
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8      # 有效 batch 16
+  num_train_epochs: 1
+  learning_rate: 5.0e-6
+  lr_scheduler_type: cosine
+  warmup_steps: 100
+  optim: adamw_torch
+  bf16: true
+  gradient_checkpointing: true
+  gradient_checkpointing_kwargs: {use_reentrant: false}
+  precompute_ref_log_probs: true      # 关键：训练步内无 ref 前向；PEFT 下 ref 用关 adapter 的同份权重
+  precompute_ref_batch_size: 8
+  dataloader_num_workers: 0
+  logging_steps: 20
+  eval_strategy: steps
+  eval_steps: 200
+  save_strategy: steps
+  save_steps: 200
+  save_total_limit: 2
+  report_to: []
+  seed: 42
+
+output:
+  adapter_dir: runs/g5_dpo_r16_s42/adapter
+  registry_row: true

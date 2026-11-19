@@ -1,0 +1,95 @@
+{"i":95,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句明确对应规范写法“hydroxyde de sodium”。"}
+{"i":96,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句使用“système lymphatique”，当前译法一致。"}
+{"i":97,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"候选缺少中心名词，例句对应完整术语“silice colloïdale anhydre”。"}
+{"i":98,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“two hours”是普通时长表达，不构成专业术语。"}
+{"i":99,"decision":"keep","fr":"","confidence":"high","category":"route","reason":"例句直接使用“bolus intraveineux”。"}
+{"i":100,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“four hours”是普通时长表达，不构成专业术语。"}
+{"i":101,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"“main measures”是一般性短语，例句语境中的完整表达为“principaux critères d’évaluation”。"}
+{"i":102,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句使用“à dose fixe”，当前译法准确。"}
+{"i":103,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句中“méningite”与当前译法一致。"}
+{"i":104,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“two weeks”是普通时间表达，不构成专业术语。"}
+{"i":105,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"这是描述外观的普通形容词短语，不属于专业术语。"}
+{"i":106,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"英文标题残缺，例句中的完整标题为“Posology and method of administration”。"}
+{"i":107,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“four weeks”是普通时间表达，不构成专业术语。"}
+{"i":108,"decision":"fix","fr":"insuline asparte","confidence":"high","category":"drug","reason":"例句明确将“insulin aspart”译为“insuline asparte”，当前译文漏译了insulin。"}
+{"i":109,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句直接将 dosing cup 译为“gobelet-doseur”。"}
+{"i":110,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"英文为不完整的包装标签拼接，不能作为独立术语裁决。"}
+{"i":111,"decision":"keep","fr":"","confidence":"high","category":"regulatory","reason":"EMEA标题例句使用“Durée de conservation”。"}
+{"i":112,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“food and drink”是普通词组和说明书栏目标题，不属于专业术语。"}
+{"i":113,"decision":"keep","fr":"","confidence":"high","category":"route","reason":"例句将该给药表达译为“perfusion intraveineuse”。"}
+{"i":114,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句使用“pancréatite”，与当前译法一致。"}
+{"i":115,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"两条例句均将 clinical response 译为“réponse clinique”。"}
+{"i":116,"decision":"keep","fr":"","confidence":"high","category":"regulatory","reason":"两条例句均将 associated names 译为“dénominations associées”。"}
+{"i":117,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将 two active substances 译为“deux principes actifs”。"}
+{"i":118,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"“first injection”是一般性叙述短语，不是独立专业术语。"}
+{"i":119,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句明确使用“agents cytotoxiques”。"}
+{"i":120,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句将 efficacy results 译为“résultats d’efficacité”。"}
+{"i":121,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句使用“lignée cellulaire”，当前译法准确。"}
+{"i":122,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均使用“activité biologique”。"}
+{"i":123,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"英文短语缺少剂量或给药方式的中心词，完整例句为“single subcutaneous dose”。"}
+{"i":124,"decision":"fix","fr":"acétate de zinc dihydraté","confidence":"high","category":"drug","reason":"例句将 zinc acetate dihydrate 明确写作“acétate de zinc dihydraté”，当前译文遗漏了醋酸根。"}
+{"i":125,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句明确使用“soulagement des symptômes”。"}
+{"i":126,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句使用“réactions allergiques”，与当前译法一致。"}
+{"i":127,"decision":"keep","fr":"","confidence":"high","category":"route","reason":"EMEA标题例句使用“Mode d’administration”。"}
+{"i":128,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句将 possible side effects 译为“effets indésirables éventuels”。"}
+{"i":129,"decision":"keep","fr":"","confidence":"high","category":"route","reason":"例句直接使用“perfusion continue”。"}
+{"i":130,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"例句中出现“mécanisme de dialyse”，当前核心译词“mécanisme”相符。"}
+{"i":131,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均将 immune response 译为“réponse immunitaire”。"}
+{"i":132,"decision":"keep","fr":"","confidence":"medium","category":"dosage_form","reason":"该剂型术语可用“seringue préremplie”，当前写法仅有连字符差异。"}
+{"i":133,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句将 therapeutic doses 译为“doses thérapeutiques”，当前单数表达一致。"}
+{"i":134,"decision":"fix","fr":"mycophénolate mofétil","confidence":"high","category":"drug","reason":"例句明确将 mycophenolate mofetil 译为“mycophénolate mofétil”，当前译文漏掉 mofétil。"}
+{"i":135,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句明确使用“bouffées de chaleur”。"}
+{"i":136,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将 testosterone levels 译为“taux de testostérone”。"}
+{"i":137,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句将 soft capsules 译为“capsules molles”。"}
+{"i":138,"decision":"fix","fr":"acide chlorhydrique","confidence":"high","category":"drug","reason":"例句明确使用“acide chlorhydrique”，当前译文缺少名词 acide。"}
+{"i":139,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"这是说明书指示语“Take special care”的残片，按规则排除。"}
+{"i":140,"decision":"fix","fr":"phosphatase alcaline","confidence":"medium","category":"drug","reason":"例句对应的标准名称为“phosphatases alcalines”，英文单数应与之保持单数一致。"}
+{"i":141,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"英文缺少介词 in，完整术语在例句中为“in vitro studies”。"}
+{"i":142,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"PROMPT将 body weight 明确列为不属于术语的通用词。"}
+{"i":143,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句分别使用“antagonistes des récepteurs de l’angiotensine II”和“antagonistes des récepteurs H2”。"}
+{"i":144,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句用“anticancéreux”表达 anticancer medicine，当前译法语义一致。"}
+{"i":145,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“body temperature”是普通生理描述，不构成独立专业术语。"}
+{"i":146,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句直接使用“héparine non fractionnée”。"}
+{"i":147,"decision":"fix","fr":"capsule molle","confidence":"high","category":"dosage_form","reason":"例句将 soft capsule 译为“capsule molle”，当前译文是说明书句首残片。"}
+{"i":148,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"英文“white blood”缺少中心词 cells，不能作为独立术语。"}
+{"i":149,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将 iron oxide 译为“oxyde de fer”，大小写差异不影响术语。"}
+{"i":150,"decision":"keep","fr":"","confidence":"low","category":"disease","reason":"例句只支持“acidocétose”而未提供 acidosis 的独立译法，现有候选不足以据证改译。"}
+{"i":151,"decision":"fix","fr":"verre de type I","confidence":"high","category":"dosage_form","reason":"例句明确将 Type I glass 写为“verre de type I”，当前译文漏掉罗马数字。"}
+{"i":152,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"这是统计学术语，当前译法“intervalle de confiance”规范，但给出的例句未呈现对应短语。"}
+{"i":153,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句多次将 plasma concentrations 译为“concentrations plasmatiques”。"}
+{"i":154,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句使用“études de toxicité”，当前译法一致。"}
+{"i":155,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句将口服剂型列为“suspension buvable”，与当前译法一致。"}
+{"i":156,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“compared the effectiveness”是一般叙述中的动词短语，不是专业术语。"}
+{"i":157,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“pale yellow”是普通颜色描述，不属于专业术语。"}
+{"i":158,"decision":"fix","fr":"propylène glycol","confidence":"high","category":"drug","reason":"例句明确使用“propylène glycol”，当前译文遗漏了 glycol。"}
+{"i":159,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句将 blood clots 译为“caillots sanguins”。"}
+{"i":160,"decision":"fix","fr":"acide acétylsalicylique","confidence":"high","category":"drug","reason":"两条例句均使用“acide acétylsalicylique”，当前译文缺少 acide。"}
+{"i":161,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句将 film-coated tablets 译为“comprimés pelliculés”。"}
+{"i":162,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均将 duration of action 译为“durée d’action”。"}
+{"i":163,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句将 clinical benefit 译为“bénéfice clinique”。"}
+{"i":164,"decision":"fix","fr":"pimozide","confidence":"high","category":"drug","reason":"例句中 pimozide 保留原药名拼写，当前译文误换成另一种药物 cisapride。"}
+{"i":165,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句使用“site d’injection”及“sites d’injection”。"}
+{"i":166,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均将 healthy volunteers 译为“volontaires sains”。"}
+{"i":167,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句将 multiple sclerosis 译为“sclérose en plaques”。"}
+{"i":168,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句将 well tolerated 译为“bien tolérée”，另一例对应“mauvaise tolérance”。"}
+{"i":169,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"两条例句均将 terminal half-life 译为“demi-vie terminale”。"}
+{"i":170,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"第二条例句使用“mécanisme d’action”，当前译法与该规范表达一致。"}
+{"i":171,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"英文缺少 impairment 等中心词，例句中的完整表达为“severe hepatic impairment”。"}
+{"i":172,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句将 heart failure 译为“insuffisance cardiaque”。"}
+{"i":173,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句将 renal function 译为“fonction rénale”。"}
+{"i":174,"decision":"fix","fr":"acide urique","confidence":"high","category":"drug","reason":"例句明确使用“acide urique”，当前译文遗漏了名词 acide。"}
+{"i":175,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"这是说明书沟通句中的一般称谓，不属于专业术语。"}
+{"i":176,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“three times”是普通次数表达，例句中的完整给药频次不是独立术语。"}
+{"i":177,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句明确使用“infarctus du myocarde”。"}
+{"i":178,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“six months”是普通时间表达，不构成专业术语。"}
+{"i":179,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"两条例句均将 reconstituted solution 译为“solution reconstituée”。"}
+{"i":180,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将 oral contraceptives 译为“contraceptifs oraux”。"}
+{"i":181,"decision":"keep","fr":"","confidence":"low","category":"dosage_form","reason":"例句只提供 film-coated tablet 的译法，未能确认一般 coated tablet 是否应区别处理。"}
+{"i":182,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句将 emulsion for injection 对应为“émulsion injectable”。"}
+{"i":183,"decision":"keep","fr":"","confidence":"medium","category":"general","reason":"例句中有“à la limite”这一对应表达，但当前“limite supérieure”未被句对完整验证。"}
+{"i":184,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句明确将 heart attack 译为“crise cardiaque”。"}
+{"i":185,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句将 tumour cells 译为“cellules tumorales”。"}
+{"i":186,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句直接使用“analogues nucléosidiques”。"}
+{"i":187,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句将 spinal cord 译为“moelle épinière”。"}
+{"i":188,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"“compared the effects”是一般叙述中的动词短语，不是专业术语。"}
+{"i":189,"decision":"keep","fr":"","confidence":"high","category":"regulatory","reason":"两条例句均将 centralised applications 译为“demandes centralisées”。"}

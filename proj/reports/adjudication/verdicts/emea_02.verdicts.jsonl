@@ -1,0 +1,96 @@
+{"i": 190, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句将 CK levels 对应为 taux de CPK，现译一致。"}
+{"i": 191, "decision": "fix", "fr": "œdème pulmonaire", "confidence": "high", "category": "disease", "reason": "例句用 œdème aigu du poumon，现译漏掉词首字符。"}
+{"i": 192, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句将 prolonged-release capsules 译为 gélules à libération prolongée。"}
+{"i": 193, "decision": "keep", "fr": "", "confidence": "high", "category": "regulatory", "reason": "例句中的章节标题为 Précautions particulières de conservation，与现译一致。"}
+{"i": 194, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句将 weight loss 译为 perte de poids。"}
+{"i": 195, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句将 film-coated tablets 译为 comprimés pelliculés，现有 coated tablets 的译法也成立。"}
+{"i": 196, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句明确使用 infections graves。"}
+{"i": 197, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句中采用 analyse pharmacocinétique de population。"}
+{"i": 198, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句采用 insuffisance rénale sévère。"}
+{"i": 199, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句将 single dose 译为 dose unique，也见 prise unique。"}
+{"i": 200, "decision": "keep", "fr": "", "confidence": "high", "category": "anatomy", "reason": "例句使用 sarcomes des tissus mous。"}
+{"i": 201, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句中采用 signes et symptômes。"}
+{"i": 202, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句将 serum calcium concentrations 对应为 calcémie。"}
+{"i": 203, "decision": "keep", "fr": "", "confidence": "high", "category": "drug", "reason": "例句将 ammonium sulphate 译为 sulfate d’ammonium。"}
+{"i": 204, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句多次使用 anémie。"}
+{"i": 205, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "这是普通动词短语，不构成独立医药术语。"}
+{"i": 206, "decision": "keep", "fr": "", "confidence": "medium", "category": "regulatory", "reason": "这是法规语境中的固定表达 autorités nationales compétentes，现译规范。"}
+{"i": 207, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句直接使用 propriétés pharmacocinétiques。"}
+{"i": 208, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句将 healthy adults 译为 adultes sains，词序一致。"}
+{"i": 209, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句明确使用 colite。"}
+{"i": 210, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句使用 demi-vie d’élimination。"}
+{"i": 211, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句使用 métoclopramide à l'état d'équilibre。"}
+{"i": 212, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "这是谓语动词片段，不是独立术语。"}
+{"i": 213, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句采用 essais cliniques。"}
+{"i": 214, "decision": "fix", "fr": "modérée à sévère", "confidence": "high", "category": "general", "reason": "例句明确将 moderate to severe 译为 modérée à sévère。"}
+{"i": 215, "decision": "fix", "fr": "affections hématologiques et du système lymphatique", "confidence": "high", "category": "disease", "reason": "例句中的系统器官类别完整译为 affections hématologiques et du système lymphatique。"}
+{"i": 216, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "普通时间数量短语，不属于专业术语。"}
+{"i": 217, "decision": "keep", "fr": "", "confidence": "high", "category": "drug", "reason": "例句将 calcium channel blockers 译为 inhibiteurs calciques。"}
+{"i": 218, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句直接采用 demi-vie plasmatique。"}
+{"i": 219, "decision": "keep", "fr": "", "confidence": "high", "category": "drug", "reason": "例句使用 vaccin grippal。"}
+{"i": 220, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "普通时间短语，不构成独立专业术语。"}
+{"i": 221, "decision": "keep", "fr": "", "confidence": "high", "category": "drug", "reason": "例句将 amino acids 译为 acides aminés。"}
+{"i": 222, "decision": "keep", "fr": "", "confidence": "high", "category": "route", "reason": "例句使用 administration intraveineuse。"}
+{"i": 223, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句对应使用 patients SK-SIDA，AIDS 译为 SIDA。"}
+{"i": 224, "decision": "fix", "fr": "cisapride", "confidence": "high", "category": "drug", "reason": "例句保留药物通用名 cisapride，现译 terfénadine 是另一种药物。"}
+{"i": 225, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句将 oral solution 译为 solution buvable。"}
+{"i": 226, "decision": "reject", "fr": "", "confidence": "low", "category": "fragment", "reason": "输入只是 renal or hepatic 的不完整形容词片段，不能据此确定完整术语译法。"}
+{"i": 227, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句中 serum creatinine 对应 créatinine sérique。"}
+{"i": 228, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句使用 perte d'appétit。"}
+{"i": 229, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句直接使用 profil pharmacocinétique。"}
+{"i": 230, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句中使用 solution diluée。"}
+{"i": 231, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句将其用于 demi-vie d’élimination terminale。"}
+{"i": 232, "decision": "reject", "fr": "", "confidence": "medium", "category": "general", "reason": "普通包装物名称，现有证据未显示其作为专门医药术语。"}
+{"i": 233, "decision": "fix", "fr": "nucléoside", "confidence": "high", "category": "drug", "reason": "例句中 nucleoside 对应 nucléosidique 作定语；独立名词应为 nucléoside。"}
+{"i": 234, "decision": "reject", "fr": "", "confidence": "high", "category": "fragment", "reason": "SELF 是脱离上下文的普通代词或不完整标签，不是医药术语。"}
+{"i": 235, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句将 two doses 译为 deux doses。"}
+{"i": 236, "decision": "keep", "fr": "", "confidence": "high", "category": "drug", "reason": "例句明确将 active substances 译为 principes actifs。"}
+{"i": 237, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句使用 femme enceinte，复数语境下该法语表达可作泛指。"}
+{"i": 238, "decision": "keep", "fr": "", "confidence": "high", "category": "drug", "reason": "例句将 plasma proteins 译为 protéines plasmatiques。"}
+{"i": 239, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句采用 nécrose tubulaire aiguë。"}
+{"i": 240, "decision": "fix", "fr": "oxyde de fer jaune", "confidence": "high", "category": "drug", "reason": "例句中的 iron oxide yellow 对应 oxyde de fer jaune，现译漏译 oxide。"}
+{"i": 241, "decision": "fix", "fr": "changement moyen", "confidence": "high", "category": "general", "reason": "例句将 mean change 译为 changement moyen。"}
+{"i": 242, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句使用 excrétion rénale。"}
+{"i": 243, "decision": "fix", "fr": "solution de chlorure de sodium", "confidence": "high", "category": "dosage_form", "reason": "例句明确为 solution de chlorure de sodium，现译缺少 sodium。"}
+{"i": 244, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句使用 hématome sous-cutané。"}
+{"i": 245, "decision": "fix", "fr": "statistiquement significatif", "confidence": "high", "category": "general", "reason": "例句完整译为 statistiquement significatifs，现译漏掉 significant。"}
+{"i": 246, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句使用 seringues préremplies。"}
+{"i": 247, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句明确使用 dose habituelle。"}
+{"i": 248, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句对应 posologie recommandée，现译语义正确。"}
+{"i": 249, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "普通谓语短语 study compared，不是独立专业术语。"}
+{"i": 250, "decision": "fix", "fr": "grossesse ou allaitement", "confidence": "high", "category": "regulatory", "reason": "给出的 EMEA 例句均将 pregnancy and lactation 写为 Grossesse ou allaitement。"}
+{"i": 251, "decision": "fix", "fr": "réactions au site d’application", "confidence": "high", "category": "disease", "reason": "例句将 application site reactions 译为 réactions au site d’application 或 réactions locales au site de traitement。"}
+{"i": 252, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "普通时间长度短语，不属于独立医药术语。"}
+{"i": 253, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句中 serum concentrations 可译为 concentrations sériques，与现译一致。"}
+{"i": 254, "decision": "fix", "fr": "acuité visuelle", "confidence": "high", "category": "anatomy", "reason": "例句完整术语为 meilleure acuité visuelle corrigée，现译漏掉 acuity。"}
+{"i": 255, "decision": "fix", "fr": "PVDC", "confidence": "medium", "category": "abbreviation", "reason": "例句的材料缩写写作 PVC/PVDC，PVDC 应保留缩写而非误译为 PVC。"}
+{"i": 256, "decision": "fix", "fr": "rêves anormaux", "confidence": "high", "category": "disease", "reason": "两条例句均将 abnormal dreams 译为 rêves anormaux。"}
+{"i": 257, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句用 arythmies，现译省略 cardiac 后仍保留术语核心。"}
+{"i": 258, "decision": "fix", "fr": "cellules de mammifères", "confidence": "high", "category": "anatomy", "reason": "例句直接将 mammalian cells 译为 cellules de mammifères。"}
+{"i": 259, "decision": "fix", "fr": "insuline glargine", "confidence": "high", "category": "drug", "reason": "例句均使用 insuline glargine，现译遗漏 insulin。"}
+{"i": 260, "decision": "fix", "fr": "caoutchouc butyle", "confidence": "medium", "category": "drug", "reason": "例句将相关塞子材料译为 caoutchouc d’halobutyle，现译 butyl 不完整。"}
+{"i": 261, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "moderate 是普通程度形容词，单独使用不构成术语。"}
+{"i": 262, "decision": "keep", "fr": "", "confidence": "high", "category": "general", "reason": "例句使用 risque potentiel，现译一致。"}
+{"i": 263, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "main study 是普通研究描述语，不是独立专业术语。"}
+{"i": 264, "decision": "fix", "fr": "transplantation hépatique", "confidence": "high", "category": "procedure", "reason": "例句将 liver transplant 译为 transplantation hépatique，现译指接受移植的人群。"}
+{"i": 265, "decision": "fix", "fr": "réactions allergiques", "confidence": "high", "category": "disease", "reason": "例句将 cause allergic reactions 译为 entraîner des réactions allergiques，现译缺少 allergic。"}
+{"i": 266, "decision": "keep", "fr": "", "confidence": "medium", "category": "dosage_form", "reason": "这是片剂组分表的标题，现译 noyau du comprimé 可直译；截断例句未提供相反译法。"}
+{"i": 267, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "普通时间副词短语，不属于专业术语。"}
+{"i": 268, "decision": "keep", "fr": "", "confidence": "high", "category": "dosage_form", "reason": "例句采用 posologie initiale recommandée，现译 dose initiale recommandée 语义一致。"}
+{"i": 269, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句明确采用 études cliniques。"}
+{"i": 270, "decision": "keep", "fr": "", "confidence": "medium", "category": "regulatory", "reason": "例句将 after first opening 表达为 après première ouverture，也见 suivant la première utilisation。"}
+{"i": 271, "decision": "keep", "fr": "", "confidence": "high", "category": "route", "reason": "例句直接使用 sites d’injection。"}
+{"i": 272, "decision": "keep", "fr": "", "confidence": "high", "category": "regulatory", "reason": "例句明确使用 profil de tolérance。"}
+{"i": 273, "decision": "reject", "fr": "", "confidence": "low", "category": "fragment", "reason": "vial containing 是未完成的英语短语片段，不宜作为术语候选保留。"}
+{"i": 274, "decision": "fix", "fr": "croscarmellose sodique", "confidence": "high", "category": "drug", "reason": "例句将 croscarmellose sodium 译为 croscarmellose sodique，现译漏掉 sodium。"}
+{"i": 275, "decision": "keep", "fr": "", "confidence": "high", "category": "anatomy", "reason": "例句使用 fonction hépatique。"}
+{"i": 276, "decision": "reject", "fr": "", "confidence": "high", "category": "general", "reason": "available in packs 是普通说明性短语，不是独立医药术语。"}
+{"i": 277, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句将 Vascular disorders 译为 Affections vasculaires。"}
+{"i": 278, "decision": "keep", "fr": "", "confidence": "medium", "category": "procedure", "reason": "例句按语境分别使用 durée médiane 和 temps médian，现译 délai médian 语义相符。"}
+{"i": 279, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句直接采用 rapidement absorbée/rapidement absorbé。"}
+{"i": 280, "decision": "reject", "fr": "", "confidence": "high", "category": "fragment", "reason": "doctor immediately 是脱离上下文的残缺短语，不构成独立医药术语。"}
+{"i": 281, "decision": "fix", "fr": "légère à modérée", "confidence": "high", "category": "general", "reason": "例句将 mild to moderate 译为 légère à modérée。"}
+{"i": 282, "decision": "keep", "fr": "", "confidence": "high", "category": "disease", "reason": "例句直接使用 neuropathie périphérique。"}
+{"i": 283, "decision": "keep", "fr": "", "confidence": "high", "category": "anatomy", "reason": "例句使用 tissu sous-cutané。"}
+{"i": 284, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句采用 développement post-natal。"}
+{"i": 285, "decision": "keep", "fr": "", "confidence": "high", "category": "procedure", "reason": "例句使用 pharmacocinétique。"}

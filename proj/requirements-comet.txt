@@ -1,0 +1,12 @@
+# COMET scoring only (Python 3.13; comet 2.2.7 needs functools._HashedSeq)
+# python -m venv .venv-comet && .venv-comet/Scripts/python -m pip install -r requirements-comet.txt
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0+cu128
+unbabel-comet==2.2.7
+setuptools==78.1.0
+transformers==4.57.6
+pytorch-lightning==2.6.6
+torchmetrics==0.10.3
+sentencepiece==0.2.3
+numpy==1.26.4

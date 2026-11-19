@@ -1,0 +1,15 @@
+{
+  "run_id": "g4_sft_rag",
+  "rows": 3271,
+  "comet_da_system": 0.80524,
+  "comet_da_by_domain": {
+    "mtnt": 0.75444,
+    "emea": 0.81097,
+    "clean": 0.96596
+  },
+  "macro_comet_da": 0.84379,
+  "da_seconds": 12.4,
+  "qe_seconds": 7.5,
+  "sent_per_sec": 263.1,
+  "qe_model": "D:\\HKStudy\\TPg-MSAI\\Classes\\CS5489 - Machine Learning\\4.Projects\\proj\\runs\\qe_local\\wmt22-cometkiwi-da-mirror\\checkpoints\\model.ckpt"
+}

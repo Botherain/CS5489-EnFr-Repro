@@ -1,0 +1,15 @@
+{
+  "run_id": "g2_rag_k3_dev",
+  "rows": 2052,
+  "comet_da_system": 0.80418,
+  "comet_da_by_domain": {
+    "mtnt": 0.72975,
+    "emea": 0.83962,
+    "clean": 0.94407
+  },
+  "macro_comet_da": 0.83781,
+  "da_seconds": 8.3,
+  "qe_seconds": 0.0,
+  "sent_per_sec": 247.9,
+  "qe_model": null
+}

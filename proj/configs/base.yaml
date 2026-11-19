@@ -1,0 +1,64 @@
+# 全局基础配置：所有 run 继承本文件，run 级 yaml 只写差异项。
+# 数值来源：stage-0 实测（logs/probe_*.json、logs/smoke_*.json），非估算。
+
+hardware:
+  gpu: "NVIDIA GeForce RTX 5080"
+  capability: [12, 0]
+  vram_total_gb: 17.07          # torch 口径，16GiB
+  vram_free_idle_gb: 15.71
+  mem_fraction: 0.95            # set_per_process_memory_fraction
+  alloc_conf: "garbage_collection_threshold:0.85"
+  measured_memcpy_gbps: 771     # 2GB device-to-device 实测（厂标 960）
+
+env:
+  python: "D:\\HKStudy\\.venv\\Scripts\\python.exe"
+  python_comet: "D:\\HKStudy\\.venv-comet\\Scripts\\python.exe"   # 待建，仅打分
+  hf_home: "D:\\HKStudy\\hf"
+  torch: "2.11.0+cu128"
+  transformers: "5.17.0"
+  trl: "1.18.0"
+  peft: "0.21.3"
+  attn_implementation: "sdpa"   # Windows + sm_120 不装 flash-attn / liger / triton
+  dataloader_num_workers: 0
+
+models:
+  base: "Qwen/Qwen2.5-1.5B-Instruct"
+  retriever: "BAAI/bge-m3"
+  metric_da: "Unbabel/wmt22-comet-da"          # 非 gated，已下载
+  metric_qe: "Unbabel/wmt22-cometkiwi-da"      # gated，需 HF_TOKEN
+  metric_qe_fallback: "Supervache/wmt22-cometkiwi-da-safeformat"  # 非 gated 镜像，需在报告披露
+  base_weights_gb: 3.088
+  base_params_M: 1543.71
+  vocab: 151936
+  layers: 28
+  kv_heads: 2
+  head_dim: 128
+  kv_bytes_per_token: 28672      # 28KB/token
+
+paths:
+  data_processed: "data/processed"
+  manifests: "data/manifests"
+  index: "data/index"
+  runs: "runs"
+  reports: "reports"
+
+seed: 42
+
+prompt:
+  system: >-
+    You are a professional English-to-French translator. Translate the user's
+    sentence into natural, accurate French. Output only the translation.
+  user_template: "{src}"
+
+decoding:
+  main: {do_sample: false, max_new_tokens: 160, temperature: null}
+  sensitivity_beam: {do_sample: false, num_beams: 4, max_new_tokens: 160}
+  mining: {do_sample: true, temperature: 0.9, top_p: 0.95, num_return_sequences: 4, max_new_tokens: 160}
+
+lengths:
+  # 实测 token 长度（Qwen tokenizer，含 prompt）：
+  #   clean  max 47 | emea test max 321 | mtnt test max 268
+  #   mtnt train p99 504, >384 占 1.73%, >512 占 0.92%
+  train_max_length: 384          # 覆盖 98.3% MTNT train，100% EMEA/clean
+  infer_max_new_tokens: 160      # 覆盖 test 侧 tgt p99（MTNT 60 / EMEA 81 词）
+  dpo_max_length: 384

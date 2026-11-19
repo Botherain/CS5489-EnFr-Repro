@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\mtnt.train.jsonl",
+  "rows": 32593,
+  "sha256": "3978ee3a8882efe86fcb05e7d1232bd2004906d98d0a0994aaf821ec8f3b1888",
+  "domain": "mtnt",
+  "split": "train",
+  "seed": 42
+}

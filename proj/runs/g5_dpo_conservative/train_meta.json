@@ -1,0 +1,12 @@
+{
+  "run_id": "g5_dpo_conservative",
+  "pairs": 7081,
+  "beta": 0.3,
+  "lr": 1e-06,
+  "hours": 0.13,
+  "peak_vram_gb": 8.19,
+  "final_margin": 0.01431975185405463,
+  "final_accuracy": 0.56875,
+  "stage_random": false,
+  "git_commit": "524be80"
+}

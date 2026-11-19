@@ -1,0 +1,28 @@
+{
+  "run_id": "g5_no_dpo",
+  "split": "test",
+  "rows": 3271,
+  "flags": {
+    "dpo": false,
+    "rag": true,
+    "rag_control": "none",
+    "con": true,
+    "agent": true
+  },
+  "k": 3,
+  "pool": "seen",
+  "wallclock_min": 26.9,
+  "mean_ms": {
+    "t_draft": 116.9,
+    "t_heavy": 124.8,
+    "t_critic": 119.6,
+    "t_refiner": 130.8
+  },
+  "fallback": 248,
+  "fallback_reasons": {
+    "length": 246,
+    "repeat": 2
+  },
+  "glossary_hits": 478,
+  "peak_vram_gb": 4.449
+}

@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\emea.memory_pool.jsonl",
+  "rows": 6000,
+  "sha256": "1db2b0f26b4d8dc30495ab1950c0b40694302ee9445cc3c63c2c6c344b5be3e3",
+  "domain": "emea",
+  "split": "memory_pool",
+  "seed": 42
+}

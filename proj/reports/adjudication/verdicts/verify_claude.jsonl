@@ -1,0 +1,30 @@
+{"en": "haematoma", "agree": true, "problem": "none", "suggested": "", "note": "例句 Subcutaneous haematoma 对应 Hématome sous-cutané，hématome 成立。"}
+{"en": "risk factors", "agree": true, "problem": "none", "suggested": "", "note": "例句 other associated risk factors 对应 autres facteurs de risque associés。"}
+{"en": "liquid paraffin", "agree": true, "problem": "none", "suggested": "", "note": "例句 (liquid paraffin) 对应 (paraffine liquide)，仅首字母大小写不同。"}
+{"en": "Shelf life", "agree": true, "problem": "none", "suggested": "", "note": "标题例句 6.3 Shelf life 对应 6.3 Durée de conservation。"}
+{"en": "rubber stopper", "agree": true, "problem": "none", "suggested": "", "note": "例句 rubber stopper 对应 bouchon en caoutchouc。"}
+{"en": "healthy subjects", "agree": true, "problem": "none", "suggested": "", "note": "例句 In healthy subjects 对应 Chez des sujets sains。"}
+{"en": "overall survival", "agree": true, "problem": "none", "suggested": "", "note": "例句 Overall survival 对应 La survie globale，与例句一致。"}
+{"en": "active metabolite", "agree": true, "problem": "none", "suggested": "", "note": "例句 the active metabolite of mycophenolate mofetil 对应 le métabolite actif。"}
+{"en": "first opening", "agree": true, "problem": "none", "suggested": "", "note": "例句 after first opening 对应 après première ouverture，另一例 suivant la première utilisation 可互证。"}
+{"en": "Pharmacokinetic properties", "agree": true, "problem": "none", "suggested": "", "note": "例句 The pharmacokinetic properties 对应 Les propriétés pharmacocinétiques。"}
+{"en": "insulin aspart", "agree": true, "problem": "none", "suggested": "", "note": "例句 insulin aspart 对应 l'insuline asparte，旧译漏掉 insulin，修正成立。"}
+{"en": "visual acuity", "agree": true, "problem": "none", "suggested": "", "note": "例句 best-corrected visual acuity 对应 meilleure acuité visuelle corrigée，acuité visuelle 是其核心子串，单独成词无冲突。"}
+{"en": "precautions for storage", "agree": true, "problem": "none", "suggested": "", "note": "例句 6.4 Special precautions for storage 对应 6.4 Précautions particulières de conservation。"}
+{"en": "spot-on solution", "agree": true, "problem": "none", "suggested": "", "note": "例句 Prac-tic spot-on solution 对应 Prac-tic solution pour spot -on。"}
+{"en": "mild to moderate", "agree": true, "problem": "none", "suggested": "", "note": "例句 mild to moderate 两次对应 légère à modérée。"}
+{"en": "acetylsalicylic acid", "agree": true, "problem": "none", "suggested": "", "note": "例句 acetylsalicylic acid 两次对应 acide acétylsalicylique。"}
+{"en": "mycophenolate mofetil", "agree": true, "problem": "none", "suggested": "", "note": "例句 mycophenolate mofetil 两次对应 mycophénolate mofétil。"}
+{"en": "pulmonary oedema", "agree": false, "problem": "no_evidence", "suggested": "", "note": "例句中只见 acute pulmonary oedema 对应 œdème aigu du poumon，找不到 œdème pulmonaire 这一写法。"}
+{"en": "cisapride", "agree": true, "problem": "none", "suggested": "", "note": "两例句中 cisapride 均保留原名，与 fix 后的 cisapride 一致。"}
+{"en": "sunset yellow", "agree": true, "problem": "none", "suggested": "", "note": "例句 sunset yellow FCF (E110) 对应 jaune orangé sunset (E110)，旧译遗漏 sunset 的修正成立。"}
+{"en": "Committee recommended", "agree": true, "problem": "none", "suggested": "", "note": "例句中该片段只是句子谓语，官方译文为 Le comité a recommandé l'octroi，不是独立术语。"}
+{"en": "first month", "agree": true, "problem": "none", "suggested": "", "note": "例句 during the first month 中为普通时间表达，不构成术语。"}
+{"en": "concentrate for solution", "agree": false, "problem": "wrong_decision", "suggested": "solution à diluer", "note": "例句 powder for concentrate for solution for infusion 官方译为 poudre pour solution à diluer pour perfusion，该剂型有固定官方译法，不应 reject。"}
+{"en": "four hours", "agree": true, "problem": "none", "suggested": "", "note": "例句 four hours 仅为普通时长，quatre heures 不构成术语。"}
+{"en": "single subcutaneous", "agree": true, "problem": "none", "suggested": "", "note": "例句 single subcutaneous dose 对应 administration unique sous-cutanée，该片段只是剂量修饰语，reject 合理。"}
+{"en": "contain lactose", "agree": true, "problem": "none", "suggested": "", "note": "例句 tablets contain lactose 对应 contiennent du lactose，是说明性谓语。"}
+{"en": "does not inhibit", "agree": true, "problem": "none", "suggested": "", "note": "例句 does not inhibit 对应 n'inhibe pas，属于谓语片段，reject 合理。"}
+{"en": "Cardboard box", "agree": false, "problem": "wrong_decision", "suggested": "boîte en carton", "note": "例句两次稳定译为 boîte en carton（外包装部件），与已保留的 rubber stopper 同属包装部件，reject 理由不足。"}
+{"en": "locally advanced", "agree": true, "problem": "none", "suggested": "", "note": "例句 locally advanced SCCHN 与 locally advanced or metastatic 中只作修饰语，reject 合理。"}
+{"en": "six months", "agree": true, "problem": "none", "suggested": "", "note": "例句 six months apart 为普通时间表达，reject 合理。"}

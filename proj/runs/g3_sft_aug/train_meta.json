@@ -1,0 +1,18 @@
+{
+  "run_id": "g3_sft_aug",
+  "train_rows": 135051,
+  "eval_rows": 600,
+  "epochs": 1.0,
+  "batch": 16,
+  "accum": 1,
+  "max_length": 384,
+  "lr": 0.0002,
+  "lora_r": 16,
+  "trainable_M": 18.46,
+  "trainable_pct": 1.182,
+  "hours": 2.75,
+  "peak_vram_gb": 8.117,
+  "final_train_loss": null,
+  "steps_per_epoch": 8440,
+  "git_commit": "524be80"
+}

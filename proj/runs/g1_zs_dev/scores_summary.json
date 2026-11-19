@@ -1,0 +1,15 @@
+{
+  "run_id": "g1_zs_dev",
+  "rows": 2052,
+  "comet_da_system": 0.77443,
+  "comet_da_by_domain": {
+    "mtnt": 0.72742,
+    "emea": 0.79123,
+    "clean": 0.89068
+  },
+  "macro_comet_da": 0.80311,
+  "da_seconds": 10.1,
+  "qe_seconds": 0.0,
+  "sent_per_sec": 203.5,
+  "qe_model": null
+}

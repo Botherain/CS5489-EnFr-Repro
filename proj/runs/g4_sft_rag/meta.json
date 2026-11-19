@@ -1,0 +1,28 @@
+{
+  "run_id": "g4_sft_rag",
+  "mode": "sft_rag",
+  "split": "test",
+  "domains": "mtnt,emea,clean",
+  "adapter": "runs\\g3_sft_r16_s42\\adapter",
+  "k": 3,
+  "pool": "seen",
+  "decode": "greedy",
+  "batch": 32,
+  "max_new_tokens": 160,
+  "rows": 3271,
+  "wallclock_min": 4.22,
+  "sent_per_sec": 12.91,
+  "gen_tokens_total": 99143,
+  "tok_per_sec": 391.2,
+  "latency_batch1": {
+    "n": 100,
+    "p50_ms": 544.1,
+    "p95_ms": 1155.7,
+    "mean_ms": 613.9
+  },
+  "peak_vram_gb": 5.799,
+  "git_commit": "524be80",
+  "seed": 42,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "main"
+}

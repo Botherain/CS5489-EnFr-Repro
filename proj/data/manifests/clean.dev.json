@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\clean.dev.jsonl",
+  "rows": 200,
+  "sha256": "0e7eeafb20aa9bd641923a2ded54562476df1d06f1b5bdf29973f7c3aa455f06",
+  "domain": "clean",
+  "split": "dev",
+  "seed": 42
+}

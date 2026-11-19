@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\clean.train.jsonl",
+  "rows": 1800,
+  "sha256": "47d91c7474bf8d1bd48983131644f0df4da54c88dd8c6d2f3dadfa9293ae5679",
+  "domain": "clean",
+  "split": "train",
+  "seed": 42
+}

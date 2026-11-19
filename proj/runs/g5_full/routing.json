@@ -1,0 +1,130 @@
+{
+  "run_id": "g5_full",
+  "n_sentences": 3271,
+  "reference": {
+    "always_light": 0.7974,
+    "always_heavy": 0.7553,
+    "heavy_gain": -0.0421
+  },
+  "latency_model": {
+    "t_light_ms": 117.7,
+    "t_heavy_extra_ms": 374.5,
+    "g4_p50_ms": 721.3,
+    "budget_ms": 829.5,
+    "relaxed_to_1_30": false
+  },
+  "points": [
+    {
+      "tau": null,
+      "label": "always_light",
+      "macro": 0.7974,
+      "by_domain": {
+        "mtnt": 0.7679,
+        "emea": 0.8269
+      },
+      "latency_ms": 117.7,
+      "heavy_ratio": 0.0
+    },
+    {
+      "tau": null,
+      "label": "always_heavy",
+      "macro": 0.7553,
+      "by_domain": {
+        "mtnt": 0.7298,
+        "emea": 0.7807
+      },
+      "latency_ms": 492.2,
+      "heavy_ratio": 1.0
+    },
+    {
+      "tau": 0.5,
+      "macro": 0.7974,
+      "by_domain": {
+        "mtnt": 0.7683,
+        "emea": 0.8265
+      },
+      "latency_ms": 127.8,
+      "heavy_ratio": 0.027
+    },
+    {
+      "tau": 0.55,
+      "macro": 0.7974,
+      "by_domain": {
+        "mtnt": 0.7686,
+        "emea": 0.8262
+      },
+      "latency_ms": 133.4,
+      "heavy_ratio": 0.042
+    },
+    {
+      "tau": 0.6,
+      "macro": 0.7979,
+      "by_domain": {
+        "mtnt": 0.7691,
+        "emea": 0.8267
+      },
+      "latency_ms": 141.4,
+      "heavy_ratio": 0.063
+    },
+    {
+      "tau": 0.65,
+      "macro": 0.7975,
+      "by_domain": {
+        "mtnt": 0.7683,
+        "emea": 0.8267
+      },
+      "latency_ms": 153.5,
+      "heavy_ratio": 0.096
+    },
+    {
+      "tau": 0.7,
+      "macro": 0.7956,
+      "by_domain": {
+        "mtnt": 0.7653,
+        "emea": 0.8258
+      },
+      "latency_ms": 170.7,
+      "heavy_ratio": 0.142
+    },
+    {
+      "tau": 0.75,
+      "macro": 0.7936,
+      "by_domain": {
+        "mtnt": 0.7632,
+        "emea": 0.8239
+      },
+      "latency_ms": 195.9,
+      "heavy_ratio": 0.209
+    },
+    {
+      "tau": 0.8,
+      "macro": 0.7891,
+      "by_domain": {
+        "mtnt": 0.758,
+        "emea": 0.8203
+      },
+      "latency_ms": 233.1,
+      "heavy_ratio": 0.308
+    },
+    {
+      "tau": 0.85,
+      "macro": 0.7792,
+      "by_domain": {
+        "mtnt": 0.7482,
+        "emea": 0.8102
+      },
+      "latency_ms": 301.8,
+      "heavy_ratio": 0.492
+    }
+  ],
+  "chosen_tau": {
+    "tau": 0.6,
+    "macro": 0.7979,
+    "by_domain": {
+      "mtnt": 0.7691,
+      "emea": 0.8267
+    },
+    "latency_ms": 141.4,
+    "heavy_ratio": 0.063
+  }
+}

@@ -1,0 +1,541 @@
+% !TeX program = xelatex
+% CityU typography: A4, Times New Roman, 12pt, plain pages with centred folio,
+% black links, widow/club penalties. Compact single-column layout for a course report;
+% template reference: github.com/huwan/CityUHKThesis
+\documentclass[a4paper,12pt,oneside]{article}
+\usepackage[a4paper,top=38mm,bottom=38mm,left=32.7mm,right=32.7mm]{geometry}
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Times New Roman}
+\usepackage{setspace}
+\setstretch{1.2}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\captionsetup{labelsep=period,labelfont=bf,font=small}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=2pt}
+\usepackage[hidelinks]{hyperref}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+% 表格浮动：允许文字与浮动体同页，避免整页留白
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.7}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{fvextra}
+\pagestyle{plain}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+\setlength{\parskip}{0.5em}
+
+\begin{document}
+\sloppy
+\begin{titlepage}
+\centering
+\vspace*{0.15\textheight}
+{\LARGE\bfseries English-to-French Translation\\[2pt]
+with a 1.5B Model\\[2pt]
+on a Single 16\,GB GPU\par}
+\vspace{6mm}
+{\large What Actually Helps\par}
+\vspace{16mm}
+{\large Liu, Naduo \quad (naduoliu2, 60777841)\par}
+\vspace{2mm}
+{\large Cui, Zhaonan \quad (zhaonacui2, 61083251)\par}
+\vspace{2mm}
+{\large Wang, Siming \quad (simwang3, 60369937)\par}
+\vspace{10mm}
+{\large CS5489 Machine Learning\par}
+{\large City University of Hong Kong\par}
+\vspace{10mm}
+{\large 18 November 2026\par}
+\vfill
+{\small Reproducible artefact: \texttt{reports/report/CS5489\_Project\_Report.ipynb}}
+\end{titlepage}
+\tableofcontents
+\newpage
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+We build and dissect an English-to-French translation pipeline around \texttt{Qwen2.5-1.5B-Instruct}
+on a single 16 GB consumer GPU, and ask which of the techniques that the proposal listed
+actually buy quality. The ladder runs from zero-shot (G1) through retrieval injection (G2),
+LoRA supervised fine-tuning (G3), their combination (G4), to a four-module "ultimate" system
+that stacks preference optimisation, hybrid retrieval, glossary-constrained decoding, an
+agentic critic/refiner loop and a quality-estimation router (G5). Every system is evaluated on
+two deliberately hard registers (noisy social media, regulatory medical text) with COMET-DA,
+BLEU, chrF++, terminology hit rate, latency and VRAM, and compared with paired bootstrap
+tests.
+
+Fine-tuning is the only intervention with a large effect: +0.051 macro COMET-DA over zero-shot
+(0.7471 to 0.7981), significant at p < 1e-4. Preference optimisation adds a further +0.003,
+below the pre-registered minimum detectable effect. Adding retrieval to the fine-tuned model
+loses 0.015, the agentic review loop loses 0.024, and glossary injection is statistically
+indistinguishable from zero. A ceiling experiment explains the pattern: on the same held-out
+sentences a model roughly ten times larger, used zero-shot, beats our fine-tuned 1.5B model by
+only 0.010 COMET-DA on medical text and 0.035 on social media. Naive data augmentation, tested
+as a follow-up, degrades both domains, and the decomposition shows why. We report the negative
+results with their mechanisms, the measurement protocol that makes them defensible, and a
+notebook that reproduces every table.
+
+\section{Introduction}
+
+The course project asks for an English-to-French system, and rewards meaningful comparisons,
+rigorous ablations and honest failure analysis rather than sheer model size. The natural
+temptation with a small budget is to stack techniques: retrieval, preference tuning, constrained
+decoding, agentic post-editing, dynamic routing. This report measures what each of them does.
+
+The setting is one RTX 5080 with 16 GB, which rules out anything above \textasciitilde{}3B parameters at bf16.
+The base model is Qwen2.5-1.5B-Instruct, adapted with LoRA. Data comes from two registers that
+stress different failure modes: MTNT (Reddit comments, typos, slang, code-switching) and EMEA
+(European Medicines Agency documents, long sentences, dense terminology).
+
+Contributions:
+
+\begin{itemize}\setlength{\itemsep}{2pt}
+  \item A complete G1-G5 ladder plus five leave-one-out arms and three format/pool controls, all run on one consumer GPU within roughly 10 GPU hours.
+  \item A ceiling experiment that bounds what any further investment could buy, by scoring a much larger model on the same sentences.
+  \item A negative result with a mechanism: post-SFT context injection and self-review degrade quality, and the degradation decomposes into identifiable causes.
+  \item A reproducible artefact: a notebook that regenerates every table from stored per-sentence scores, plus a bug log of six defects found during the runs.
+\end{itemize}
+
+\section{Setup}
+
+\textbf{Hardware.} RTX 5080 (sm\_120), 17.07 GB reported, 15.71 GB free at idle, measured
+device-to-device bandwidth 771 GB/s (the marketing figure for the card is 960). PyTorch 2.11.0
+with CUDA 12.8, SDPA attention, no Triton kernels.
+
+\textbf{Two Python environments.} Training and inference run on Python 3.14.5. Scoring runs on a
+separate Python 3.13.13 environment: \texttt{unbabel-comet 2.2.7} imports \texttt{functools.\_HashedSeq}, which
+Python 3.14 removed, and its dependency pins conflict with \texttt{transformers 5.17}. Scoring is
+therefore a separate process that consumes JSONL, which also keeps the COMET models out of the
+generation process's VRAM.
+
+\textbf{Data.} Table 1 lists the corpora. EMEA is delivered as 1,092,568 aligned lines. Length and
+ratio filtering, exact de-duplication, and an 8-gram fingerprint pass that removes boilerplate
+repeated across PDF documents leave 143,056 unique pairs, of which 36,000 are used here (27k
+train, 1k dev, 2k test). Without the fingerprint pass, 26.6\% of test sentences share an 8-gram
+with training data, which would have inflated every retrieval result.
+
+\textbf{Model.} LoRA with rank 16, alpha 32, all seven linear projections, 18.46M trainable parameters
+(1.18\% of the model). Training used \texttt{max\_length=384} (covers 98.3\% of MTNT training sentences
+and 100\% of test sentences), batch 16, cosine schedule, bf16, gradient checkpointing. Packing was
+disabled after measuring that it halves throughput on this short-sentence data.
+
+\subsubsection*{2.1 Environment setup}
+
+The pipeline needs two interpreters because \texttt{unbabel-comet 2.2.7} imports \texttt{functools.\_HashedSeq},
+removed in Python 3.14, and its pins conflict with \texttt{transformers 5.17}. Both environments are
+plain \texttt{venv}. No conda, no docker. The commands below are for Windows and run from the repository
+root, with \texttt{proj/} and \texttt{Dataset/} side by side. On Linux replace \texttt{.venv\textbackslash{}Scripts\textbackslash{}activate} with
+\texttt{source .venv/bin/activate}. Cells S0.1 and S0.2 at the end of this section run exactly these
+commands from inside the notebook.
+
+\begin{Verbatim}[fontsize=\footnotesize,breaklines=true,breakanywhere=true]
+git clone <repo> && cd <repo>
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install -r proj/requirements-main.txt
+
+python -m venv .venv-comet
+.venv-comet\Scripts\activate
+python -m pip install -r proj/requirements-comet.txt
+\end{Verbatim}
+
+\texttt{requirements-main.txt} pins \texttt{transformers 5.17.0}, \texttt{trl 1.18.0}, \texttt{peft 0.21.3},
+\texttt{datasets 5.2.0}, \texttt{sentence-transformers 6.3.0}, \texttt{faiss-cpu 1.16.0}, \texttt{sacrebleu 2.6.0}.
+\texttt{requirements-comet.txt} pins \texttt{unbabel-comet 2.2.7} and \texttt{setuptools<81} (its \texttt{torchmetrics}
+dependency still imports \texttt{pkg\_resources}). Both files carry `--extra-index-url
+https://download.pytorch.org/whl/cu128\texttt{ and pin }torch==2.11.0+cu128`, so the CUDA build is not
+selected by accident; anything below CUDA 12.8 fails on \texttt{sm\_120} with "no kernel image is
+available".
+
+Model weights (about 8 GB: Qwen2.5-1.5B, bge-m3, COMET-DA) are fetched once into \texttt{\$HF\_HOME},
+which defaults to \texttt{<repo>/hf}. With the main environment active:
+
+\begin{Verbatim}[fontsize=\footnotesize,breaklines=true,breakanywhere=true]
+python proj/src/common/download_assets.py
+\end{Verbatim}
+
+\texttt{Unbabel/wmt22-cometkiwi-da} is a gated repository. Either accept its licence and pass a token,
+or build the local checkpoint from the ungated mirror with \texttt{src/eval/prepare\_qe.py}; the router
+only needs the resulting \texttt{runs/qe\_local/.../model.ckpt}.
+
+\subsubsection*{2.2 Data placement}
+
+Three archives go into \texttt{Dataset/}, next to \texttt{proj/}. Nothing else is downloaded. Cell S0.3 fetches
+the two public ones and verifies each against a SHA-256; \texttt{archive.zip} ships with the course and
+is only checked.
+
+\begin{itemize}\setlength{\itemsep}{2pt}
+  \item \texttt{archive.zip}: templated en-fr pairs, the clean sanity set (45,000 raw, 2,251 unique)
+  \item \texttt{MTNT.1.1.tar.gz}: noisy Reddit en-fr with the official train/dev/test splits; Cell S0.3 fetches the same three files unpacked from a mirror of the release
+  \item \texttt{en-fr.txt.zip}: OPUS EMEA v3, aligned en/fr text (1,092,568 lines)
+\end{itemize}
+
+\texttt{src/data/build\_dataset.py} reads the archives in place, filters, de-duplicates and writes
+\texttt{proj/data/processed/*.jsonl} with a SHA-256 manifest. If a file is missing the step prints a
+skip line instead of failing, so the rest of the pipeline still runs.
+
+\subsubsection*{2.3 Verifying the setup}
+
+The cell at the end of this section prints interpreter, GPU and package versions, checks that the
+three archives are present, and reports the size of the model cache. A machine that passes it can
+run every stage in this notebook.
+
+\subsubsection*{2.4 Reproducing a run}
+
+Every stage reads and writes paths relative to the project, so a checkout plus the setup above is
+enough. The switches sit in Section 0 of the notebook:
+
+\begin{itemize}\setlength{\itemsep}{2pt}
+  \item everything off: metrics and every table are recomputed from the stored per-sentence scores, in about two minutes and without touching the GPU;
+  \item \texttt{NB\_RUN=all}: the pipeline runs end to end, from corpora and index through SFT, preference mining, DPO, inference and the G5 stack to COMET scoring, in about 10 GPU hours (Table 7);
+  \item \texttt{NB\_RUN=data,sft} for a subset, \texttt{NB\_FORCE=1} to rerun stages whose outputs already exist.
+\end{itemize}
+
+From a terminal, \texttt{python src/report/run\_notebook.py --all} executes the notebook cell by cell and
+prints each stage's banner, a once-a-minute heartbeat and its wall clock as they happen.
+\texttt{jupyter nbconvert --execute} writes the same notebook but buffers the output until the end.
+\texttt{--setup} runs the installation cells of Section 2 first, which creates both environments,
+installs the pins, and downloads the corpora and weights. A stage whose outputs exist is skipped,
+so an interrupted run resumes by re-running the notebook.
+Scoring needs \texttt{unbabel-comet}; if the kernel lacks it, point \texttt{COMET\_PY} at the \texttt{.venv-comet}
+interpreter and the cell streams that process instead.
+
+\begin{table}[htbp]
+\centering
+\small
+
+\begin{tabular}{lrrrl}
+\toprule
+\textbf{Corpus} & \textbf{Train} & \textbf{Dev} & \textbf{Test} & \textbf{Register} \\
+\midrule
+clean (synthetic phrases) & 1,800 & 200 & 251 & short, templated \\
+MTNT en-fr & 32,593 & 852 & 1,020 & Reddit, noisy \\
+EMEA en-fr & 27,000 & 1,000 & 2,000 & regulatory, term-dense \\
+WMT24 Chat (added later) & 5,252 & 1,209 & - & customer support \\
+\bottomrule
+\end{tabular}
+\caption{Corpora after cleaning. The clean set is a sanity check only: 2,490 of its 2,500 original test sentences also appear in training.}
+\end{table}
+
+\section{Systems}
+
+Table 2 summarises the configurations.
+
+\begin{table}[htbp]
+\centering
+\small
+
+\begin{tabular}{l p{0.44\textwidth} l l}
+\toprule
+\textbf{Group} & \textbf{Configuration} & \textbf{Train.} & \textbf{Note} \\
+\midrule
+G1 & Base LLM, zero-shot & 0 & lower bound \\
+G2 & G1 plus dense/BM25 retrieval, 3-shot & 0 & explicit memory \\
+G3 & LoRA SFT on 61.4k pairs & 1.18\% & main gain \\
+G4 & G3 plus retrieval, same prompt as G2 & 1.18\% & format control \\
+G5 & DPO, RAG, glossary, critic, router & 1.18\% & reported as ablation \\
+G5* & SFT plus DPO, no context & 1.18\% & best measured \\
+\bottomrule
+\end{tabular}
+\caption{The five groups as implemented. G5* is the variant that survived the ablations: the four-module stack is reported as a negative result.}
+\end{table}
+
+\textbf{Glossary.} A 220-entry EMEA term table and a 175-entry MTNT slang table were built by
+statistical alignment on the training split, then adjudicated by an external model
+(GPT-6 Luna) against the corpus's own sentence pairs, with a second model (Claude Haiku 5.5)
+re-checking a stratified sample of 30 items: agreement 90\%, two accepted corrections, one
+false alarm. Only one EMEA term has a single-token French form, so decoder-level forcing is
+impractical. The glossary is used as a prompt hint and as the denominator of the hit-rate
+metric.
+
+\textbf{Routing.} A two-pass design separates generation from scoring: pass 1 emits both the light
+draft and the heavy-path output, pass 2 scores each with CometKiwi, pass 3 applies the threshold
+\texttt{tau} offline as a filter. This makes a threshold sweep free, and it keeps the quality-estimation
+model out of the generation process.
+
+\section{Evaluation protocol}
+
+\textbf{Metrics.} COMET-DA (\texttt{wmt22-comet-da}) is the primary metric, reported per domain with the
+two-domain macro average as the headline. BLEU and chrF++ are corpus-level. A terminology hit
+rate is computed on sentences whose source contains a glossary entry, using an accepted-variant
+set per entry so that inflection and word order do not count as misses. Latency is batch-1 p50
+in milliseconds; throughput is batch-32 sentences per second.
+
+\textbf{Statistics.} Per-sentence scores are stored, and comparisons use a paired bootstrap with
+10,000 resamples. For MTNT, resampling is clustered by Reddit comment id because sentences from
+one comment are not independent. p-values are Holm-corrected within each family. The minimum
+detectable effect at n = 1,020 is 0.012 COMET-DA; differences below that are reported as
+"below resolution" rather than as improvements.
+
+\textbf{Pre-registered rules.} Retrieval depth was chosen on dev by two-domain macro average
+(k=3, tied with k=5 within 0.0004, chosen for cost). The router threshold is chosen on dev by
+"max macro subject to latency <= 1.15x that of G4". Test data was used once.
+
+\section{Results}
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+\textbf{System} & \textbf{MTNT} & \textbf{EMEA} & \textbf{Macro} & \textbf{BLEU} & \textbf{chrF++} & \textbf{Term \%} & \textbf{p50 ms} & \textbf{VRAM GB} \\
+\midrule
+G1 Zero-shot & 0.7292 & 0.7651 & \textbf{0.7471} & 22.9 & 48.9 & 35.1 & 559 & 3.66 \\
+G2 Zero-shot + RAG & 0.7264 & 0.8002 & \textbf{0.7633} & 28.8 & 54.0 & 56.7 & 526 & 6.93 \\
+G3 LoRA SFT & 0.7691 & 0.8271 & \textbf{0.7981} & 39.6 & 61.9 & 70.2 & 555 & 3.66 \\
+G5* SFT + DPO & 0.7736 & 0.8294 & \textbf{0.8015} & 40.8 & 62.6 & 72.5 & 722 & 3.66 \\
+G4 SFT + RAG & 0.7544 & 0.8110 & \textbf{0.7827} & 35.6 & 58.4 & 66.8 & 544 & 5.80 \\
+G4 (inline context) & 0.6688 & 0.7780 & \textbf{0.7234} & 32.8 & 55.8 & 65.1 & 721 & 5.79 \\
+G4 (domain-gated) & 0.7541 & 0.8106 & \textbf{0.7823} & 35.7 & 58.4 & 66.8 & 722 & 5.80 \\
+SFT + augmented data & 0.7391 & 0.7645 & \textbf{0.7518} & 32.3 & 55.2 & 56.9 & 789 & 3.66 \\
+G5 full pipeline & 0.7298 & 0.7807 & \textbf{0.7552} & 33.8 & 58.4 & 75.8 & -- & 7.54 \\
+\bottomrule
+\end{tabular}
+\caption{Main results on the 3,271-sentence test set. COMET-DA per domain and the two-domain macro average (MTNT+EMEA, equal weight); BLEU/chrF++/term hit reported on EMEA; latency is batch-1 p50; VRAM is peak allocated.}
+\end{table}
+
+The gains fall in a clear order. First, fine-tuning dominates: +0.051 macro over zero-shot, and
+the gain is larger on medical text (+0.062) than on social media (+0.040), which is what one
+expects from a model that has to learn a formal register it does not natively produce.
+
+Second, retrieval helps only before fine-tuning. On zero-shot it lifts EMEA by 0.035 and leaves
+MTNT unchanged. On the fine-tuned model it costs 0.015 on both domains. The same pool, the same
+prompt format, opposite sign: the variable is the model state, not the retrieval index. Two
+controls rule out the obvious explanations. Domain-gated retrieval, which removes the 11.8\% of
+MTNT queries that retrieve EMEA boilerplate, changes the macro by 0.0004. And retrieval beats a
+length-matched random context by only 0.002 (p = 0.33), so the pool carries little usable signal
+in this setting.
+
+Third, preference optimisation is measurable but immaterial: +0.003 (CI +0.0015 to +0.0046,
+p < 1e-4) is statistically detectable yet a quarter of the minimum detectable effect.
+
+The context format matters more than the context content. Injecting the same three examples as
+extra \texttt{user}/\texttt{assistant} turns costs 0.015; stuffing them into a single user message costs 0.075.
+A model fine-tuned on single-turn data does not accept multi-turn demonstrations gracefully, and
+compressing them into one message is worse still.
+
+\begin{table}[htbp]
+\centering
+\small
+
+\begin{tabular}{lrrrc}
+\toprule
+\textbf{Comparison} & \textbf{Delta} & \textbf{95\% CI} & \textbf{p} & \textbf{Sig.} \\
+\midrule
+g5\_full $-$ g3\_sft & -0.0440 & [-0.0478, -0.0401] & 0.0000 & yes \\
+g5\_full $-$ g5\_no\_dpo & +0.0027 & [+0.0001, +0.0052] & 0.0412 & no \\
+g5\_full $-$ g5\_no\_rag & -0.0062 & [-0.0100, -0.0026] & 0.0012 & yes \\
+g5\_full $-$ g5\_no\_rag\_len & +0.0020 & [-0.0020, +0.0061] & 0.3328 & no \\
+g5\_full $-$ g5\_no\_con & -0.0046 & [-0.0067, -0.0026] & 0.0000 & yes \\
+g5\_full $-$ g5\_no\_agent & -0.0238 & [-0.0267, -0.0209] & 0.0000 & yes \\
+g5\_dpo\_direct $-$ g3\_sft & +0.0031 & [+0.0015, +0.0046] & 0.0000 & yes \\
+g3\_sft\_aug $-$ g3\_sft & -0.0516 & [-0.0560, -0.0472] & 0.0000 & yes \\
+\bottomrule
+\end{tabular}
+\caption{Paired bootstrap (10,000 resamples, comment-id clusters for MTNT) with Holm correction within each family. Delta is macro COMET-DA of the first system minus the second.}
+\end{table}
+
+\section{Ablations}
+
+\begin{table}[htbp]
+\centering
+\small
+
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Variant} & \textbf{MTNT} & \textbf{EMEA} & \textbf{Macro} & \textbf{Delta vs full} \\
+\midrule
+G5 full & 0.7298 & 0.7807 & 0.7552 & -- \\
+- DPO & 0.7244 & 0.7795 & 0.7520 & -0.0032 \\
+- RAG & 0.7338 & 0.7881 & 0.7610 & +0.0058 \\
+- RAG (random ctx) & 0.7300 & 0.7776 & 0.7538 & -0.0014 \\
+- glossary & 0.7299 & 0.7876 & 0.7588 & +0.0036 \\
+- agent review & 0.7588 & 0.8018 & 0.7803 & +0.0251 \\
+\bottomrule
+\end{tabular}
+\caption{Leave-one-out ablation inside the G5 pipeline (test set). Removing a module shows what it contributed while the rest stayed fixed.}
+\end{table}
+
+The leave-one-out table is the most informative result in this report. Removing the agentic
+critic/refiner loop gains 0.024: two extra generation passes over a 1.5B model rewrite
+translations in ways that drift from the reference. The loop does not fail loudly. It produces
+fluent French that is less faithful, which is exactly the failure mode a small model exhibits
+when asked to critique itself.
+
+Retrieval and glossary are smaller and negative in the same direction. Only DPO is positive, and
+by an amount consistent with its isolated measurement.
+
+\textbf{Data augmentation.} As a follow-up we tripled the noisy-domain training data: forward
+translation of 43,406 monolingual English comments with the SFT model itself, back-translation
+of 25,537 French comments with Opus-MT, and 5,252 human chat pairs from WMT24. The result is
+0.7391 / 0.7645, a loss of 0.030 and 0.063 against the plain SFT model. Three causes are
+visible in the diagnostics: output length rises by 0.05 (self-distillation amplifies the
+student's own verbosity), the EMEA share of the mixture falls from 44\% to 20\% (terminology hit
+rate drops 13 points on medical text), and real examples are seen once instead of twice. The
+experiment is therefore a statement about mixing ratios under a fixed one-epoch budget, not
+about data quantity.
+
+\section{Attribution}
+
+\begin{table}[htbp]
+\centering
+\small
+
+\begin{tabular}{lrr}
+\toprule
+\textbf{Factor} & \textbf{Delta macro} & \textbf{Share of total} \\
+\midrule
+$\Delta_{SFT}=G3-G1$ & +0.0510 & +630 \\
+$\Delta_{RAG}=G2-G1$ & +0.0162 & +200 \\
+$\Delta_{syn}=G4-G3-\Delta_{RAG}$ & -0.0316 & -390 \\
+$\Delta_{adv}=G5-G4$ & -0.0275 & -340 \\
+Total $=G5-G1$ & +0.0081 & 100 \\
+\bottomrule
+\end{tabular}
+\caption{Additive decomposition of the ladder. The four terms sum to the total by construction. The split is order-dependent, so we read it as a narrative device and rely on the leave-one-out table for conclusions.}
+\end{table}
+
+The additive split is reported because the proposal asked for factor contribution rates, but it
+is order-dependent: assigning the retrieval gain before or after fine-tuning changes every
+number. We therefore use the leave-one-out table for conclusions and keep this one as a
+narrative summary. Exact Shapley values over the four G5 modules were considered and rejected:
+with strong interactions (DPO is +0.003 alone and +0.003 inside the pipeline, while retrieval is
++0.007 alone and -0.006 inside), the Shapley split would be arithmetically clean and
+interpretively empty.
+
+\section{What a larger model would buy}
+
+\begin{table}[htbp]
+\centering
+\small
+
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Subset} & \textbf{Teacher} & \textbf{G1} & \textbf{G3} & \textbf{G5*} & \textbf{Teacher$-$G3} \\
+\midrule
+MTNT (300) & 0.8066 & 0.7268 & 0.7720 & 0.7747 & +0.0346 \\
+EMEA (150) & 0.8223 & 0.7383 & 0.8127 & 0.8105 & +0.0096 \\
+\bottomrule
+\end{tabular}
+\caption{Ceiling check on held-out subsets translated by a much larger model (GPT-6 Luna, zero-shot, no task tuning). All systems are scored on the same sentences with the same references.}
+\end{table}
+
+This is the experiment that bounds the project. A model roughly ten times larger, translated
+zero-shot and scored on the same sentences with the same references, reaches 0.8223 on the EMEA
+subset against 0.8127 for our fine-tuned 1.5B model: a gap of 0.010. On MTNT the gap is 0.035,
+and part of it is reference noise rather than translation quality, since MTNT references are
+themselves paraphrases of noisy text.
+
+Higher absolute scores are not available on this data by scaling the student, and the negative
+results in Section 6 are not an artefact of an under-powered model: they are what happens when
+the metric is close to its ceiling for the task.
+
+\section{Cost and reproducibility}
+
+Table 7 gives the resource envelope. The whole study fits in about 10 GPU hours on one card, of
+which the two SFT runs (baseline and augmented) take 4.5.
+
+Six defects were found and fixed during the runs, and they are worth recording because each
+silently produced plausible but wrong numbers: a retrieval cache read from the wrong directory
+(the heavy path ran without retrieved examples), a DPO adapter loaded onto the raw base model
+instead of the merged SFT weights (DPO appeared to collapse to zero-shot), an inline context
+format measured before the turn-based one, an n-gram extractor that glued words across slashes,
+a metric that loaded only one of the two glossaries, and a chat-corpus parser that mixed both
+translation directions. The first two changed conclusions. The third and fourth changed
+component scores by an order of magnitude more than the effects being measured.
+
+\section{Limitations}
+
+The clean corpus is templated (2,251 unique sentences behind 45,000 rows) and its test split
+leaks, so it contributes no evidence. MTNT test has 1,020 sentences, which sets the resolution
+floor at 0.012; differences of 0.005 in this report are reported but not interpreted. The
+glossary covers 20\% of EMEA test sentences and 4\% of MTNT, so the hit-rate metric rests on a
+subset. Preference pairs were mined with COMET-DA and the headline metric is COMET-DA, a
+circularity we mitigate with BLEU, chrF++ and the term metric but cannot remove. Single seed per
+configuration. The bootstrap intervals cover sampling noise over sentences, not over training
+runs.
+
+\section{Conclusion}
+
+On a single 16 GB card, with two hard registers and roughly 10 GPU hours, LoRA fine-tuning is
+the only intervention that moves quality: +0.051 macro COMET-DA, reaching 98.8\% of a model an
+order of magnitude larger on medical text. Preference optimisation is real but below the
+measurement resolution. Retrieval, glossary constraints, agentic self-review and dynamic routing
+are neutral-to-harmful once the model is tuned, and the ablations localise the damage: context
+injection costs 0.015, self-review 0.024, and neither is recovered by better retrieval pools or
+domain gating. The practical recommendation for small-model translation pipelines is to spend
+the budget on supervised data hygiene and stopping criteria, not on orchestration.
+
+\begin{thebibliography}{9}\small
+
+\bibitem{vaswani2017} A. Vaswani et al., Attention Is All You Need, NeurIPS 2017.
+
+\bibitem{hu2021lora} E. J. Hu et al., LoRA: Low-Rank Adaptation of Large Language Models, ICLR 2022.
+
+\bibitem{qwen2024} Qwen Team, Qwen2.5 Technical Report, 2024.
+
+\bibitem{michel2018} P. Michel and G. Neubig, MTNT: A Testbed for Machine Translation of Noisy Text, EMNLP 2018.
+
+\bibitem{tiedemann2012} J. Tiedemann, Parallel Data, Tools and Interfaces in OPUS, LREC 2012.
+
+\bibitem{rafailov2023} R. Rafailov et al., Direct Preference Optimization, NeurIPS 2023.
+
+\bibitem{rei2022} R. Rei et al., CometKiwi: IST-Unbabel 2022 Submission for the Quality Estimation Shared Task, WMT 2022.
+
+\bibitem{rei2020} R. Rei et al., COMET: A Neural Framework for MT Evaluation, EMNLP 2020.
+
+\bibitem{koehn2004} P. Koehn, Statistical Significance Tests for Machine Translation Evaluation, EMNLP 2004.
+
+\end{thebibliography}
+
+\appendix
+\section{Reproduction map}
+The notebook has one section per pipeline stage; each cell calls the script below with the
+arguments recorded in the run's \texttt{meta.json}. Switches are off by default and a stage skips
+as soon as its outputs exist, so \texttt{python src/report/run\_notebook.py} reprints every table
+in about two minutes and \texttt{--all} rebuilds the pipeline (Section 2.4).
+
+\begin{center}\small
+\begin{tabular}{ll}
+\toprule
+Stage & Entry point \\
+\midrule
+Data build and leak audit & \texttt{src/data/build\_dataset.py} \\
+Retrieval index & \texttt{src/data/build\_index.py} \\
+Glossary build and adjudication & \texttt{src/data/build\_glossary.py}, \texttt{finalize\_glossary.py} \\
+Supervised fine-tuning & \texttt{src/train/sft\_lora.py} \\
+Preference pairs and DPO & \texttt{src/train/mine\_dpo\_pairs.py}, \texttt{dpo\_lora.py} \\
+Inference & \texttt{src/infer/generate.py}, \texttt{pipeline\_g5.py} \\
+Scoring and statistics & \texttt{src/eval/score\_comet.py}, \texttt{metrics.py}, \texttt{bootstrap.py} \\
+Tables for this report & \texttt{src/report/build\_report.py} \\
+Terminal driver & \texttt{src/report/run\_notebook.py} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+A run with every switch off finishes in minutes, opens no GPU context and reads only the stored
+per-sentence scores, so every table here can be regenerated and checked without the model. What a
+reproduction has to match:
+
+\begin{itemize}\setlength{\itemsep}{2pt}
+  \item interpreter and packages: Section 2.3 prints the versions; the manifests are
+        \texttt{requirements-main.txt} and \texttt{requirements-comet.txt};
+  \item corpora: three archives in \texttt{Dataset/}, then processed JSONL plus a SHA-256 manifest,
+        so a different corpus build is visible immediately;
+  \item seeds: 42 for SFT and DPO, 10,000 bootstrap resamples for every interval in Table 4;
+  \item scoring: \texttt{unbabel-comet 2.2.7} in the second environment; a kernel without it streams
+        the interpreter named by \texttt{COMET\_PY};
+  \item expected totals: 143,056 deduplicated EMEA pairs, 2,490 clean test sentences, 3,271 test
+        sentences scored, and the macro values of Table 3.
+\end{itemize}
+
+\end{document}

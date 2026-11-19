@@ -1,0 +1,15 @@
+{
+  "run_id": "g4_sft_rag_inline_dev",
+  "rows": 2052,
+  "comet_da_system": 0.7423,
+  "comet_da_by_domain": {
+    "mtnt": 0.67458,
+    "emea": 0.81439,
+    "clean": 0.67031
+  },
+  "macro_comet_da": 0.71976,
+  "da_seconds": 10.4,
+  "qe_seconds": 0.0,
+  "sent_per_sec": 197.0,
+  "qe_model": null
+}

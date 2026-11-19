@@ -1,0 +1,100 @@
+{"i": 100, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“MW”原样。", "mode": "keep"}
+{"i": 101, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "候选仅出现在标签“NG-DLC”中，例句不足以证明它是独立俚语缩写。", "mode": "omit"}
+{"i": 102, "decision": "keep", "fr": "casse-toi d'ici !", "confidence": "medium", "category": "abbreviation", "reason": "例句将被遮蔽的粗口命令译为“casse-toi d'ici !”。", "mode": "translate"}
+{"i": 103, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“km”原样。", "mode": "keep"}
+{"i": 104, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留“xB”原样。", "mode": "keep"}
+{"i": 105, "decision": "keep", "fr": "hummm", "confidence": "medium", "category": "abbreviation", "reason": "例句将该语气词译为“hummm”，据此采用译文写法。", "mode": "translate"}
+{"i": 106, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“CP”原样。", "mode": "keep"}
+{"i": 107, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句未出现该候选的对应用法，无法确定固定法语表达。", "mode": "omit"}
+{"i": 108, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“BSB”原样。", "mode": "keep"}
+{"i": 109, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "官方译文中缩写“DB”仍原样出现。", "mode": "keep"}
+{"i": 110, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "有例句保留“BTC”原样，法语侧亦出现该写法。", "mode": "keep"}
+{"i": 111, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "没有例句提供该候选的用法或法语对应。", "mode": "omit"}
+{"i": 112, "decision": "keep", "fr": "espion", "confidence": "high", "category": "abbreviation", "reason": "例句将普通用法译为“espion”，该法语对应有直接例证。", "mode": "translate"}
+{"i": 113, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“SG”原样。", "mode": "keep"}
+{"i": 114, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“RMT”原样。", "mode": "keep"}
+{"i": 115, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留“jk”原样。", "mode": "keep"}
+{"i": 116, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“TNG”原样。", "mode": "keep"}
+{"i": 117, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“RX”原样。", "mode": "keep"}
+{"i": 118, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“pH”原样。", "mode": "keep"}
+{"i": 119, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“TB”原样。", "mode": "keep"}
+{"i": 120, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“FCC”原样。", "mode": "keep"}
+{"i": 121, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“TD”原样。", "mode": "keep"}
+{"i": 122, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“NC”原样。", "mode": "keep"}
+{"i": 123, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“RS”原样。", "mode": "keep"}
+{"i": 124, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“TLJ”原样。", "mode": "keep"}
+{"i": 125, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留时区缩写“CDT”原样。", "mode": "keep"}
+{"i": 126, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "多数例句的官方译文保留“FFS”原样。", "mode": "keep"}
+{"i": 127, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“FH”原样。", "mode": "keep"}
+{"i": 128, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“FC”原样。", "mode": "keep"}
+{"i": 129, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“GR”原样。", "mode": "keep"}
+{"i": 130, "decision": "keep", "fr": "gens", "confidence": "low", "category": "abbreviation", "reason": "例句中“ppl”有译为“gens”的用例，但译法不完全一致。", "mode": "translate"}
+{"i": 131, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“MB”原样。", "mode": "keep"}
+{"i": 132, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文多处保留“JP”原样。", "mode": "keep"}
+{"i": 133, "decision": "keep", "fr": "VIT", "confidence": "low", "category": "abbreviation", "reason": "例句将数值属性“spd”写作“VIT”，但另一例保留原缩写。", "mode": "translate"}
+{"i": 134, "decision": "keep", "fr": "ligue des champions", "confidence": "low", "category": "abbreviation", "reason": "足球语境例句将“CL”译为“ligue des champions”，但该缩写有其他含义。", "mode": "translate"}
+{"i": 135, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“BMD”原样。", "mode": "keep"}
+{"i": 136, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“LC”原样。", "mode": "keep"}
+{"i": 137, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“GW”原样。", "mode": "keep"}
+{"i": 138, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留时区缩写“CT”原样。", "mode": "keep"}
+{"i": 139, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "例句中“LS”多次原样保留，也有语境化改写。", "mode": "keep"}
+{"i": 140, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留“W-Y”原样。", "mode": "keep"}
+{"i": 141, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "官方译文保留“CS:GO”等缩写形式。", "mode": "keep"}
+{"i": 142, "decision": "keep", "fr": "vraie vie", "confidence": "low", "category": "abbreviation", "reason": "例句把“RL”表示现实生活时译为“vraie vie”，但另有不同含义。", "mode": "translate"}
+{"i": 143, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "官方译文保留缩写“RF”原样。", "mode": "keep"}
+{"i": 144, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留“QB/QBs”原样。", "mode": "keep"}
+{"i": 145, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“DH”原样。", "mode": "keep"}
+{"i": 146, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句未出现“GPS”候选，无法从官方译文确定对应表达。", "mode": "omit"}
+{"i": 147, "decision": "keep", "fr": "PNJ", "confidence": "high", "category": "abbreviation", "reason": "例句将“NPCs”译为“PNJ”，提供了直接对应。", "mode": "translate"}
+{"i": 148, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“CB”原样。", "mode": "keep"}
+{"i": 149, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句中的“shy”是普通形容词，译法随句意变化，不属于固定俚语缩写。", "mode": "omit"}
+{"i": 150, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "例句的缩写用法在官方译文中保留为“WW”。", "mode": "keep"}
+{"i": 151, "decision": "keep", "fr": "Ma réaction quand", "confidence": "low", "category": "abbreviation", "reason": "例句将表情模板“MRW”译为“Ma réaction quand”，另有原样保留用例。", "mode": "translate"}
+{"i": 152, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“SSD”原样。", "mode": "keep"}
+{"i": 153, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“LSD”原样。", "mode": "keep"}
+{"i": 154, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“DK”原样。", "mode": "keep"}
+{"i": 155, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "官方译文保留“HS”原样，未提供稳定的展开译法。", "mode": "keep"}
+{"i": 156, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“JB”原样。", "mode": "keep"}
+{"i": 157, "decision": "keep", "fr": "pour être honnête", "confidence": "high", "category": "abbreviation", "reason": "两条例句将“tbf”译为“pour être honnête”。", "mode": "translate"}
+{"i": 158, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "官方译文保留缩写“FF”原样。", "mode": "keep"}
+{"i": 159, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“LP”原样。", "mode": "keep"}
+{"i": 160, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "例句中“SH”原样保留，另有语境中的改写。", "mode": "keep"}
+{"i": 161, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留姓名缩写“JJ”原样。", "mode": "keep"}
+{"i": 162, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“GL”原样。", "mode": "keep"}
+{"i": 163, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“CNN”原样。", "mode": "keep"}
+{"i": 164, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“TTK”原样。", "mode": "keep"}
+{"i": 165, "decision": "keep", "fr": "doctorat", "confidence": "medium", "category": "abbreviation", "reason": "例句把“PhD Student”译为“étudiant en doctorat”，对应为“doctorat”。", "mode": "translate"}
+{"i": 166, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“DNC”原样。", "mode": "keep"}
+{"i": 167, "decision": "keep", "fr": "coulisses", "confidence": "medium", "category": "abbreviation", "reason": "两条例句将幕后花絮义的“BTS”译为“coulisses”，另有专名用例。", "mode": "translate"}
+{"i": 168, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "多数官方译文保留缩写“PTS”原样。", "mode": "keep"}
+{"i": 169, "decision": "keep", "fr": "perceur de dragon", "confidence": "low", "category": "abbreviation", "reason": "例句将“dragon piercer”译为“perceur de dragon”，另有“DP”原样保留。", "mode": "translate"}
+{"i": 170, "decision": "keep", "fr": "secouant la tête", "confidence": "low", "category": "abbreviation", "reason": "例句将“smh”释译为“secouant la tête”，但另有保留和省略用例。", "mode": "translate"}
+{"i": 171, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“DSL”原样。", "mode": "keep"}
+{"i": 172, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句未出现“ht”候选，无法确定固定法语表达。", "mode": "omit"}
+{"i": 173, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“JRPG”原样。", "mode": "keep"}
+{"i": 174, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“SL”原样。", "mode": "keep"}
+{"i": 175, "decision": "keep", "fr": "personnage principal", "confidence": "low", "category": "abbreviation", "reason": "例句把“MC”对应为“personnage principal”，但另有原样保留的用例。", "mode": "translate"}
+{"i": 176, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句中的“LG”是产品品牌标记，不能作为俚语译项。", "mode": "omit"}
+{"i": 177, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“SS”原样。", "mode": "keep"}
+{"i": 178, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“CMV”原样。", "mode": "keep"}
+{"i": 179, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "没有例句提供该候选的用法或法语对应。", "mode": "omit"}
+{"i": 180, "decision": "keep", "fr": "Hum", "confidence": "low", "category": "abbreviation", "reason": "一条例句将“hm”写作“Hum”，另有保留和省略用例。", "mode": "translate"}
+{"i": 181, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“HHH”原样。", "mode": "keep"}
+{"i": 182, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“BM”原样。", "mode": "keep"}
+{"i": 183, "decision": "keep", "fr": "Floride", "confidence": "high", "category": "abbreviation", "reason": "两条例句将州缩写“FL”译为“Floride”。", "mode": "translate"}
+{"i": 184, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“RPM”原样。", "mode": "keep"}
+{"i": 185, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "官方译文保留“PG”原样，也有“pro gamer”的语境性译法。", "mode": "keep"}
+{"i": 186, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“MH”原样。", "mode": "keep"}
+{"i": 187, "decision": "reject", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "例句中的“LVP”指人物姓名缩写，不能确认为通用俚语译项。", "mode": "omit"}
+{"i": 188, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句未出现“WB”候选，无法确定固定法语表达。", "mode": "omit"}
+{"i": 189, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“MMR”原样。", "mode": "keep"}
+{"i": 190, "decision": "keep", "fr": "mg", "confidence": "low", "category": "abbreviation", "reason": "剂量例句将“mgs”写作“mg”，但另一例中的“MGS”是游戏缩写。", "mode": "translate"}
+{"i": 191, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“CF”原样。", "mode": "keep"}
+{"i": 192, "decision": "keep", "fr": "Mont", "confidence": "high", "category": "abbreviation", "reason": "例句将地名缩写“Mt”展开为“Mont”。", "mode": "translate"}
+{"i": 193, "decision": "keep", "fr": "", "confidence": "medium", "category": "abbreviation", "reason": "官方译文既保留“RG”，也有展开为物品名的语境。", "mode": "keep"}
+{"i": 194, "decision": "keep", "fr": "trouble de la personnalité borderline (TPB)", "confidence": "medium", "category": "abbreviation", "reason": "例句将疾病义“BPD”译为“trouble de la personnalité borderline (TPB)”。", "mode": "translate"}
+{"i": 195, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句未出现“gms”候选，无法确定固定法语表达。", "mode": "omit"}
+{"i": 196, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句未出现“mxr”候选，无法确定固定法语表达。", "mode": "omit"}
+{"i": 197, "decision": "reject", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "例句中的“thy”是普通古英语代词，且译文没有稳定对应表达。", "mode": "omit"}
+{"i": 198, "decision": "keep", "fr": "", "confidence": "high", "category": "abbreviation", "reason": "官方译文保留缩写“hhc”原样。", "mode": "keep"}
+{"i": 199, "decision": "keep", "fr": "ssr", "confidence": "medium", "category": "abbreviation", "reason": "这些例句的法语译文均将“ssc”写作“ssr”。", "mode": "translate"}

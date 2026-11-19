@@ -1,0 +1,28 @@
+{
+  "run_id": "g2_rag",
+  "mode": "rag",
+  "split": "test",
+  "domains": "mtnt,emea,clean",
+  "adapter": null,
+  "k": 3,
+  "pool": "seen",
+  "decode": "greedy",
+  "batch": 32,
+  "max_new_tokens": 160,
+  "rows": 3271,
+  "wallclock_min": 4.23,
+  "sent_per_sec": 12.88,
+  "gen_tokens_total": 99735,
+  "tok_per_sec": 392.7,
+  "latency_batch1": {
+    "n": 100,
+    "p50_ms": 526.2,
+    "p95_ms": 1221.8,
+    "mean_ms": 606.0
+  },
+  "peak_vram_gb": 6.935,
+  "git_commit": "n/a",
+  "seed": 42,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "main"
+}

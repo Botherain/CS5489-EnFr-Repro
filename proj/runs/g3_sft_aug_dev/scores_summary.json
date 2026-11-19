@@ -1,0 +1,15 @@
+{
+  "run_id": "g3_sft_aug_dev",
+  "rows": 2052,
+  "comet_da_system": 0.79139,
+  "comet_da_by_domain": {
+    "mtnt": 0.73142,
+    "emea": 0.80654,
+    "clean": 0.97106
+  },
+  "macro_comet_da": 0.83634,
+  "da_seconds": 10.3,
+  "qe_seconds": 0.0,
+  "sent_per_sec": 198.6,
+  "qe_model": null
+}

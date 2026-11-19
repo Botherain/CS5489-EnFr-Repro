@@ -1,0 +1,8345 @@
+[
+ {
+  "id": "emea_0000",
+  "domain": "emea",
+  "src": "solution for injection",
+  "fr": "solution injectable",
+  "fr_ids": [
+   6291,
+   15551,
+   480
+  ],
+  "fr_first_id": 6291,
+  "src_sig": [
+   "injection",
+   "solution"
+  ],
+  "fr_sig": [
+   "injectable",
+   "solution"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Solution injectable",
+   "solution injectable",
+   "solution injectables"
+  ],
+  "variants": [
+   "Solution injectable",
+   "solution injectable",
+   "solution injectables"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 154,
+  "test_hits": 20,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0001",
+  "domain": "emea",
+  "src": "pre-filled syringe",
+  "fr": "seringue préremplie",
+  "fr_ids": [
+   1420,
+   287,
+   361,
+   26293,
+   1826,
+   500,
+   645
+  ],
+  "fr_first_id": 1420,
+  "src_sig": [
+   "pre-filled",
+   "syringe"
+  ],
+  "fr_sig": [
+   "préremplie",
+   "seringue"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Seringue préremplie",
+   "seringue préremplie",
+   "seringue préremplies"
+  ],
+  "variants": [
+   "Seringue préremplie",
+   "seringue préremplie",
+   "seringue préremplies"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 94,
+  "test_hits": 14,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0002",
+  "domain": "emea",
+  "src": "oral solution",
+  "fr": "solution buvable",
+  "fr_ids": [
+   6291,
+   1031,
+   23760
+  ],
+  "fr_first_id": 6291,
+  "src_sig": [
+   "oral",
+   "solution"
+  ],
+  "fr_sig": [
+   "buvable",
+   "solution"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Solution buvable",
+   "solution buvable",
+   "solution buvables"
+  ],
+  "variants": [
+   "Solution buvable",
+   "solution buvable",
+   "solution buvables"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 34,
+  "test_hits": 14,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0003",
+  "domain": "emea",
+  "src": "water for injections",
+  "fr": "eau pour préparations injectables",
+  "fr_ids": [
+   384,
+   2863,
+   4914,
+   26293,
+   1732,
+   804,
+   15551,
+   4788
+  ],
+  "fr_first_id": 384,
+  "src_sig": [
+   "injections",
+   "water"
+  ],
+  "fr_sig": [
+   "eau",
+   "injectables",
+   "préparations"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Eau pour préparations injectables",
+   "eau pour préparations injectable",
+   "eau pour préparations injectables"
+  ],
+  "variants": [
+   "Eau pour préparations injectables",
+   "eau pour préparations injectable",
+   "eau pour préparations injectables"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 69,
+  "test_hits": 12,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0004",
+  "domain": "emea",
+  "src": "clinical trials",
+  "fr": "essais cliniques",
+  "fr_ids": [
+   3956,
+   2782,
+   9218,
+   8303
+  ],
+  "fr_first_id": 3956,
+  "src_sig": [
+   "clinical",
+   "trials"
+  ],
+  "fr_sig": [
+   "cliniques",
+   "essais"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Essais cliniques",
+   "essais clinique",
+   "essais cliniques"
+  ],
+  "variants": [
+   "Essais cliniques",
+   "essais clinique",
+   "essais cliniques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 145,
+  "test_hits": 12,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0005",
+  "domain": "emea",
+  "src": "injection site",
+  "fr": "site d'injection",
+  "fr_ids": [
+   2747,
+   294,
+   51052,
+   7606
+  ],
+  "fr_first_id": 2747,
+  "src_sig": [
+   "injection",
+   "site"
+  ],
+  "fr_sig": [
+   "d'injection",
+   "site"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Site d'injection",
+   "site d'injection",
+   "site d'injections"
+  ],
+  "variants": [
+   "Site d'injection",
+   "site d'injection",
+   "site d'injections"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 94,
+  "test_hits": 11,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0006",
+  "domain": "emea",
+  "src": "recommended dose",
+  "fr": "dose recommandée",
+  "fr_ids": [
+   19115,
+   83093,
+   7888
+  ],
+  "fr_first_id": 19115,
+  "src_sig": [
+   "dose",
+   "recommended"
+  ],
+  "fr_sig": [
+   "dose",
+   "recommandée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dose recommandée",
+   "dose recommandée",
+   "dose recommandées"
+  ],
+  "variants": [
+   "Dose recommandée",
+   "dose recommandée",
+   "dose recommandées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 77,
+  "test_hits": 11,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0007",
+  "domain": "emea",
+  "src": "pharmacokinetics",
+  "fr": "pharmacocinétique",
+  "fr_ids": [
+   35349,
+   509,
+   258,
+   98088
+  ],
+  "fr_first_id": 35349,
+  "src_sig": [
+   "pharmacokinetics"
+  ],
+  "fr_sig": [
+   "pharmacocinétique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Pharmacocinétique",
+   "pharmacocinétique",
+   "pharmacocinétiques"
+  ],
+  "variants": [
+   "Pharmacocinétique",
+   "pharmacocinétique",
+   "pharmacocinétiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 128,
+  "test_hits": 11,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0008",
+  "domain": "emea",
+  "src": "coated tablet",
+  "fr": "comprimé enrobé",
+  "fr_ids": [
+   13247,
+   318,
+   963,
+   662,
+   22740,
+   963
+  ],
+  "fr_first_id": 13247,
+  "src_sig": [
+   "coated",
+   "tablet"
+  ],
+  "fr_sig": [
+   "comprimé",
+   "enrobé"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Comprimé enrobé",
+   "comprimé enrobé",
+   "comprimé enrobés"
+  ],
+  "variants": [
+   "Comprimé enrobé",
+   "comprimé enrobé",
+   "comprimé enrobés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 10,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0009",
+  "domain": "emea",
+  "src": "full EPAR",
+  "fr": "EPAR complet",
+  "fr_ids": [
+   468,
+   16567,
+   3459
+  ],
+  "fr_first_id": 468,
+  "src_sig": [
+   "epar",
+   "full"
+  ],
+  "fr_sig": [
+   "complet",
+   "epar"
+  ],
+  "single_token": false,
+  "accepted": [
+   "EPAR complet",
+   "EPAR complets"
+  ],
+  "variants": [
+   "EPAR complet",
+   "EPAR complets"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 88,
+  "test_hits": 9,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0010",
+  "domain": "emea",
+  "src": "allergic reactions",
+  "fr": "réactions allergiques",
+  "fr_ids": [
+   9333,
+   4020,
+   24401,
+   8303
+  ],
+  "fr_first_id": 9333,
+  "src_sig": [
+   "allergic",
+   "reactions"
+  ],
+  "fr_sig": [
+   "allergiques",
+   "réactions"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Réactions allergiques",
+   "réactions allergique",
+   "réactions allergiques"
+  ],
+  "variants": [
+   "Réactions allergiques",
+   "réactions allergique",
+   "réactions allergiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 32,
+  "test_hits": 9,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0011",
+  "domain": "emea",
+  "src": "heart failure",
+  "fr": "insuffisance cardiaque",
+  "fr_ids": [
+   1640,
+   1362,
+   285,
+   681,
+   3701,
+   685,
+   591
+  ],
+  "fr_first_id": 1640,
+  "src_sig": [
+   "failure",
+   "heart"
+  ],
+  "fr_sig": [
+   "cardiaque",
+   "insuffisance"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Insuffisance cardiaque",
+   "insuffisance cardiaque",
+   "insuffisance cardiaques"
+  ],
+  "variants": [
+   "Insuffisance cardiaque",
+   "insuffisance cardiaque",
+   "insuffisance cardiaques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 31,
+  "test_hits": 8,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0012",
+  "domain": "emea",
+  "src": "clinical studies",
+  "fr": "études cliniques",
+  "fr_ids": [
+   13916,
+   28146,
+   9218,
+   8303
+  ],
+  "fr_first_id": 13916,
+  "src_sig": [
+   "clinical",
+   "studies"
+  ],
+  "fr_sig": [
+   "cliniques",
+   "études"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Études cliniques",
+   "études clinique",
+   "études cliniques"
+  ],
+  "variants": [
+   "Études cliniques",
+   "études clinique",
+   "études cliniques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 90,
+  "test_hits": 8,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0013",
+  "domain": "emea",
+  "src": "film-coated tablets",
+  "fr": "comprimés pelliculés",
+  "fr_ids": [
+   13247,
+   318,
+   5397,
+   11814,
+   415,
+   360,
+   5397
+  ],
+  "fr_first_id": 13247,
+  "src_sig": [
+   "film-coated",
+   "tablets"
+  ],
+  "fr_sig": [
+   "comprimés",
+   "pelliculés"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Comprimés pelliculés",
+   "comprimés pelliculé",
+   "comprimés pelliculés"
+  ],
+  "variants": [
+   "Comprimés pelliculés",
+   "comprimés pelliculé",
+   "comprimés pelliculés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 171,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0014",
+  "domain": "emea",
+  "src": "immune system",
+  "fr": "système immunitaire",
+  "fr_ids": [
+   71501,
+   4893,
+   3843,
+   11998
+  ],
+  "fr_first_id": 71501,
+  "src_sig": [
+   "immune",
+   "system"
+  ],
+  "fr_sig": [
+   "immunitaire",
+   "système"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Système immunitaire",
+   "système immunitaire",
+   "système immunitaires"
+  ],
+  "variants": [
+   "Système immunitaire",
+   "système immunitaire",
+   "système immunitaires"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 38,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0015",
+  "domain": "emea",
+  "src": "hydrochloride",
+  "fr": "chlorhydrate",
+  "fr_ids": [
+   36733,
+   87378
+  ],
+  "fr_first_id": 36733,
+  "src_sig": [
+   "hydrochloride"
+  ],
+  "fr_sig": [
+   "chlorhydrate"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Chlorhydrate",
+   "chlorhydrate",
+   "chlorhydrates"
+  ],
+  "variants": [
+   "Chlorhydrate",
+   "chlorhydrate",
+   "chlorhydrates"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 52,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0016",
+  "domain": "emea",
+  "src": "blood clots",
+  "fr": "caillots sanguins",
+  "fr_ids": [
+   2162,
+   483,
+   2412,
+   274,
+   2325,
+   1330
+  ],
+  "fr_first_id": 2162,
+  "src_sig": [
+   "blood",
+   "clots"
+  ],
+  "fr_sig": [
+   "caillots",
+   "sanguins"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Caillots sanguins",
+   "caillots sanguin",
+   "caillots sanguins"
+  ],
+  "variants": [
+   "Caillots sanguins",
+   "caillots sanguin",
+   "caillots sanguins"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 16,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0017",
+  "domain": "emea",
+  "src": "film-coated tablet",
+  "fr": "comprimé pelliculé",
+  "fr_ids": [
+   13247,
+   318,
+   963,
+   11814,
+   415,
+   360,
+   963
+  ],
+  "fr_first_id": 13247,
+  "src_sig": [
+   "film-coated",
+   "tablet"
+  ],
+  "fr_sig": [
+   "comprimé",
+   "pelliculé"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Comprimé pelliculé",
+   "comprimé pelliculé",
+   "comprimé pelliculés"
+  ],
+  "variants": [
+   "Comprimé pelliculé",
+   "comprimé pelliculé",
+   "comprimé pelliculés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 54,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0018",
+  "domain": "emea",
+  "src": "renal function",
+  "fr": "fonction rénale",
+  "fr_ids": [
+   33401,
+   9333,
+   77,
+   1574
+  ],
+  "fr_first_id": 33401,
+  "src_sig": [
+   "function",
+   "renal"
+  ],
+  "fr_sig": [
+   "fonction",
+   "rénale"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Fonction rénale",
+   "fonction rénale",
+   "fonction rénales"
+  ],
+  "variants": [
+   "Fonction rénale",
+   "fonction rénale",
+   "fonction rénales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 45,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0019",
+  "domain": "emea",
+  "src": "coated tablets",
+  "fr": "comprimés enrobés",
+  "fr_ids": [
+   13247,
+   318,
+   5397,
+   662,
+   22740,
+   5397
+  ],
+  "fr_first_id": 13247,
+  "src_sig": [
+   "coated",
+   "tablets"
+  ],
+  "fr_sig": [
+   "comprimés",
+   "enrobés"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Comprimés enrobés",
+   "comprimés enrobé",
+   "comprimés enrobés"
+  ],
+  "variants": [
+   "Comprimés enrobés",
+   "comprimés enrobé",
+   "comprimés enrobés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0020",
+  "domain": "emea",
+  "src": "single dose",
+  "fr": "dose unique",
+  "fr_ids": [
+   19115,
+   4911
+  ],
+  "fr_first_id": 19115,
+  "src_sig": [
+   "dose",
+   "single"
+  ],
+  "fr_sig": [
+   "dose",
+   "unique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dose unique",
+   "dose unique",
+   "dose uniques"
+  ],
+  "variants": [
+   "Dose unique",
+   "dose unique",
+   "dose uniques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 46,
+  "test_hits": 7,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0021",
+  "domain": "emea",
+  "src": "myocardial infarction",
+  "fr": "infarctus du myocarde",
+  "fr_ids": [
+   4132,
+   277,
+   302,
+   355,
+   3845,
+   847,
+   509,
+   41341
+  ],
+  "fr_first_id": 4132,
+  "src_sig": [
+   "infarction",
+   "myocardial"
+  ],
+  "fr_sig": [
+   "infarctus",
+   "myocarde"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Infarctus du myocarde",
+   "infarctus du myocarde",
+   "infarctus du myocardes"
+  ],
+  "variants": [
+   "Infarctus du myocarde",
+   "infarctus du myocarde",
+   "infarctus du myocardes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 20,
+  "test_hits": 6,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0022",
+  "domain": "emea",
+  "src": "pregnant women",
+  "fr": "femme enceinte",
+  "fr_ids": [
+   18195,
+   662,
+   346,
+   45329
+  ],
+  "fr_first_id": 18195,
+  "src_sig": [
+   "pregnant",
+   "women"
+  ],
+  "fr_sig": [
+   "enceinte",
+   "femme"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Femme enceinte",
+   "femme enceinte",
+   "femme enceintes"
+  ],
+  "variants": [
+   "Femme enceinte",
+   "femme enceinte",
+   "femme enceintes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 31,
+  "test_hits": 6,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0023",
+  "domain": "emea",
+  "src": "active metabolite",
+  "fr": "métabolite actif",
+  "fr_ids": [
+   31018,
+   6192,
+   337,
+   632,
+   1160,
+   333
+  ],
+  "fr_first_id": 31018,
+  "src_sig": [
+   "active",
+   "metabolite"
+  ],
+  "fr_sig": [
+   "actif",
+   "métabolite"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Métabolite actif",
+   "métabolite actif",
+   "métabolite actifs"
+  ],
+  "variants": [
+   "Métabolite actif",
+   "métabolite actif",
+   "métabolite actifs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 23,
+  "test_hits": 5,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0024",
+  "domain": "emea",
+  "src": "congestive heart failure",
+  "fr": "insuffisance cardiaque congestive",
+  "fr_ids": [
+   1640,
+   1362,
+   285,
+   681,
+   3701,
+   685,
+   591,
+   43285,
+   533
+  ],
+  "fr_first_id": 1640,
+  "src_sig": [
+   "congestive",
+   "failure",
+   "heart"
+  ],
+  "fr_sig": [
+   "cardiaque",
+   "congestive",
+   "insuffisance"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Insuffisance cardiaque congestive",
+   "insuffisance cardiaque congestive",
+   "insuffisance cardiaque congestives"
+  ],
+  "variants": [
+   "Insuffisance cardiaque congestive",
+   "insuffisance cardiaque congestive",
+   "insuffisance cardiaque congestives"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 5,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0025",
+  "domain": "emea",
+  "src": "healthy subjects",
+  "fr": "sujets sains",
+  "fr_ids": [
+   913,
+   73904,
+   274,
+   1735
+  ],
+  "fr_first_id": 913,
+  "src_sig": [
+   "healthy",
+   "subjects"
+  ],
+  "fr_sig": [
+   "sains",
+   "sujets"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Sujets sains",
+   "sujets sain",
+   "sujets sains"
+  ],
+  "variants": [
+   "Sujets sains",
+   "sujets sain",
+   "sujets sains"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 37,
+  "test_hits": 5,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0026",
+  "domain": "emea",
+  "src": "Method of administration",
+  "fr": "Mode d'administration",
+  "fr_ids": [
+   14562,
+   294,
+   6,
+   90590
+  ],
+  "fr_first_id": 14562,
+  "src_sig": [
+   "administration",
+   "method"
+  ],
+  "fr_sig": [
+   "d'administration",
+   "mode"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Mode d'administration",
+   "Mode d'administrations"
+  ],
+  "variants": [
+   "Mode d'administration",
+   "Mode d'administrations"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 32,
+  "test_hits": 5,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0027",
+  "domain": "emea",
+  "src": "unfractionated heparin",
+  "fr": "non fractionnée",
+  "fr_ids": [
+   2477,
+   19419,
+   130577
+  ],
+  "fr_first_id": 2477,
+  "src_sig": [
+   "heparin",
+   "unfractionated"
+  ],
+  "fr_sig": [
+   "fractionnée",
+   "non"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Non fractionnée",
+   "non fractionnée",
+   "non fractionnées"
+  ],
+  "variants": [
+   "Non fractionnée",
+   "non fractionnée",
+   "non fractionnées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 5,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0028",
+  "domain": "emea",
+  "src": "rheumatoid arthritis",
+  "fr": "polyarthrite rhumatoïde",
+  "fr_ids": [
+   9861,
+   46501,
+   1247,
+   21669,
+   372,
+   4330,
+   37572,
+   450
+  ],
+  "fr_first_id": 9861,
+  "src_sig": [
+   "arthritis",
+   "rheumatoid"
+  ],
+  "fr_sig": [
+   "polyarthrite",
+   "rhumatoïde"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Polyarthrite rhumatoïde",
+   "polyarthrite rhumatoïde",
+   "polyarthrite rhumatoïdes"
+  ],
+  "variants": [
+   "Polyarthrite rhumatoïde",
+   "polyarthrite rhumatoïde",
+   "polyarthrite rhumatoïdes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 37,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0029",
+  "domain": "emea",
+  "src": "sodium chloride",
+  "fr": "chlorure de sodium",
+  "fr_ids": [
+   36733,
+   552,
+   409,
+   38595
+  ],
+  "fr_first_id": 36733,
+  "src_sig": [
+   "chloride",
+   "sodium"
+  ],
+  "fr_sig": [
+   "chlorure",
+   "sodium"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Chlorure de sodium",
+   "chlorure de sodium",
+   "chlorure de sodiums"
+  ],
+  "variants": [
+   "Chlorure de sodium",
+   "chlorure de sodium",
+   "chlorure de sodiums"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 40,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0030",
+  "domain": "emea",
+  "src": "overall survival",
+  "fr": "survie globale",
+  "fr_ids": [
+   7398,
+   645,
+   13206,
+   1574
+  ],
+  "fr_first_id": 7398,
+  "src_sig": [
+   "overall",
+   "survival"
+  ],
+  "fr_sig": [
+   "globale",
+   "survie"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Survie globale",
+   "survie globale",
+   "survie globales"
+  ],
+  "variants": [
+   "Survie globale",
+   "survie globale",
+   "survie globales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0031",
+  "domain": "emea",
+  "src": "first dose",
+  "fr": "première dose",
+  "fr_ids": [
+   54033,
+   19115
+  ],
+  "fr_first_id": 54033,
+  "src_sig": [
+   "dose",
+   "first"
+  ],
+  "fr_sig": [
+   "dose",
+   "première"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Première dose",
+   "première dose",
+   "première doses"
+  ],
+  "variants": [
+   "Première dose",
+   "première dose",
+   "première doses"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 35,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0032",
+  "domain": "emea",
+  "src": "mechanism",
+  "fr": "mécanisme",
+  "fr_ids": [
+   31018,
+   4814,
+   43518
+  ],
+  "fr_first_id": 31018,
+  "src_sig": [
+   "mechanism"
+  ],
+  "fr_sig": [
+   "mécanisme"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Mécanisme",
+   "mécanisme",
+   "mécanismes"
+  ],
+  "variants": [
+   "Mécanisme",
+   "mécanisme",
+   "mécanismes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 49,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0033",
+  "domain": "emea",
+  "src": "immune response",
+  "fr": "réponse immunitaire",
+  "fr_ids": [
+   89409,
+   4893,
+   3843,
+   11998
+  ],
+  "fr_first_id": 89409,
+  "src_sig": [
+   "immune",
+   "response"
+  ],
+  "fr_sig": [
+   "immunitaire",
+   "réponse"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Réponse immunitaire",
+   "réponse immunitaire",
+   "réponse immunitaires"
+  ],
+  "variants": [
+   "Réponse immunitaire",
+   "réponse immunitaire",
+   "réponse immunitaires"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0034",
+  "domain": "emea",
+  "src": "heart attack",
+  "fr": "crise cardiaque",
+  "fr_ids": [
+   1560,
+   1064,
+   3701,
+   685,
+   591
+  ],
+  "fr_first_id": 1560,
+  "src_sig": [
+   "attack",
+   "heart"
+  ],
+  "fr_sig": [
+   "cardiaque",
+   "crise"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Crise cardiaque",
+   "crise cardiaque",
+   "crise cardiaques"
+  ],
+  "variants": [
+   "Crise cardiaque",
+   "crise cardiaque",
+   "crise cardiaques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0035",
+  "domain": "emea",
+  "src": "Pharmacokinetic properties",
+  "fr": "Propriétés pharmacocinétiques",
+  "fr_ids": [
+   3911,
+   461,
+   10302,
+   5397,
+   35349,
+   509,
+   258,
+   10302,
+   8303
+  ],
+  "fr_first_id": 3911,
+  "src_sig": [
+   "pharmacokinetic",
+   "properties"
+  ],
+  "fr_sig": [
+   "pharmacocinétiques",
+   "propriétés"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Propriétés pharmacocinétique",
+   "Propriétés pharmacocinétiques"
+  ],
+  "variants": [
+   "Propriétés pharmacocinétique",
+   "Propriétés pharmacocinétiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0036",
+  "domain": "emea",
+  "src": "steady state",
+  "fr": "l'état d'équilibre",
+  "fr_ids": [
+   326,
+   56186,
+   266,
+   294,
+   30669,
+   446,
+   29959,
+   265
+  ],
+  "fr_first_id": 326,
+  "src_sig": [
+   "state",
+   "steady"
+  ],
+  "fr_sig": [
+   "d'équilibre",
+   "l'état"
+  ],
+  "single_token": false,
+  "accepted": [
+   "L'état d'équilibre",
+   "l'état d'équilibre",
+   "l'état d'équilibres"
+  ],
+  "variants": [
+   "L'état d'équilibre",
+   "l'état d'équilibre",
+   "l'état d'équilibres"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 29,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0037",
+  "domain": "emea",
+  "src": "renal excretion",
+  "fr": "l'excrétion rénale",
+  "fr_ids": [
+   326,
+   57636,
+   5082,
+   10302,
+   290,
+   9333,
+   77,
+   1574
+  ],
+  "fr_first_id": 326,
+  "src_sig": [
+   "excretion",
+   "renal"
+  ],
+  "fr_sig": [
+   "l'excrétion",
+   "rénale"
+  ],
+  "single_token": false,
+  "accepted": [
+   "L'excrétion rénale",
+   "l'excrétion rénale",
+   "l'excrétion rénales"
+  ],
+  "variants": [
+   "L'excrétion rénale",
+   "l'excrétion rénale",
+   "l'excrétion rénales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0038",
+  "domain": "emea",
+  "src": "site reactions",
+  "fr": "réactions au site d’application",
+  "fr_ids": [
+   9333,
+   4020,
+   7906,
+   2747,
+   294,
+   527,
+   5132
+  ],
+  "fr_first_id": 9333,
+  "src_sig": [
+   "reactions",
+   "site"
+  ],
+  "fr_sig": [
+   "application",
+   "réactions",
+   "site"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Réactions au site d’application",
+   "réactions au site d’application",
+   "réactions au site d’applications"
+  ],
+  "variants": [
+   "Réactions au site d’application",
+   "réactions au site d’application",
+   "réactions au site d’applications"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 15,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0039",
+  "domain": "emea",
+  "src": "serum concentrations",
+  "fr": "concentrations sériques",
+  "fr_ids": [
+   31366,
+   18744,
+   461,
+   13968
+  ],
+  "fr_first_id": 31366,
+  "src_sig": [
+   "concentrations",
+   "serum"
+  ],
+  "fr_sig": [
+   "concentrations",
+   "sériques"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Concentrations sériques",
+   "concentrations sérique",
+   "concentrations sériques"
+  ],
+  "variants": [
+   "Concentrations sériques",
+   "concentrations sérique",
+   "concentrations sériques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 15,
+  "test_hits": 4,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0040",
+  "domain": "emea",
+  "src": "room temperature",
+  "fr": "température ambiante",
+  "fr_ids": [
+   2730,
+   13763,
+   1568,
+   1079,
+   8221,
+   4942
+  ],
+  "fr_first_id": 2730,
+  "src_sig": [
+   "room",
+   "temperature"
+  ],
+  "fr_sig": [
+   "ambiante",
+   "température"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Température ambiante",
+   "température ambiante",
+   "température ambiantes"
+  ],
+  "variants": [
+   "Température ambiante",
+   "température ambiante",
+   "température ambiantes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 25,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0041",
+  "domain": "emea",
+  "src": "titanium dioxide",
+  "fr": "dioxyde de titane",
+  "fr_ids": [
+   64470,
+   4130,
+   450,
+   409,
+   8142,
+   2145
+  ],
+  "fr_first_id": 64470,
+  "src_sig": [
+   "dioxide",
+   "titanium"
+  ],
+  "fr_sig": [
+   "dioxyde",
+   "titane"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dioxyde de titane",
+   "dioxyde de titane",
+   "dioxyde de titanes"
+  ],
+  "variants": [
+   "Dioxyde de titane",
+   "dioxyde de titane",
+   "dioxyde de titanes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 37,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0042",
+  "domain": "emea",
+  "src": "molecular weight",
+  "fr": "poids moléculaire",
+  "fr_ids": [
+   96318,
+   21609,
+   963,
+   3314,
+   11998
+  ],
+  "fr_first_id": 96318,
+  "src_sig": [
+   "molecular",
+   "weight"
+  ],
+  "fr_sig": [
+   "moléculaire",
+   "poids"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Poids moléculaire",
+   "poids moléculaire",
+   "poids moléculaires"
+  ],
+  "variants": [
+   "Poids moléculaire",
+   "poids moléculaire",
+   "poids moléculaires"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0043",
+  "domain": "emea",
+  "src": "suspension for injection",
+  "fr": "suspension injectable",
+  "fr_ids": [
+   24301,
+   15551,
+   480
+  ],
+  "fr_first_id": 24301,
+  "src_sig": [
+   "injection",
+   "suspension"
+  ],
+  "fr_sig": [
+   "injectable",
+   "suspension"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Suspension injectable",
+   "suspension injectable",
+   "suspension injectables"
+  ],
+  "variants": [
+   "Suspension injectable",
+   "suspension injectable",
+   "suspension injectables"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 26,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0044",
+  "domain": "emea",
+  "src": "juvenile idiopathic arthritis",
+  "fr": "arthrite juvénile idiopathique",
+  "fr_ids": [
+   796,
+   339,
+   1247,
+   10267,
+   85,
+   10394,
+   457,
+   40660,
+   35111,
+   2372
+  ],
+  "fr_first_id": 796,
+  "src_sig": [
+   "arthritis",
+   "idiopathic",
+   "juvenile"
+  ],
+  "fr_sig": [
+   "arthrite",
+   "idiopathique",
+   "juvénile"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Arthrite juvénile idiopathique",
+   "arthrite juvénile idiopathique",
+   "arthrite juvénile idiopathiques"
+  ],
+  "variants": [
+   "Arthrite juvénile idiopathique",
+   "arthrite juvénile idiopathique",
+   "arthrite juvénile idiopathiques"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0045",
+  "domain": "emea",
+  "src": "leukaemia",
+  "fr": "leucémie",
+  "fr_ids": [
+   512,
+   1754,
+   16647,
+   645
+  ],
+  "fr_first_id": 512,
+  "src_sig": [
+   "leukaemia"
+  ],
+  "fr_sig": [
+   "leucémie"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Leucémie",
+   "leucémie",
+   "leucémies"
+  ],
+  "variants": [
+   "Leucémie",
+   "leucémie",
+   "leucémies"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 45,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0046",
+  "domain": "emea",
+  "src": "pancreatitis",
+  "fr": "pancréatite",
+  "fr_ids": [
+   53474,
+   42611,
+   266,
+   632
+  ],
+  "fr_first_id": 53474,
+  "src_sig": [
+   "pancreatitis"
+  ],
+  "fr_sig": [
+   "pancréatite"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Pancréatite",
+   "pancréatite",
+   "pancréatites"
+  ],
+  "variants": [
+   "Pancréatite",
+   "pancréatite",
+   "pancréatites"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 23,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0047",
+  "domain": "emea",
+  "src": "plasma concentrations",
+  "fr": "concentrations plasmatiques",
+  "fr_ids": [
+   31366,
+   625,
+   300,
+   8470,
+   8303
+  ],
+  "fr_first_id": 31366,
+  "src_sig": [
+   "concentrations",
+   "plasma"
+  ],
+  "fr_sig": [
+   "concentrations",
+   "plasmatiques"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Concentrations plasmatiques",
+   "concentrations plasmatique",
+   "concentrations plasmatiques"
+  ],
+  "variants": [
+   "Concentrations plasmatiques",
+   "concentrations plasmatique",
+   "concentrations plasmatiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 110,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0048",
+  "domain": "emea",
+  "src": "Special precautions",
+  "fr": "Précautions particulières",
+  "fr_ids": [
+   134282,
+   924,
+   3977,
+   2536,
+   23602,
+   30439
+  ],
+  "fr_first_id": 134282,
+  "src_sig": [
+   "precautions",
+   "special"
+  ],
+  "fr_sig": [
+   "particulières",
+   "précautions"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Précautions particulière",
+   "Précautions particulières"
+  ],
+  "variants": [
+   "Précautions particulière",
+   "Précautions particulières"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 47,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0049",
+  "domain": "emea",
+  "src": "serious infections",
+  "fr": "infections graves",
+  "fr_ids": [
+   28920,
+   61181
+  ],
+  "fr_first_id": 28920,
+  "src_sig": [
+   "infections",
+   "serious"
+  ],
+  "fr_sig": [
+   "graves",
+   "infections"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Infections graves",
+   "infections grave",
+   "infections graves"
+  ],
+  "variants": [
+   "Infections graves",
+   "infections grave",
+   "infections graves"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 15,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0050",
+  "domain": "emea",
+  "src": "anaemia",
+  "fr": "anémie",
+  "fr_ids": [
+   458,
+   16647,
+   645
+  ],
+  "fr_first_id": 458,
+  "src_sig": [
+   "anaemia"
+  ],
+  "fr_sig": [
+   "anémie"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Anémie",
+   "anémie",
+   "anémies"
+  ],
+  "variants": [
+   "Anémie",
+   "anémie",
+   "anémies"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 45,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0051",
+  "domain": "emea",
+  "src": "moderate to severe",
+  "fr": "modérée à sévère",
+  "fr_ids": [
+   1463,
+   13763,
+   7888,
+   3784,
+   18744,
+   85,
+   12068
+  ],
+  "fr_first_id": 1463,
+  "src_sig": [
+   "moderate",
+   "severe"
+  ],
+  "fr_sig": [
+   "modérée",
+   "sévère",
+   "à"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Modérée à sévère",
+   "modérée à sévère",
+   "modérée à sévères"
+  ],
+  "variants": [
+   "Modérée à sévère",
+   "modérée à sévère",
+   "modérée à sévères"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 30,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0052",
+  "domain": "emea",
+  "src": "potential risk",
+  "fr": "risque potentiel",
+  "fr_ids": [
+   9824,
+   591,
+   35775,
+   13029
+  ],
+  "fr_first_id": 9824,
+  "src_sig": [
+   "potential",
+   "risk"
+  ],
+  "fr_sig": [
+   "potentiel",
+   "risque"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Risque potentiel",
+   "risque potentiel",
+   "risque potentiels"
+  ],
+  "variants": [
+   "Risque potentiel",
+   "risque potentiel",
+   "risque potentiels"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 16,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0053",
+  "domain": "emea",
+  "src": "rapidly absorbed",
+  "fr": "rapidement absorbé",
+  "fr_ids": [
+   99098,
+   34306,
+   963
+  ],
+  "fr_first_id": 99098,
+  "src_sig": [
+   "absorbed",
+   "rapidly"
+  ],
+  "fr_sig": [
+   "absorbé",
+   "rapidement"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Rapidement absorbé",
+   "rapidement absorbé",
+   "rapidement absorbés"
+  ],
+  "variants": [
+   "Rapidement absorbé",
+   "rapidement absorbé",
+   "rapidement absorbés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 3,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0054",
+  "domain": "emea",
+  "src": "psoriatic arthritis",
+  "fr": "rhumatisme psoriasique",
+  "fr_ids": [
+   21669,
+   45213,
+   43518,
+   4726,
+   67263,
+   2372
+  ],
+  "fr_first_id": 21669,
+  "src_sig": [
+   "arthritis",
+   "psoriatic"
+  ],
+  "fr_sig": [
+   "psoriasique",
+   "rhumatisme"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Rhumatisme psoriasique",
+   "rhumatisme psoriasique",
+   "rhumatisme psoriasiques"
+  ],
+  "variants": [
+   "Rhumatisme psoriasique",
+   "rhumatisme psoriasique",
+   "rhumatisme psoriasiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0055",
+  "domain": "emea",
+  "src": "glomerular filtration",
+  "fr": "filtration glomérulaire",
+  "fr_ids": [
+   74938,
+   2770,
+   316,
+   13763,
+   73675
+  ],
+  "fr_first_id": 74938,
+  "src_sig": [
+   "filtration",
+   "glomerular"
+  ],
+  "fr_sig": [
+   "filtration",
+   "glomérulaire"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Filtration glomérulaire",
+   "filtration glomérulaire",
+   "filtration glomérulaires"
+  ],
+  "variants": [
+   "Filtration glomérulaire",
+   "filtration glomérulaire",
+   "filtration glomérulaires"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0056",
+  "domain": "emea",
+  "src": "abdominal wall",
+  "fr": "paroi abdominale",
+  "fr_ids": [
+   1346,
+   6728,
+   35984,
+   258,
+   1574
+  ],
+  "fr_first_id": 1346,
+  "src_sig": [
+   "abdominal",
+   "wall"
+  ],
+  "fr_sig": [
+   "abdominale",
+   "paroi"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Paroi abdominale",
+   "paroi abdominale",
+   "paroi abdominales"
+  ],
+  "variants": [
+   "Paroi abdominale",
+   "paroi abdominale",
+   "paroi abdominales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0057",
+  "domain": "emea",
+  "src": "absolute bioavailability",
+  "fr": "biodisponibilité absolue",
+  "fr_ids": [
+   55494,
+   285,
+   618,
+   39848,
+   963,
+   87561,
+   361
+  ],
+  "fr_first_id": 55494,
+  "src_sig": [
+   "absolute",
+   "bioavailability"
+  ],
+  "fr_sig": [
+   "absolue",
+   "biodisponibilité"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Biodisponibilité absolue",
+   "biodisponibilité absolue",
+   "biodisponibilité absolues"
+  ],
+  "variants": [
+   "Biodisponibilité absolue",
+   "biodisponibilité absolue",
+   "biodisponibilité absolues"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 20,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0058",
+  "domain": "emea",
+  "src": "nasal congestion",
+  "fr": "congestion nasale",
+  "fr_ids": [
+   54046,
+   17141,
+   1574
+  ],
+  "fr_first_id": 54046,
+  "src_sig": [
+   "congestion",
+   "nasal"
+  ],
+  "fr_sig": [
+   "congestion",
+   "nasale"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Congestion nasale",
+   "congestion nasale",
+   "congestion nasales"
+  ],
+  "variants": [
+   "Congestion nasale",
+   "congestion nasale",
+   "congestion nasales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0059",
+  "domain": "emea",
+  "src": "spot-on solution",
+  "fr": "solution pour spot-on",
+  "fr_ids": [
+   6291,
+   4914,
+   7702,
+   10326
+  ],
+  "fr_first_id": 6291,
+  "src_sig": [
+   "solution",
+   "spot-on"
+  ],
+  "fr_sig": [
+   "solution",
+   "spot-on"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Solution pour spot-on",
+   "solution pour spot-on",
+   "solution pour spot-ons"
+  ],
+  "variants": [
+   "Solution pour spot-on",
+   "solution pour spot-on",
+   "solution pour spot-ons"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0060",
+  "domain": "emea",
+  "src": "nicotinic acid",
+  "fr": "l'acide nicotinique",
+  "fr_ids": [
+   326,
+   6,
+   580,
+   577,
+   17327,
+   354,
+   258,
+   2372
+  ],
+  "fr_first_id": 326,
+  "src_sig": [
+   "acid",
+   "nicotinic"
+  ],
+  "fr_sig": [
+   "l'acide",
+   "nicotinique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "L'acide nicotinique",
+   "l'acide nicotinique",
+   "l'acide nicotiniques"
+  ],
+  "variants": [
+   "L'acide nicotinique",
+   "l'acide nicotinique",
+   "l'acide nicotiniques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0061",
+  "domain": "emea",
+  "src": "maternal toxicity",
+  "fr": "toxicité maternelle",
+  "fr_ids": [
+   20836,
+   12815,
+   5517,
+   5454,
+   273
+  ],
+  "fr_first_id": 20836,
+  "src_sig": [
+   "maternal",
+   "toxicity"
+  ],
+  "fr_sig": [
+   "maternelle",
+   "toxicité"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Toxicité maternelle",
+   "toxicité maternelle",
+   "toxicité maternelles"
+  ],
+  "variants": [
+   "Toxicité maternelle",
+   "toxicité maternelle",
+   "toxicité maternelles"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0062",
+  "domain": "emea",
+  "src": "Magnesium stearate",
+  "fr": "Stéarate de magnésium",
+  "fr_ids": [
+   794,
+   963,
+   277,
+   349,
+   409,
+   8455,
+   5397,
+   2356
+  ],
+  "fr_first_id": 794,
+  "src_sig": [
+   "magnesium",
+   "stearate"
+  ],
+  "fr_sig": [
+   "magnésium",
+   "stéarate"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Stéarate de magnésium",
+   "Stéarate de magnésiums"
+  ],
+  "variants": [
+   "Stéarate de magnésium",
+   "Stéarate de magnésiums"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 26,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0063",
+  "domain": "emea",
+  "src": "precautions for storage",
+  "fr": "Précautions particulières de conservation",
+  "fr_ids": [
+   134282,
+   924,
+   3977,
+   2536,
+   23602,
+   30439,
+   409,
+   28611
+  ],
+  "fr_first_id": 134282,
+  "src_sig": [
+   "precautions",
+   "storage"
+  ],
+  "fr_sig": [
+   "conservation",
+   "particulières",
+   "précautions"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Précautions particulières de conservation",
+   "Précautions particulières de conservations"
+  ],
+  "variants": [
+   "Précautions particulières de conservation",
+   "Précautions particulières de conservations"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0064",
+  "domain": "emea",
+  "src": "Powder and solvent",
+  "fr": "Poudre et solvant",
+  "fr_ids": [
+   393,
+   2950,
+   265,
+   1842,
+   2048,
+   76182
+  ],
+  "fr_first_id": 393,
+  "src_sig": [
+   "powder",
+   "solvent"
+  ],
+  "fr_sig": [
+   "poudre",
+   "solvant"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Poudre et solvant",
+   "Poudre et solvants"
+  ],
+  "variants": [
+   "Poudre et solvant",
+   "Poudre et solvants"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0065",
+  "domain": "emea",
+  "src": "carcinogenic potential",
+  "fr": "potentiel carcinogène",
+  "fr_ids": [
+   35775,
+   13029,
+   51688,
+   538,
+   46999
+  ],
+  "fr_first_id": 35775,
+  "src_sig": [
+   "carcinogenic",
+   "potential"
+  ],
+  "fr_sig": [
+   "carcinogène",
+   "potentiel"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Potentiel carcinogène",
+   "potentiel carcinogène",
+   "potentiel carcinogènes"
+  ],
+  "variants": [
+   "Potentiel carcinogène",
+   "potentiel carcinogène",
+   "potentiel carcinogènes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0066",
+  "domain": "emea",
+  "src": "growth factor",
+  "fr": "facteur de croissance",
+  "fr_ids": [
+   2097,
+   12559,
+   409,
+   14093,
+   23965
+  ],
+  "fr_first_id": 2097,
+  "src_sig": [
+   "factor",
+   "growth"
+  ],
+  "fr_sig": [
+   "croissance",
+   "facteur"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Facteur de croissance",
+   "facteur de croissance",
+   "facteur de croissances"
+  ],
+  "variants": [
+   "Facteur de croissance",
+   "facteur de croissance",
+   "facteur de croissances"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0067",
+  "domain": "emea",
+  "src": "ductus arteriosus",
+  "fr": "canal artériel",
+  "fr_ids": [
+   38921,
+   1947,
+   963,
+   22036
+  ],
+  "fr_first_id": 38921,
+  "src_sig": [
+   "arteriosus",
+   "ductus"
+  ],
+  "fr_sig": [
+   "artériel",
+   "canal"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Canal artériel",
+   "canal artériel",
+   "canal artériels"
+  ],
+  "variants": [
+   "Canal artériel",
+   "canal artériel",
+   "canal artériels"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0068",
+  "domain": "emea",
+  "src": "Application site",
+  "fr": "site d'application",
+  "fr_ids": [
+   2747,
+   294,
+   6,
+   5132
+  ],
+  "fr_first_id": 2747,
+  "src_sig": [
+   "application",
+   "site"
+  ],
+  "fr_sig": [
+   "d'application",
+   "site"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Site d'application",
+   "site d'application",
+   "site d'applications"
+  ],
+  "variants": [
+   "Site d'application",
+   "site d'application",
+   "site d'applications"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 21,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0069",
+  "domain": "emea",
+  "src": "opportunistic infections",
+  "fr": "infections opportunistes",
+  "fr_ids": [
+   28920,
+   4800,
+   15779,
+   288
+  ],
+  "fr_first_id": 28920,
+  "src_sig": [
+   "infections",
+   "opportunistic"
+  ],
+  "fr_sig": [
+   "infections",
+   "opportunistes"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Infections opportunistes",
+   "infections opportuniste",
+   "infections opportunistes"
+  ],
+  "variants": [
+   "Infections opportunistes",
+   "infections opportuniste",
+   "infections opportunistes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0070",
+  "domain": "emea",
+  "src": "Sodium hydroxide",
+  "fr": "Hydroxyde de sodium",
+  "fr_ids": [
+   39502,
+   4130,
+   450,
+   409,
+   38595
+  ],
+  "fr_first_id": 39502,
+  "src_sig": [
+   "hydroxide",
+   "sodium"
+  ],
+  "fr_sig": [
+   "hydroxyde",
+   "sodium"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Hydroxyde de sodium",
+   "Hydroxyde de sodiums"
+  ],
+  "variants": [
+   "Hydroxyde de sodium",
+   "Hydroxyde de sodiums"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 21,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0071",
+  "domain": "emea",
+  "src": "intravenous bolus",
+  "fr": "bolus intraveineux",
+  "fr_ids": [
+   20771,
+   355,
+   10582,
+   523,
+   482,
+   2200
+  ],
+  "fr_first_id": 20771,
+  "src_sig": [
+   "bolus",
+   "intravenous"
+  ],
+  "fr_sig": [
+   "bolus",
+   "intraveineux"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Bolus intraveineux",
+   "bolus intraveineux",
+   "bolus intraveineuxs"
+  ],
+  "variants": [
+   "Bolus intraveineux",
+   "bolus intraveineux",
+   "bolus intraveineuxs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0072",
+  "domain": "emea",
+  "src": "intravenous infusion",
+  "fr": "perfusion intraveineuse",
+  "fr_ids": [
+   21784,
+   7560,
+   10582,
+   523,
+   482,
+   810
+  ],
+  "fr_first_id": 21784,
+  "src_sig": [
+   "infusion",
+   "intravenous"
+  ],
+  "fr_sig": [
+   "intraveineuse",
+   "perfusion"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Perfusion intraveineuse",
+   "perfusion intraveineuse",
+   "perfusion intraveineuses"
+  ],
+  "variants": [
+   "Perfusion intraveineuse",
+   "perfusion intraveineuse",
+   "perfusion intraveineuses"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 40,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0073",
+  "domain": "emea",
+  "src": "Possible side effects",
+  "fr": "effets indésirables éventuels",
+  "fr_ids": [
+   3289,
+   1415,
+   1257,
+   5397,
+   404,
+   4788,
+   3958,
+   684,
+   60144
+  ],
+  "fr_first_id": 3289,
+  "src_sig": [
+   "effects",
+   "possible",
+   "side"
+  ],
+  "fr_sig": [
+   "effets",
+   "indésirables",
+   "éventuels"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Effets indésirables éventuels",
+   "effets indésirables éventuel",
+   "effets indésirables éventuels"
+  ],
+  "variants": [
+   "Effets indésirables éventuels",
+   "effets indésirables éventuel",
+   "effets indésirables éventuels"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0074",
+  "domain": "emea",
+  "src": "therapeutic dose",
+  "fr": "dose thérapeutique",
+  "fr_ids": [
+   19115,
+   75580,
+   19842,
+   332,
+   2372
+  ],
+  "fr_first_id": 19115,
+  "src_sig": [
+   "dose",
+   "therapeutic"
+  ],
+  "fr_sig": [
+   "dose",
+   "thérapeutique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dose thérapeutique",
+   "dose thérapeutique",
+   "dose thérapeutiques"
+  ],
+  "variants": [
+   "Dose thérapeutique",
+   "dose thérapeutique",
+   "dose thérapeutiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0075",
+  "domain": "emea",
+  "src": "Hydrochloric acid",
+  "fr": "acide chlorhydrique",
+  "fr_ids": [
+   1613,
+   577,
+   36733,
+   8503,
+   67,
+   33295
+  ],
+  "fr_first_id": 1613,
+  "src_sig": [
+   "acid",
+   "hydrochloric"
+  ],
+  "fr_sig": [
+   "acide",
+   "chlorhydrique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Acide chlorhydrique",
+   "acide chlorhydrique",
+   "acide chlorhydriques"
+  ],
+  "variants": [
+   "Acide chlorhydrique",
+   "acide chlorhydrique",
+   "acide chlorhydriques"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 18,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0076",
+  "domain": "emea",
+  "src": "alkaline phosphatase",
+  "fr": "phosphatase alcaline",
+  "fr_ids": [
+   31988,
+   266,
+   519,
+   452,
+   5416,
+   482
+  ],
+  "fr_first_id": 31988,
+  "src_sig": [
+   "alkaline",
+   "phosphatase"
+  ],
+  "fr_sig": [
+   "alcaline",
+   "phosphatase"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Phosphatase alcaline",
+   "phosphatase alcaline",
+   "phosphatase alcalines"
+  ],
+  "variants": [
+   "Phosphatase alcaline",
+   "phosphatase alcaline",
+   "phosphatase alcalines"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0077",
+  "domain": "emea",
+  "src": "healthy volunteers",
+  "fr": "volontaires sains",
+  "fr_ids": [
+   97633,
+   17276,
+   274,
+   1735
+  ],
+  "fr_first_id": 97633,
+  "src_sig": [
+   "healthy",
+   "volunteers"
+  ],
+  "fr_sig": [
+   "sains",
+   "volontaires"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Volontaires sains",
+   "volontaires sain",
+   "volontaires sains"
+  ],
+  "variants": [
+   "Volontaires sains",
+   "volontaires sain",
+   "volontaires sains"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 37,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0078",
+  "domain": "emea",
+  "src": "terminal half-life",
+  "fr": "demi-vie terminale",
+  "fr_ids": [
+   92028,
+   8273,
+   645,
+   10204,
+   1574
+  ],
+  "fr_first_id": 92028,
+  "src_sig": [
+   "half-life",
+   "terminal"
+  ],
+  "fr_sig": [
+   "demi-vie",
+   "terminale"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Demi-vie terminale",
+   "demi-vie terminale",
+   "demi-vie terminales"
+  ],
+  "variants": [
+   "Demi-vie terminale",
+   "demi-vie terminale",
+   "demi-vie terminales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 15,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0079",
+  "domain": "emea",
+  "src": "uric acid",
+  "fr": "acide urique",
+  "fr_ids": [
+   1613,
+   577,
+   4335,
+   2372
+  ],
+  "fr_first_id": 1613,
+  "src_sig": [
+   "acid",
+   "uric"
+  ],
+  "fr_sig": [
+   "acide",
+   "urique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Acide urique",
+   "acide urique",
+   "acide uriques"
+  ],
+  "variants": [
+   "Acide urique",
+   "acide urique",
+   "acide uriques"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0080",
+  "domain": "emea",
+  "src": "reconstituted solution",
+  "fr": "solution reconstituée",
+  "fr_ids": [
+   6291,
+   312,
+   1024,
+   32362,
+   7888
+  ],
+  "fr_first_id": 6291,
+  "src_sig": [
+   "reconstituted",
+   "solution"
+  ],
+  "fr_sig": [
+   "reconstituée",
+   "solution"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Solution reconstituée",
+   "solution reconstituée",
+   "solution reconstituées"
+  ],
+  "variants": [
+   "Solution reconstituée",
+   "solution reconstituée",
+   "solution reconstituées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 16,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0081",
+  "domain": "emea",
+  "src": "emulsion for injection",
+  "fr": "émulsion injectable",
+  "fr_ids": [
+   3958,
+   76,
+   32903,
+   15551,
+   480
+  ],
+  "fr_first_id": 3958,
+  "src_sig": [
+   "emulsion",
+   "injection"
+  ],
+  "fr_sig": [
+   "injectable",
+   "émulsion"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Émulsion injectable",
+   "émulsion injectable",
+   "émulsion injectables"
+  ],
+  "variants": [
+   "Émulsion injectable",
+   "émulsion injectable",
+   "émulsion injectables"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0082",
+  "domain": "emea",
+  "src": "prolonged-release",
+  "fr": "libération prolongée",
+  "fr_ids": [
+   3051,
+   52201,
+   32382,
+   7888
+  ],
+  "fr_first_id": 3051,
+  "src_sig": [
+   "prolonged-release"
+  ],
+  "fr_sig": [
+   "libération",
+   "prolongée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Libération prolongée",
+   "libération prolongée",
+   "libération prolongées"
+  ],
+  "variants": [
+   "Libération prolongée",
+   "libération prolongée",
+   "libération prolongées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 32,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0083",
+  "domain": "emea",
+  "src": "signs and symptoms",
+  "fr": "signes et symptômes",
+  "fr_ids": [
+   1841,
+   288,
+   1842,
+   11841,
+   9574,
+   8828
+  ],
+  "fr_first_id": 1841,
+  "src_sig": [
+   "signs",
+   "symptoms"
+  ],
+  "fr_sig": [
+   "signes",
+   "symptômes"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Signes et symptômes",
+   "signes et symptôme",
+   "signes et symptômes"
+  ],
+  "variants": [
+   "Signes et symptômes",
+   "signes et symptôme",
+   "signes et symptômes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 31,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0084",
+  "domain": "emea",
+  "src": "sulphate",
+  "fr": "sulfate",
+  "fr_ids": [
+   88318
+  ],
+  "fr_first_id": 88318,
+  "src_sig": [
+   "sulphate"
+  ],
+  "fr_sig": [
+   "sulfate"
+  ],
+  "single_token": true,
+  "accepted": [
+   "Sulfate",
+   "sulfate",
+   "sulfates"
+  ],
+  "variants": [
+   "Sulfate",
+   "sulfate",
+   "sulfates"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0085",
+  "domain": "emea",
+  "src": "elimination half-life",
+  "fr": "demi-vie d'élimination",
+  "fr_ids": [
+   92028,
+   8273,
+   645,
+   294,
+   30669,
+   4659,
+   2554
+  ],
+  "fr_first_id": 92028,
+  "src_sig": [
+   "elimination",
+   "half-life"
+  ],
+  "fr_sig": [
+   "d'élimination",
+   "demi-vie"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Demi-vie d'élimination",
+   "demi-vie d'élimination",
+   "demi-vie d'éliminations"
+  ],
+  "variants": [
+   "Demi-vie d'élimination",
+   "demi-vie d'élimination",
+   "demi-vie d'éliminations"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 26,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0086",
+  "domain": "emea",
+  "src": "influenza vaccine",
+  "fr": "Vaccin grippal",
+  "fr_ids": [
+   58688,
+   258,
+   22993,
+   602,
+   278
+  ],
+  "fr_first_id": 58688,
+  "src_sig": [
+   "influenza",
+   "vaccine"
+  ],
+  "fr_sig": [
+   "grippal",
+   "vaccin"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Vaccin grippal",
+   "Vaccin grippals"
+  ],
+  "variants": [
+   "Vaccin grippal",
+   "Vaccin grippals"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0087",
+  "domain": "emea",
+  "src": "intravenous administration",
+  "fr": "administration intraveineuse",
+  "fr_ids": [
+   8567,
+   10582,
+   523,
+   482,
+   810
+  ],
+  "fr_first_id": 8567,
+  "src_sig": [
+   "administration",
+   "intravenous"
+  ],
+  "fr_sig": [
+   "administration",
+   "intraveineuse"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Administration intraveineuse",
+   "administration intraveineuse",
+   "administration intraveineuses"
+  ],
+  "variants": [
+   "Administration intraveineuse",
+   "administration intraveineuse",
+   "administration intraveineuses"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0088",
+  "domain": "emea",
+  "src": "AIDS",
+  "fr": "SIDA",
+  "fr_ids": [
+   328,
+   51171
+  ],
+  "fr_first_id": 328,
+  "src_sig": [
+   "aids"
+  ],
+  "fr_sig": [
+   "sida"
+  ],
+  "single_token": false,
+  "accepted": [
+   "SIDA",
+   "SIDAs"
+  ],
+  "variants": [
+   "SIDA",
+   "SIDAs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0089",
+  "domain": "emea",
+  "src": "serum creatinine",
+  "fr": "créatinine sérique",
+  "fr_ids": [
+   33180,
+   14768,
+   482,
+   18744,
+   33295
+  ],
+  "fr_first_id": 33180,
+  "src_sig": [
+   "creatinine",
+   "serum"
+  ],
+  "fr_sig": [
+   "créatinine",
+   "sérique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Créatinine sérique",
+   "créatinine sérique",
+   "créatinine sériques"
+  ],
+  "variants": [
+   "Créatinine sérique",
+   "créatinine sérique",
+   "créatinine sériques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0090",
+  "domain": "emea",
+  "src": "Mean change",
+  "fr": "changement moyen",
+  "fr_ids": [
+   2547,
+   1114,
+   90016
+  ],
+  "fr_first_id": 2547,
+  "src_sig": [
+   "change",
+   "mean"
+  ],
+  "fr_sig": [
+   "changement",
+   "moyen"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Changement moyen",
+   "changement moyen",
+   "changement moyens"
+  ],
+  "variants": [
+   "Changement moyen",
+   "changement moyen",
+   "changement moyens"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0091",
+  "domain": "emea",
+  "src": "statistically significant",
+  "fr": "statistiquement significatif",
+  "fr_ids": [
+   20115,
+   80135,
+   4595,
+   49748
+  ],
+  "fr_first_id": 20115,
+  "src_sig": [
+   "significant",
+   "statistically"
+  ],
+  "fr_sig": [
+   "significatif",
+   "statistiquement"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Statistiquement significatif",
+   "statistiquement significatif",
+   "statistiquement significatifs"
+  ],
+  "variants": [
+   "Statistiquement significatif",
+   "statistiquement significatif",
+   "statistiquement significatifs"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 41,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0092",
+  "domain": "emea",
+  "src": "usual dose",
+  "fr": "dose habituelle",
+  "fr_ids": [
+   19115,
+   14132,
+   29937
+  ],
+  "fr_first_id": 19115,
+  "src_sig": [
+   "dose",
+   "usual"
+  ],
+  "fr_sig": [
+   "dose",
+   "habituelle"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dose habituelle",
+   "dose habituelle",
+   "dose habituelles"
+  ],
+  "variants": [
+   "Dose habituelle",
+   "dose habituelle",
+   "dose habituelles"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 18,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0093",
+  "domain": "emea",
+  "src": "insulin glargine",
+  "fr": "insuline glargine",
+  "fr_ids": [
+   1640,
+   360,
+   482,
+   2770,
+   858,
+   482
+  ],
+  "fr_first_id": 1640,
+  "src_sig": [
+   "glargine",
+   "insulin"
+  ],
+  "fr_sig": [
+   "glargine",
+   "insuline"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Insuline glargine",
+   "insuline glargine",
+   "insuline glargines"
+  ],
+  "variants": [
+   "Insuline glargine",
+   "insuline glargine",
+   "insuline glargines"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0094",
+  "domain": "emea",
+  "src": "butyl rubber",
+  "fr": "caoutchouc butyle",
+  "fr_ids": [
+   2162,
+   411,
+   331,
+   283,
+   66,
+   714,
+   967
+  ],
+  "fr_first_id": 2162,
+  "src_sig": [
+   "butyl",
+   "rubber"
+  ],
+  "fr_sig": [
+   "butyle",
+   "caoutchouc"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Caoutchouc butyle",
+   "caoutchouc butyle",
+   "caoutchouc butyles"
+  ],
+  "variants": [
+   "Caoutchouc butyle",
+   "caoutchouc butyle",
+   "caoutchouc butyles"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0095",
+  "domain": "emea",
+  "src": "liver transplant",
+  "fr": "transplantation hépatique",
+  "fr_ids": [
+   97602,
+   87923,
+   4676,
+   2372
+  ],
+  "fr_first_id": 97602,
+  "src_sig": [
+   "liver",
+   "transplant"
+  ],
+  "fr_sig": [
+   "hépatique",
+   "transplantation"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Transplantation hépatique",
+   "transplantation hépatique",
+   "transplantation hépatiques"
+  ],
+  "variants": [
+   "Transplantation hépatique",
+   "transplantation hépatique",
+   "transplantation hépatiques"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 4,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0096",
+  "domain": "emea",
+  "src": "safety profile",
+  "fr": "profil de tolérance",
+  "fr_ids": [
+   52354,
+   409,
+   38574,
+   13763,
+   681
+  ],
+  "fr_first_id": 52354,
+  "src_sig": [
+   "profile",
+   "safety"
+  ],
+  "fr_sig": [
+   "profil",
+   "tolérance"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Profil de tolérance",
+   "profil de tolérance",
+   "profil de tolérances"
+  ],
+  "variants": [
+   "Profil de tolérance",
+   "profil de tolérance",
+   "profil de tolérances"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0097",
+  "domain": "emea",
+  "src": "liver function",
+  "fr": "fonction hépatique",
+  "fr_ids": [
+   33401,
+   87923,
+   4676,
+   2372
+  ],
+  "fr_first_id": 33401,
+  "src_sig": [
+   "function",
+   "liver"
+  ],
+  "fr_sig": [
+   "fonction",
+   "hépatique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Fonction hépatique",
+   "fonction hépatique",
+   "fonction hépatiques"
+  ],
+  "variants": [
+   "Fonction hépatique",
+   "fonction hépatique",
+   "fonction hépatiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 25,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0098",
+  "domain": "emea",
+  "src": "mild to moderate",
+  "fr": "légère à modérée",
+  "fr_ids": [
+   143979,
+   3784,
+   1463,
+   13763,
+   7888
+  ],
+  "fr_first_id": 143979,
+  "src_sig": [
+   "mild",
+   "moderate"
+  ],
+  "fr_sig": [
+   "légère",
+   "modérée",
+   "à"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Légère à modérée",
+   "légère à modérée",
+   "légère à modérées"
+  ],
+  "variants": [
+   "Légère à modérée",
+   "légère à modérée",
+   "légère à modérées"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 27,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0099",
+  "domain": "emea",
+  "src": "peripheral neuropathy",
+  "fr": "neuropathie périphérique",
+  "fr_ids": [
+   97566,
+   587,
+   645,
+   83311,
+   759,
+   77029
+  ],
+  "fr_first_id": 97566,
+  "src_sig": [
+   "neuropathy",
+   "peripheral"
+  ],
+  "fr_sig": [
+   "neuropathie",
+   "périphérique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Neuropathie périphérique",
+   "neuropathie périphérique",
+   "neuropathie périphériques"
+  ],
+  "variants": [
+   "Neuropathie périphérique",
+   "neuropathie périphérique",
+   "neuropathie périphériques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 2,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0100",
+  "domain": "emea",
+  "src": "disodium phosphate dihydrate",
+  "fr": "phosphate disodique dihydraté",
+  "fr_ids": [
+   78006,
+   827,
+   347,
+   2372,
+   1853,
+   25172,
+   266,
+   963
+  ],
+  "fr_first_id": 78006,
+  "src_sig": [
+   "dihydrate",
+   "disodium",
+   "phosphate"
+  ],
+  "fr_sig": [
+   "dihydraté",
+   "disodique",
+   "phosphate"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Phosphate disodique dihydraté",
+   "phosphate disodique dihydraté",
+   "phosphate disodique dihydratés"
+  ],
+  "variants": [
+   "Phosphate disodique dihydraté",
+   "phosphate disodique dihydraté",
+   "phosphate disodique dihydratés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0101",
+  "domain": "emea",
+  "src": "multiple myeloma",
+  "fr": "myélome multiple",
+  "fr_ids": [
+   847,
+   18503,
+   635,
+   5248
+  ],
+  "fr_first_id": 847,
+  "src_sig": [
+   "multiple",
+   "myeloma"
+  ],
+  "fr_sig": [
+   "multiple",
+   "myélome"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Myélome multiple",
+   "myélome multiple",
+   "myélome multiples"
+  ],
+  "variants": [
+   "Myélome multiple",
+   "myélome multiple",
+   "myélome multiples"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0102",
+  "domain": "emea",
+  "src": "liquid paraffin",
+  "fr": "Paraffine liquide",
+  "fr_ids": [
+   4270,
+   2649,
+   482,
+   11784,
+   577
+  ],
+  "fr_first_id": 4270,
+  "src_sig": [
+   "liquid",
+   "paraffin"
+  ],
+  "fr_sig": [
+   "liquide",
+   "paraffine"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Paraffine liquide",
+   "Paraffine liquides"
+  ],
+  "variants": [
+   "Paraffine liquide",
+   "Paraffine liquides"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0103",
+  "domain": "emea",
+  "src": "insulin requirements",
+  "fr": "besoins en insuline",
+  "fr_ids": [
+   9057,
+   68798,
+   662,
+   1640,
+   360,
+   482
+  ],
+  "fr_first_id": 9057,
+  "src_sig": [
+   "insulin",
+   "requirements"
+  ],
+  "fr_sig": [
+   "besoins",
+   "insuline"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Besoins en insuline",
+   "besoins en insuline",
+   "besoins en insulines"
+  ],
+  "variants": [
+   "Besoins en insuline",
+   "besoins en insuline",
+   "besoins en insulines"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0104",
+  "domain": "emea",
+  "src": "monoclonal antibody",
+  "fr": "anticorps monoclonal",
+  "fr_ids": [
+   87043,
+   269,
+   1690,
+   95057,
+   12212,
+   278
+  ],
+  "fr_first_id": 87043,
+  "src_sig": [
+   "antibody",
+   "monoclonal"
+  ],
+  "fr_sig": [
+   "anticorps",
+   "monoclonal"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Anticorps monoclonal",
+   "anticorps monoclonal",
+   "anticorps monoclonals"
+  ],
+  "variants": [
+   "Anticorps monoclonal",
+   "anticorps monoclonal",
+   "anticorps monoclonals"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0105",
+  "domain": "emea",
+  "src": "quality of life",
+  "fr": "qualité de vie",
+  "fr_ids": [
+   59028,
+   409,
+   17098
+  ],
+  "fr_first_id": 59028,
+  "src_sig": [
+   "life",
+   "quality"
+  ],
+  "fr_sig": [
+   "qualité",
+   "vie"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Qualité de vie",
+   "qualité de vie",
+   "qualité de vies"
+  ],
+  "variants": [
+   "Qualité de vie",
+   "qualité de vie",
+   "qualité de vies"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0106",
+  "domain": "emea",
+  "src": "left ventricular",
+  "fr": "ventriculaire gauche",
+  "fr_ids": [
+   10378,
+   45482,
+   554,
+   95621
+  ],
+  "fr_first_id": 10378,
+  "src_sig": [
+   "left",
+   "ventricular"
+  ],
+  "fr_sig": [
+   "gauche",
+   "ventriculaire"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Ventriculaire gauche",
+   "ventriculaire gauche",
+   "ventriculaire gauches"
+  ],
+  "variants": [
+   "Ventriculaire gauche",
+   "ventriculaire gauche",
+   "ventriculaire gauches"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0107",
+  "domain": "emea",
+  "src": "sunset yellow",
+  "fr": "jaune orangé sunset",
+  "fr_ids": [
+   11937,
+   2886,
+   49607,
+   963,
+   42984
+  ],
+  "fr_first_id": 11937,
+  "src_sig": [
+   "sunset",
+   "yellow"
+  ],
+  "fr_sig": [
+   "jaune",
+   "orangé",
+   "sunset"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Jaune orangé sunset",
+   "jaune orangé sunset",
+   "jaune orangé sunsets"
+  ],
+  "variants": [
+   "Jaune orangé sunset",
+   "jaune orangé sunset",
+   "jaune orangé sunsets"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0108",
+  "domain": "emea",
+  "src": "fibrosis",
+  "fr": "fibrose",
+  "fr_ids": [
+   15801,
+   24847
+  ],
+  "fr_first_id": 15801,
+  "src_sig": [
+   "fibrosis"
+  ],
+  "fr_sig": [
+   "fibrose"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Fibrose",
+   "fibrose",
+   "fibroses"
+  ],
+  "variants": [
+   "Fibrose",
+   "fibrose",
+   "fibroses"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0109",
+  "domain": "emea",
+  "src": "ankylosing spondylitis",
+  "fr": "spondylarthrite ankylosante",
+  "fr_ids": [
+   274,
+   3511,
+   3923,
+   46501,
+   1247,
+   458,
+   7891,
+   2301,
+   4942
+  ],
+  "fr_first_id": 274,
+  "src_sig": [
+   "ankylosing",
+   "spondylitis"
+  ],
+  "fr_sig": [
+   "ankylosante",
+   "spondylarthrite"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Spondylarthrite ankylosante",
+   "spondylarthrite ankylosante",
+   "spondylarthrite ankylosantes"
+  ],
+  "variants": [
+   "Spondylarthrite ankylosante",
+   "spondylarthrite ankylosante",
+   "spondylarthrite ankylosantes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0110",
+  "domain": "emea",
+  "src": "citric acid",
+  "fr": "acide citrique",
+  "fr_ids": [
+   1613,
+   577,
+   6544,
+   33295
+  ],
+  "fr_first_id": 1613,
+  "src_sig": [
+   "acid",
+   "citric"
+  ],
+  "fr_sig": [
+   "acide",
+   "citrique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Acide citrique",
+   "acide citrique",
+   "acide citriques"
+  ],
+  "variants": [
+   "Acide citrique",
+   "acide citrique",
+   "acide citriques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0111",
+  "domain": "emea",
+  "src": "renal clearance",
+  "fr": "clairance rénale",
+  "fr_ids": [
+   1185,
+   1310,
+   681,
+   9333,
+   77,
+   1574
+  ],
+  "fr_first_id": 1185,
+  "src_sig": [
+   "clearance",
+   "renal"
+  ],
+  "fr_sig": [
+   "clairance",
+   "rénale"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Clairance rénale",
+   "clairance rénale",
+   "clairance rénales"
+  ],
+  "variants": [
+   "Clairance rénale",
+   "clairance rénale",
+   "clairance rénales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 17,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0112",
+  "domain": "emea",
+  "src": "animal models",
+  "fr": "modèles animaux",
+  "fr_ids": [
+   1463,
+   84698,
+   3952,
+   11981
+  ],
+  "fr_first_id": 1463,
+  "src_sig": [
+   "animal",
+   "models"
+  ],
+  "fr_sig": [
+   "animaux",
+   "modèles"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Modèles animaux",
+   "modèles animaux",
+   "modèles animauxs"
+  ],
+  "variants": [
+   "Modèles animaux",
+   "modèles animaux",
+   "modèles animauxs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0113",
+  "domain": "emea",
+  "src": "official recommendations",
+  "fr": "recommandations officielles",
+  "fr_ids": [
+   83093,
+   804,
+   2786,
+   13029,
+   642
+  ],
+  "fr_first_id": 83093,
+  "src_sig": [
+   "official",
+   "recommendations"
+  ],
+  "fr_sig": [
+   "officielles",
+   "recommandations"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Recommandations officielles",
+   "recommandations officielle",
+   "recommandations officielles"
+  ],
+  "variants": [
+   "Recommandations officielles",
+   "recommandations officielle",
+   "recommandations officielles"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0114",
+  "domain": "emea",
+  "src": "rhinitis",
+  "fr": "rhinite",
+  "fr_ids": [
+   21669,
+   15856
+  ],
+  "fr_first_id": 21669,
+  "src_sig": [
+   "rhinitis"
+  ],
+  "fr_sig": [
+   "rhinite"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Rhinite",
+   "rhinite",
+   "rhinites"
+  ],
+  "variants": [
+   "Rhinite",
+   "rhinite",
+   "rhinites"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 15,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0115",
+  "domain": "emea",
+  "src": "Epidemiological studies",
+  "fr": "études épidémiologiques",
+  "fr_ids": [
+   13916,
+   28146,
+   3958,
+   10412,
+   963,
+   8155,
+   1609,
+   8303
+  ],
+  "fr_first_id": 13916,
+  "src_sig": [
+   "epidemiological",
+   "studies"
+  ],
+  "fr_sig": [
+   "épidémiologiques",
+   "études"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Études épidémiologiques",
+   "études épidémiologique",
+   "études épidémiologiques"
+  ],
+  "variants": [
+   "Études épidémiologiques",
+   "études épidémiologique",
+   "études épidémiologiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0116",
+  "domain": "emea",
+  "src": "cancer cells",
+  "fr": "cellules cancéreuses",
+  "fr_ids": [
+   2779,
+   2425,
+   646,
+   49984,
+   265,
+   4776
+  ],
+  "fr_first_id": 2779,
+  "src_sig": [
+   "cancer",
+   "cells"
+  ],
+  "fr_sig": [
+   "cancéreuses",
+   "cellules"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Cellules cancéreuses",
+   "cellules cancéreuse",
+   "cellules cancéreuses"
+  ],
+  "variants": [
+   "Cellules cancéreuses",
+   "cellules cancéreuse",
+   "cellules cancéreuses"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0117",
+  "domain": "emea",
+  "src": "concentrate for solution",
+  "fr": "solution à diluer",
+  "fr_ids": [
+   6291,
+   3784,
+   18840,
+   8801
+  ],
+  "fr_first_id": 6291,
+  "src_sig": [
+   "concentrate",
+   "solution"
+  ],
+  "fr_sig": [
+   "diluer",
+   "solution",
+   "à"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Solution à diluer",
+   "solution à diluer",
+   "solution à diluers"
+  ],
+  "variants": [
+   "Solution à diluer",
+   "solution à diluer",
+   "solution à diluers"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 25,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0118",
+  "domain": "emea",
+  "src": "toxicity study",
+  "fr": "étude de toxicité",
+  "fr_ids": [
+   13916,
+   793,
+   409,
+   20836,
+   12815
+  ],
+  "fr_first_id": 13916,
+  "src_sig": [
+   "study",
+   "toxicity"
+  ],
+  "fr_sig": [
+   "toxicité",
+   "étude"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Étude de toxicité",
+   "étude de toxicité",
+   "étude de toxicités"
+  ],
+  "variants": [
+   "Étude de toxicité",
+   "étude de toxicité",
+   "étude de toxicités"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0119",
+  "domain": "emea",
+  "src": "blood vessels",
+  "fr": "vaisseaux sanguins",
+  "fr_ids": [
+   90407,
+   325,
+   11981,
+   274,
+   2325,
+   1330
+  ],
+  "fr_first_id": 90407,
+  "src_sig": [
+   "blood",
+   "vessels"
+  ],
+  "fr_sig": [
+   "sanguins",
+   "vaisseaux"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Vaisseaux sanguins",
+   "vaisseaux sanguin",
+   "vaisseaux sanguins"
+  ],
+  "variants": [
+   "Vaisseaux sanguins",
+   "vaisseaux sanguin",
+   "vaisseaux sanguins"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 24,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0120",
+  "domain": "emea",
+  "src": "blood vessel",
+  "fr": "vaisseau sanguin",
+  "fr_ids": [
+   90407,
+   69399,
+   274,
+   2325,
+   258
+  ],
+  "fr_first_id": 90407,
+  "src_sig": [
+   "blood",
+   "vessel"
+  ],
+  "fr_sig": [
+   "sanguin",
+   "vaisseau"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Vaisseau sanguin",
+   "vaisseau sanguin",
+   "vaisseau sanguins"
+  ],
+  "variants": [
+   "Vaisseau sanguin",
+   "vaisseau sanguin",
+   "vaisseau sanguins"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0121",
+  "domain": "emea",
+  "src": "upper respiratory tract",
+  "fr": "voies respiratoires supérieures",
+  "fr_ids": [
+   4069,
+   550,
+   32415,
+   4330,
+   3861,
+   1026,
+   34185,
+   1413
+  ],
+  "fr_first_id": 4069,
+  "src_sig": [
+   "respiratory",
+   "tract",
+   "upper"
+  ],
+  "fr_sig": [
+   "respiratoires",
+   "supérieures",
+   "voies"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Voies respiratoires supérieures",
+   "voies respiratoires supérieure",
+   "voies respiratoires supérieures"
+  ],
+  "variants": [
+   "Voies respiratoires supérieures",
+   "voies respiratoires supérieure",
+   "voies respiratoires supérieures"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0122",
+  "domain": "emea",
+  "src": "hypersensitivity reactions",
+  "fr": "réactions d'hypersensibilité",
+  "fr_ids": [
+   9333,
+   4020,
+   294,
+   38882,
+   1082,
+   388,
+   724,
+   39848,
+   963
+  ],
+  "fr_first_id": 9333,
+  "src_sig": [
+   "hypersensitivity",
+   "reactions"
+  ],
+  "fr_sig": [
+   "d'hypersensibilité",
+   "réactions"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Réactions d'hypersensibilité",
+   "réactions d'hypersensibilité",
+   "réactions d'hypersensibilités"
+  ],
+  "variants": [
+   "Réactions d'hypersensibilité",
+   "réactions d'hypersensibilité",
+   "réactions d'hypersensibilités"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 33,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0123",
+  "domain": "emea",
+  "src": "nasopharyngitis",
+  "fr": "rhinopharyngite",
+  "fr_ids": [
+   21669,
+   258,
+   5127,
+   658,
+   968,
+   632
+  ],
+  "fr_first_id": 21669,
+  "src_sig": [
+   "nasopharyngitis"
+  ],
+  "fr_sig": [
+   "rhinopharyngite"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Rhinopharyngite",
+   "rhinopharyngite",
+   "rhinopharyngites"
+  ],
+  "variants": [
+   "Rhinopharyngite",
+   "rhinopharyngite",
+   "rhinopharyngites"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0124",
+  "domain": "emea",
+  "src": "lymphatic system",
+  "fr": "système lymphatique",
+  "fr_ids": [
+   71501,
+   42645,
+   266,
+   2372
+  ],
+  "fr_first_id": 71501,
+  "src_sig": [
+   "lymphatic",
+   "system"
+  ],
+  "fr_sig": [
+   "lymphatique",
+   "système"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Système lymphatique",
+   "système lymphatique",
+   "système lymphatiques"
+  ],
+  "variants": [
+   "Système lymphatique",
+   "système lymphatique",
+   "système lymphatiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 21,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0125",
+  "domain": "emea",
+  "src": "insulin aspart",
+  "fr": "insuline asparte",
+  "fr_ids": [
+   1640,
+   360,
+   482,
+   438,
+   4480,
+   68
+  ],
+  "fr_first_id": 1640,
+  "src_sig": [
+   "aspart",
+   "insulin"
+  ],
+  "fr_sig": [
+   "asparte",
+   "insuline"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Insuline asparte",
+   "insuline asparte",
+   "insuline aspartes"
+  ],
+  "variants": [
+   "Insuline asparte",
+   "insuline asparte",
+   "insuline aspartes"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0126",
+  "domain": "emea",
+  "src": "dosing cup",
+  "fr": "gobelet-doseur",
+  "fr_ids": [
+   342,
+   15422,
+   1149,
+   1737,
+   960,
+   324
+  ],
+  "fr_first_id": 342,
+  "src_sig": [
+   "cup",
+   "dosing"
+  ],
+  "fr_sig": [
+   "gobelet-doseur"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Gobelet-doseur",
+   "gobelet-doseur",
+   "gobelet-doseurs"
+  ],
+  "variants": [
+   "Gobelet-doseur",
+   "gobelet-doseur",
+   "gobelet-doseurs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0127",
+  "domain": "emea",
+  "src": "Shelf life",
+  "fr": "Durée de conservation",
+  "fr_ids": [
+   20138,
+   7888,
+   409,
+   28611
+  ],
+  "fr_first_id": 20138,
+  "src_sig": [
+   "life",
+   "shelf"
+  ],
+  "fr_sig": [
+   "conservation",
+   "durée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Durée de conservation",
+   "Durée de conservations"
+  ],
+  "variants": [
+   "Durée de conservation",
+   "Durée de conservations"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0128",
+  "domain": "emea",
+  "src": "clinical response",
+  "fr": "réponse clinique",
+  "fr_ids": [
+   89409,
+   9218,
+   2372
+  ],
+  "fr_first_id": 89409,
+  "src_sig": [
+   "clinical",
+   "response"
+  ],
+  "fr_sig": [
+   "clinique",
+   "réponse"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Réponse clinique",
+   "réponse clinique",
+   "réponse cliniques"
+  ],
+  "variants": [
+   "Réponse clinique",
+   "réponse clinique",
+   "réponse cliniques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 15,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0129",
+  "domain": "emea",
+  "src": "associated names",
+  "fr": "dénominations associées",
+  "fr_ids": [
+   7439,
+   77,
+   7970,
+   804,
+   4097,
+   13700
+  ],
+  "fr_first_id": 7439,
+  "src_sig": [
+   "associated",
+   "names"
+  ],
+  "fr_sig": [
+   "associées",
+   "dénominations"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dénominations associées",
+   "dénominations associée",
+   "dénominations associées"
+  ],
+  "variants": [
+   "Dénominations associées",
+   "dénominations associée",
+   "dénominations associées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 15,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0130",
+  "domain": "emea",
+  "src": "two active substances",
+  "fr": "deux principes actifs",
+  "fr_ids": [
+   25552,
+   7394,
+   288,
+   1160,
+   21835
+  ],
+  "fr_first_id": 25552,
+  "src_sig": [
+   "active",
+   "substances",
+   "two"
+  ],
+  "fr_sig": [
+   "actifs",
+   "deux",
+   "principes"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Deux principes actifs",
+   "deux principes actif",
+   "deux principes actifs"
+  ],
+  "variants": [
+   "Deux principes actifs",
+   "deux principes actif",
+   "deux principes actifs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0131",
+  "domain": "emea",
+  "src": "biological activity",
+  "fr": "l'activité biologique",
+  "fr_ids": [
+   326,
+   6,
+   133850,
+   6032,
+   1609,
+   2372
+  ],
+  "fr_first_id": 326,
+  "src_sig": [
+   "activity",
+   "biological"
+  ],
+  "fr_sig": [
+   "biologique",
+   "l'activité"
+  ],
+  "single_token": false,
+  "accepted": [
+   "L'activité biologique",
+   "l'activité biologique",
+   "l'activité biologiques"
+  ],
+  "variants": [
+   "L'activité biologique",
+   "l'activité biologique",
+   "l'activité biologiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0132",
+  "domain": "emea",
+  "src": "relief of symptoms",
+  "fr": "soulagement des symptômes",
+  "fr_ids": [
+   13527,
+   3448,
+   939,
+   11841,
+   9574,
+   8828
+  ],
+  "fr_first_id": 13527,
+  "src_sig": [
+   "relief",
+   "symptoms"
+  ],
+  "fr_sig": [
+   "soulagement",
+   "symptômes"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Soulagement des symptômes",
+   "soulagement des symptôme",
+   "soulagement des symptômes"
+  ],
+  "variants": [
+   "Soulagement des symptômes",
+   "soulagement des symptôme",
+   "soulagement des symptômes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0133",
+  "domain": "emea",
+  "src": "continuous infusion",
+  "fr": "perfusion continue",
+  "fr_ids": [
+   21784,
+   7560,
+   3060
+  ],
+  "fr_first_id": 21784,
+  "src_sig": [
+   "continuous",
+   "infusion"
+  ],
+  "fr_sig": [
+   "continue",
+   "perfusion"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Perfusion continue",
+   "perfusion continue",
+   "perfusion continues"
+  ],
+  "variants": [
+   "Perfusion continue",
+   "perfusion continue",
+   "perfusion continues"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 17,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0134",
+  "domain": "emea",
+  "src": "testosterone levels",
+  "fr": "taux de testostérone",
+  "fr_ids": [
+   9450,
+   2200,
+   409,
+   1273,
+   535,
+   13763,
+   603
+  ],
+  "fr_first_id": 9450,
+  "src_sig": [
+   "levels",
+   "testosterone"
+  ],
+  "fr_sig": [
+   "taux",
+   "testostérone"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Taux de testostérone",
+   "taux de testostérone",
+   "taux de testostérones"
+  ],
+  "variants": [
+   "Taux de testostérone",
+   "taux de testostérone",
+   "taux de testostérones"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0135",
+  "domain": "emea",
+  "src": "soft capsules",
+  "fr": "capsules molles",
+  "fr_ids": [
+   64779,
+   21609,
+   642
+  ],
+  "fr_first_id": 64779,
+  "src_sig": [
+   "capsules",
+   "soft"
+  ],
+  "fr_sig": [
+   "capsules",
+   "molles"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Capsules molles",
+   "capsules molle",
+   "capsules molles"
+  ],
+  "variants": [
+   "Capsules molles",
+   "capsules molle",
+   "capsules molles"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0136",
+  "domain": "emea",
+  "src": "receptor antagonists",
+  "fr": "antagonistes des récepteurs",
+  "fr_ids": [
+   42115,
+   74360,
+   939,
+   9333,
+   1484,
+   37547
+  ],
+  "fr_first_id": 42115,
+  "src_sig": [
+   "antagonists",
+   "receptor"
+  ],
+  "fr_sig": [
+   "antagonistes",
+   "récepteurs"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Antagonistes des récepteurs",
+   "antagonistes des récepteur",
+   "antagonistes des récepteurs"
+  ],
+  "variants": [
+   "Antagonistes des récepteurs",
+   "antagonistes des récepteur",
+   "antagonistes des récepteurs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0137",
+  "domain": "emea",
+  "src": "soft capsule",
+  "fr": "capsule molle",
+  "fr_ids": [
+   47639,
+   21609,
+   273
+  ],
+  "fr_first_id": 47639,
+  "src_sig": [
+   "capsule",
+   "soft"
+  ],
+  "fr_sig": [
+   "capsule",
+   "molle"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Capsule molle",
+   "capsule molle",
+   "capsule molles"
+  ],
+  "variants": [
+   "Capsule molle",
+   "capsule molle",
+   "capsule molles"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0138",
+  "domain": "emea",
+  "src": "iron oxide",
+  "fr": "Oxyde de fer",
+  "fr_ids": [
+   506,
+   4130,
+   450,
+   409,
+   18227
+  ],
+  "fr_first_id": 506,
+  "src_sig": [
+   "iron",
+   "oxide"
+  ],
+  "fr_sig": [
+   "fer",
+   "oxyde"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Oxyde de fer",
+   "Oxyde de fers"
+  ],
+  "variants": [
+   "Oxyde de fer",
+   "Oxyde de fers"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 17,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0139",
+  "domain": "emea",
+  "src": "confidence interval",
+  "fr": "intervalle de confiance",
+  "fr_ids": [
+   9873,
+   273,
+   409,
+   2335,
+   5284
+  ],
+  "fr_first_id": 9873,
+  "src_sig": [
+   "confidence",
+   "interval"
+  ],
+  "fr_sig": [
+   "confiance",
+   "intervalle"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Intervalle de confiance",
+   "intervalle de confiance",
+   "intervalle de confiances"
+  ],
+  "variants": [
+   "Intervalle de confiance",
+   "intervalle de confiance",
+   "intervalle de confiances"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0140",
+  "domain": "emea",
+  "src": "Propylene glycol",
+  "fr": "propylène glycol",
+  "fr_ids": [
+   2004,
+   3923,
+   46999,
+   36707,
+   2074
+  ],
+  "fr_first_id": 2004,
+  "src_sig": [
+   "glycol",
+   "propylene"
+  ],
+  "fr_sig": [
+   "glycol",
+   "propylène"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Propylène glycol",
+   "propylène glycol",
+   "propylène glycols"
+  ],
+  "variants": [
+   "Propylène glycol",
+   "propylène glycol",
+   "propylène glycols"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0141",
+  "domain": "emea",
+  "src": "acetylsalicylic acid",
+  "fr": "acide acétylsalicylique",
+  "fr_ids": [
+   1613,
+   577,
+   1613,
+   963,
+   1881,
+   4730,
+   278,
+   2842,
+   36426
+  ],
+  "fr_first_id": 1613,
+  "src_sig": [
+   "acetylsalicylic",
+   "acid"
+  ],
+  "fr_sig": [
+   "acide",
+   "acétylsalicylique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Acide acétylsalicylique",
+   "acide acétylsalicylique",
+   "acide acétylsalicyliques"
+  ],
+  "variants": [
+   "Acide acétylsalicylique",
+   "acide acétylsalicylique",
+   "acide acétylsalicyliques"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0142",
+  "domain": "emea",
+  "src": "duration of action",
+  "fr": "durée d'action",
+  "fr_ids": [
+   141007,
+   294,
+   90555
+  ],
+  "fr_first_id": 141007,
+  "src_sig": [
+   "action",
+   "duration"
+  ],
+  "fr_sig": [
+   "d'action",
+   "durée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Durée d'action",
+   "durée d'action",
+   "durée d'actions"
+  ],
+  "variants": [
+   "Durée d'action",
+   "durée d'action",
+   "durée d'actions"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0143",
+  "domain": "emea",
+  "src": "clinical benefit",
+  "fr": "bénéfice clinique",
+  "fr_ids": [
+   83133,
+   69,
+   558,
+   9218,
+   2372
+  ],
+  "fr_first_id": 83133,
+  "src_sig": [
+   "benefit",
+   "clinical"
+  ],
+  "fr_sig": [
+   "bénéfice",
+   "clinique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Bénéfice clinique",
+   "bénéfice clinique",
+   "bénéfice cliniques"
+  ],
+  "variants": [
+   "Bénéfice clinique",
+   "bénéfice clinique",
+   "bénéfice cliniques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0144",
+  "domain": "emea",
+  "src": "multiple sclerosis",
+  "fr": "sclérose en plaques",
+  "fr_ids": [
+   56119,
+   963,
+   24847,
+   662,
+   39752,
+   13968
+  ],
+  "fr_first_id": 56119,
+  "src_sig": [
+   "multiple",
+   "sclerosis"
+  ],
+  "fr_sig": [
+   "plaques",
+   "sclérose"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Sclérose en plaques",
+   "sclérose en plaque",
+   "sclérose en plaques"
+  ],
+  "variants": [
+   "Sclérose en plaques",
+   "sclérose en plaque",
+   "sclérose en plaques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0145",
+  "domain": "emea",
+  "src": "mechanism of action",
+  "fr": "mécanisme d'action",
+  "fr_ids": [
+   31018,
+   4814,
+   43518,
+   294,
+   90555
+  ],
+  "fr_first_id": 31018,
+  "src_sig": [
+   "action",
+   "mechanism"
+  ],
+  "fr_sig": [
+   "d'action",
+   "mécanisme"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Mécanisme d'action",
+   "mécanisme d'action",
+   "mécanisme d'actions"
+  ],
+  "variants": [
+   "Mécanisme d'action",
+   "mécanisme d'action",
+   "mécanisme d'actions"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0146",
+  "domain": "emea",
+  "src": "upper limit",
+  "fr": "limite supérieure",
+  "fr_ids": [
+   69980,
+   1026,
+   34185,
+   552
+  ],
+  "fr_first_id": 69980,
+  "src_sig": [
+   "limit",
+   "upper"
+  ],
+  "fr_sig": [
+   "limite",
+   "supérieure"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Limite supérieure",
+   "limite supérieure",
+   "limite supérieures"
+  ],
+  "variants": [
+   "Limite supérieure",
+   "limite supérieure",
+   "limite supérieures"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0147",
+  "domain": "emea",
+  "src": "nucleoside analogues",
+  "fr": "analogues nucléosidiques",
+  "fr_ids": [
+   23400,
+   1137,
+   10908,
+   133861,
+   436,
+   307,
+   8303
+  ],
+  "fr_first_id": 23400,
+  "src_sig": [
+   "analogues",
+   "nucleoside"
+  ],
+  "fr_sig": [
+   "analogues",
+   "nucléosidiques"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Analogues nucléosidiques",
+   "analogues nucléosidique",
+   "analogues nucléosidiques"
+  ],
+  "variants": [
+   "Analogues nucléosidiques",
+   "analogues nucléosidique",
+   "analogues nucléosidiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0148",
+  "domain": "emea",
+  "src": "centralised applications",
+  "fr": "demandes centralisées",
+  "fr_ids": [
+   7479,
+   288,
+   8622,
+   285,
+   13700
+  ],
+  "fr_first_id": 7479,
+  "src_sig": [
+   "applications",
+   "centralised"
+  ],
+  "fr_sig": [
+   "centralisées",
+   "demandes"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Demandes centralisées",
+   "demandes centralisée",
+   "demandes centralisées"
+  ],
+  "variants": [
+   "Demandes centralisées",
+   "demandes centralisée",
+   "demandes centralisées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0149",
+  "domain": "emea",
+  "src": "CK levels",
+  "fr": "taux de CPK",
+  "fr_ids": [
+   9450,
+   2200,
+   409,
+   15284,
+   42
+  ],
+  "fr_first_id": 9450,
+  "src_sig": [
+   "ck",
+   "levels"
+  ],
+  "fr_sig": [
+   "cpk",
+   "taux"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Taux de CPK",
+   "taux de CPK",
+   "taux de CPKs"
+  ],
+  "variants": [
+   "Taux de CPK",
+   "taux de CPK",
+   "taux de CPKs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0150",
+  "domain": "emea",
+  "src": "pulmonary oedema",
+  "fr": "œdème pulmonaire",
+  "fr_ids": [
+   98125,
+   67,
+   24267,
+   7737,
+   1645,
+   11998
+  ],
+  "fr_first_id": 98125,
+  "src_sig": [
+   "oedema",
+   "pulmonary"
+  ],
+  "fr_sig": [
+   "pulmonaire",
+   "œdème"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Œdème pulmonaire",
+   "œdème pulmonaire",
+   "œdème pulmonaires"
+  ],
+  "variants": [
+   "Œdème pulmonaire",
+   "œdème pulmonaire",
+   "œdème pulmonaires"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 4,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0151",
+  "domain": "emea",
+  "src": "weight loss",
+  "fr": "perte de poids",
+  "fr_ids": [
+   281,
+   13820,
+   409,
+   96318
+  ],
+  "fr_first_id": 281,
+  "src_sig": [
+   "loss",
+   "weight"
+  ],
+  "fr_sig": [
+   "perte",
+   "poids"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Perte de poids",
+   "perte de poid",
+   "perte de poids"
+  ],
+  "variants": [
+   "Perte de poids",
+   "perte de poid",
+   "perte de poids"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 25,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0152",
+  "domain": "emea",
+  "src": "population pharmacokinetic",
+  "fr": "pharmacocinétique de population",
+  "fr_ids": [
+   35349,
+   509,
+   258,
+   98088,
+   409,
+   7042
+  ],
+  "fr_first_id": 35349,
+  "src_sig": [
+   "pharmacokinetic",
+   "population"
+  ],
+  "fr_sig": [
+   "pharmacocinétique",
+   "population"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Pharmacocinétique de population",
+   "pharmacocinétique de population",
+   "pharmacocinétique de populations"
+  ],
+  "variants": [
+   "Pharmacocinétique de population",
+   "pharmacocinétique de population",
+   "pharmacocinétique de populations"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0153",
+  "domain": "emea",
+  "src": "severe renal impairment",
+  "fr": "insuffisance rénale sévère",
+  "fr_ids": [
+   1640,
+   1362,
+   285,
+   681,
+   9333,
+   77,
+   1574,
+   18744,
+   85,
+   12068
+  ],
+  "fr_first_id": 1640,
+  "src_sig": [
+   "impairment",
+   "renal",
+   "severe"
+  ],
+  "fr_sig": [
+   "insuffisance",
+   "rénale",
+   "sévère"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Insuffisance rénale sévère",
+   "insuffisance rénale sévère",
+   "insuffisance rénale sévères"
+  ],
+  "variants": [
+   "Insuffisance rénale sévère",
+   "insuffisance rénale sévère",
+   "insuffisance rénale sévères"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0154",
+  "domain": "emea",
+  "src": "soft tissue",
+  "fr": "tissus mous",
+  "fr_ids": [
+   259,
+   1038,
+   355,
+   296,
+   782
+  ],
+  "fr_first_id": 259,
+  "src_sig": [
+   "soft",
+   "tissue"
+  ],
+  "fr_sig": [
+   "mous",
+   "tissus"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Tissus mous",
+   "tissus mou",
+   "tissus mous"
+  ],
+  "variants": [
+   "Tissus mous",
+   "tissus mou",
+   "tissus mous"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0155",
+  "domain": "emea",
+  "src": "national competent authorities",
+  "fr": "autorités nationales compétentes",
+  "fr_ids": [
+   26767,
+   34833,
+   6995,
+   3831,
+   74232,
+   21243
+  ],
+  "fr_first_id": 26767,
+  "src_sig": [
+   "authorities",
+   "competent",
+   "national"
+  ],
+  "fr_sig": [
+   "autorités",
+   "compétentes",
+   "nationales"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Autorités nationales compétentes",
+   "autorités nationales compétente",
+   "autorités nationales compétentes"
+  ],
+  "variants": [
+   "Autorités nationales compétentes",
+   "autorités nationales compétente",
+   "autorités nationales compétentes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 20,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0156",
+  "domain": "emea",
+  "src": "colitis",
+  "fr": "colite",
+  "fr_ids": [
+   1375,
+   632
+  ],
+  "fr_first_id": 1375,
+  "src_sig": [
+   "colitis"
+  ],
+  "fr_sig": [
+   "colite"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Colite",
+   "colite",
+   "colites"
+  ],
+  "variants": [
+   "Colite",
+   "colite",
+   "colites"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0157",
+  "domain": "emea",
+  "src": "lymphatic system disorders",
+  "fr": "affections hématologiques et du système lymphatique",
+  "fr_ids": [
+   3527,
+   37605,
+   87923,
+   8470,
+   1609,
+   8303,
+   1842,
+   3845,
+   71501,
+   42645,
+   266,
+   2372
+  ],
+  "fr_first_id": 3527,
+  "src_sig": [
+   "disorders",
+   "lymphatic",
+   "system"
+  ],
+  "fr_sig": [
+   "affections",
+   "hématologiques",
+   "lymphatique",
+   "système"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Affections hématologiques et du système lymphatique",
+   "affections hématologiques et du système lymphatique",
+   "affections hématologiques et du système lymphatiques"
+  ],
+  "variants": [
+   "Affections hématologiques et du système lymphatique",
+   "affections hématologiques et du système lymphatique",
+   "affections hématologiques et du système lymphatiques"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 18,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0158",
+  "domain": "emea",
+  "src": "plasma half-life",
+  "fr": "demi-vie plasmatique",
+  "fr_ids": [
+   92028,
+   8273,
+   645,
+   625,
+   300,
+   8470,
+   2372
+  ],
+  "fr_first_id": 92028,
+  "src_sig": [
+   "half-life",
+   "plasma"
+  ],
+  "fr_sig": [
+   "demi-vie",
+   "plasmatique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Demi-vie plasmatique",
+   "demi-vie plasmatique",
+   "demi-vie plasmatiques"
+  ],
+  "variants": [
+   "Demi-vie plasmatique",
+   "demi-vie plasmatique",
+   "demi-vie plasmatiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0159",
+  "domain": "emea",
+  "src": "amino acids",
+  "fr": "acides aminés",
+  "fr_ids": [
+   1613,
+   3341,
+   264,
+   1065,
+   5397
+  ],
+  "fr_first_id": 1613,
+  "src_sig": [
+   "acids",
+   "amino"
+  ],
+  "fr_sig": [
+   "acides",
+   "aminés"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Acides aminés",
+   "acides aminé",
+   "acides aminés"
+  ],
+  "variants": [
+   "Acides aminés",
+   "acides aminé",
+   "acides aminés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0160",
+  "domain": "emea",
+  "src": "loss of appetite",
+  "fr": "perte d'appétit",
+  "fr_ids": [
+   281,
+   13820,
+   294,
+   52049,
+   10302,
+   275
+  ],
+  "fr_first_id": 281,
+  "src_sig": [
+   "appetite",
+   "loss"
+  ],
+  "fr_sig": [
+   "d'appétit",
+   "perte"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Perte d'appétit",
+   "perte d'appétit",
+   "perte d'appétits"
+  ],
+  "variants": [
+   "Perte d'appétit",
+   "perte d'appétit",
+   "perte d'appétits"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0161",
+  "domain": "emea",
+  "src": "terminal elimination",
+  "fr": "d'élimination terminale",
+  "fr_ids": [
+   294,
+   30669,
+   4659,
+   2554,
+   10204,
+   1574
+  ],
+  "fr_first_id": 294,
+  "src_sig": [
+   "elimination",
+   "terminal"
+  ],
+  "fr_sig": [
+   "d'élimination",
+   "terminale"
+  ],
+  "single_token": false,
+  "accepted": [
+   "D'élimination terminale",
+   "d'élimination terminale",
+   "d'élimination terminales"
+  ],
+  "variants": [
+   "D'élimination terminale",
+   "d'élimination terminale",
+   "d'élimination terminales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0162",
+  "domain": "emea",
+  "src": "Cardboard box",
+  "fr": "boîte en carton",
+  "fr_ids": [
+   708,
+   24137,
+   665,
+   662,
+   7406,
+   263
+  ],
+  "fr_first_id": 708,
+  "src_sig": [
+   "box",
+   "cardboard"
+  ],
+  "fr_sig": [
+   "boîte",
+   "carton"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Boîte en carton",
+   "boîte en carton",
+   "boîte en cartons"
+  ],
+  "variants": [
+   "Boîte en carton",
+   "boîte en carton",
+   "boîte en cartons"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0163",
+  "domain": "emea",
+  "src": "nucleoside",
+  "fr": "nucléoside",
+  "fr_ids": [
+   10908,
+   133861,
+   436,
+   577
+  ],
+  "fr_first_id": 10908,
+  "src_sig": [
+   "nucleoside"
+  ],
+  "fr_sig": [
+   "nucléoside"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Nucléoside",
+   "nucléoside",
+   "nucléosides"
+  ],
+  "variants": [
+   "Nucléoside",
+   "nucléoside",
+   "nucléosides"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0164",
+  "domain": "emea",
+  "src": "two doses",
+  "fr": "deux doses",
+  "fr_ids": [
+   25552,
+   34030
+  ],
+  "fr_first_id": 25552,
+  "src_sig": [
+   "doses",
+   "two"
+  ],
+  "fr_sig": [
+   "deux",
+   "doses"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Deux doses",
+   "deux dose",
+   "deux doses"
+  ],
+  "variants": [
+   "Deux doses",
+   "deux dose",
+   "deux doses"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0165",
+  "domain": "emea",
+  "src": "active substances",
+  "fr": "principes actifs",
+  "fr_ids": [
+   7394,
+   288,
+   1160,
+   21835
+  ],
+  "fr_first_id": 7394,
+  "src_sig": [
+   "active",
+   "substances"
+  ],
+  "fr_sig": [
+   "actifs",
+   "principes"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Principes actifs",
+   "principes actif",
+   "principes actifs"
+  ],
+  "variants": [
+   "Principes actifs",
+   "principes actif",
+   "principes actifs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 29,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0166",
+  "domain": "emea",
+  "src": "plasma proteins",
+  "fr": "protéines plasmatiques",
+  "fr_ids": [
+   1724,
+   963,
+   1543,
+   625,
+   300,
+   8470,
+   8303
+  ],
+  "fr_first_id": 1724,
+  "src_sig": [
+   "plasma",
+   "proteins"
+  ],
+  "fr_sig": [
+   "plasmatiques",
+   "protéines"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Protéines plasmatiques",
+   "protéines plasmatique",
+   "protéines plasmatiques"
+  ],
+  "variants": [
+   "Protéines plasmatiques",
+   "protéines plasmatique",
+   "protéines plasmatiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 24,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0167",
+  "domain": "emea",
+  "src": "necrosis",
+  "fr": "nécrose",
+  "fr_ids": [
+   308,
+   19667,
+   24847
+  ],
+  "fr_first_id": 308,
+  "src_sig": [
+   "necrosis"
+  ],
+  "fr_sig": [
+   "nécrose"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Nécrose",
+   "nécrose",
+   "nécroses"
+  ],
+  "variants": [
+   "Nécrose",
+   "nécrose",
+   "nécroses"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0168",
+  "domain": "emea",
+  "src": "iron oxide yellow",
+  "fr": "oxyde de fer jaune",
+  "fr_ids": [
+   98590,
+   450,
+   409,
+   18227,
+   11937,
+   2886
+  ],
+  "fr_first_id": 98590,
+  "src_sig": [
+   "iron",
+   "oxide",
+   "yellow"
+  ],
+  "fr_sig": [
+   "fer",
+   "jaune",
+   "oxyde"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Oxyde de fer jaune",
+   "oxyde de fer jaune",
+   "oxyde de fer jaunes"
+  ],
+  "variants": [
+   "Oxyde de fer jaune",
+   "oxyde de fer jaune",
+   "oxyde de fer jaunes"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0169",
+  "domain": "emea",
+  "src": "chloride solution",
+  "fr": "solution de chlorure de sodium",
+  "fr_ids": [
+   6291,
+   409,
+   36733,
+   552,
+   409,
+   38595
+  ],
+  "fr_first_id": 6291,
+  "src_sig": [
+   "chloride",
+   "solution"
+  ],
+  "fr_sig": [
+   "chlorure",
+   "sodium",
+   "solution"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Solution de chlorure de sodium",
+   "solution de chlorure de sodium",
+   "solution de chlorure de sodiums"
+  ],
+  "variants": [
+   "Solution de chlorure de sodium",
+   "solution de chlorure de sodium",
+   "solution de chlorure de sodiums"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0170",
+  "domain": "emea",
+  "src": "haematoma",
+  "fr": "hématome",
+  "fr_ids": [
+   87923,
+   8470,
+   635
+  ],
+  "fr_first_id": 87923,
+  "src_sig": [
+   "haematoma"
+  ],
+  "fr_sig": [
+   "hématome"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Hématome",
+   "hématome",
+   "hématomes"
+  ],
+  "variants": [
+   "Hématome",
+   "hématome",
+   "hématomes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0171",
+  "domain": "emea",
+  "src": "Pregnancy and lactation",
+  "fr": "grossesse ou allaitement",
+  "fr_ids": [
+   19952,
+   23318,
+   5908,
+   678,
+   1315,
+   1114
+  ],
+  "fr_first_id": 19952,
+  "src_sig": [
+   "lactation",
+   "pregnancy"
+  ],
+  "fr_sig": [
+   "allaitement",
+   "grossesse"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Grossesse ou allaitement",
+   "grossesse ou allaitement",
+   "grossesse ou allaitements"
+  ],
+  "variants": [
+   "Grossesse ou allaitement",
+   "grossesse ou allaitement",
+   "grossesse ou allaitements"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 30,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0172",
+  "domain": "emea",
+  "src": "visual acuity",
+  "fr": "acuité visuelle",
+  "fr_ids": [
+   1613,
+   3083,
+   963,
+   2098,
+   29937
+  ],
+  "fr_first_id": 1613,
+  "src_sig": [
+   "acuity",
+   "visual"
+  ],
+  "fr_sig": [
+   "acuité",
+   "visuelle"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Acuité visuelle",
+   "acuité visuelle",
+   "acuité visuelles"
+  ],
+  "variants": [
+   "Acuité visuelle",
+   "acuité visuelle",
+   "acuité visuelles"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 24,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0173",
+  "domain": "emea",
+  "src": "PVDC",
+  "fr": "PVDC",
+  "fr_ids": [
+   37864,
+   5626
+  ],
+  "fr_first_id": 37864,
+  "src_sig": [
+   "pvdc"
+  ],
+  "fr_sig": [
+   "pvdc"
+  ],
+  "single_token": false,
+  "accepted": [
+   "PVDC",
+   "PVDCs"
+  ],
+  "variants": [
+   "PVDC",
+   "PVDCs"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0174",
+  "domain": "emea",
+  "src": "abnormal dreams",
+  "fr": "rêves anormaux",
+  "fr_ids": [
+   141138,
+   2342,
+   458,
+   493,
+   11981
+  ],
+  "fr_first_id": 141138,
+  "src_sig": [
+   "abnormal",
+   "dreams"
+  ],
+  "fr_sig": [
+   "anormaux",
+   "rêves"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Rêves anormaux",
+   "rêves anormaux",
+   "rêves anormauxs"
+  ],
+  "variants": [
+   "Rêves anormaux",
+   "rêves anormaux",
+   "rêves anormauxs"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0175",
+  "domain": "emea",
+  "src": "cardiac arrhythmias",
+  "fr": "arythmies",
+  "fr_ids": [
+   72921,
+   339,
+   76,
+   550
+  ],
+  "fr_first_id": 72921,
+  "src_sig": [
+   "arrhythmias",
+   "cardiac"
+  ],
+  "fr_sig": [
+   "arythmies"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Arythmies",
+   "arythmie",
+   "arythmies"
+  ],
+  "variants": [
+   "Arythmies",
+   "arythmie",
+   "arythmies"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0176",
+  "domain": "emea",
+  "src": "Tablet core",
+  "fr": "Noyau du comprimé",
+  "fr_ids": [
+   451,
+   2253,
+   2863,
+   3845,
+   13247,
+   318,
+   963
+  ],
+  "fr_first_id": 451,
+  "src_sig": [
+   "core",
+   "tablet"
+  ],
+  "fr_sig": [
+   "comprimé",
+   "noyau"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Noyau du comprimé",
+   "Noyau du comprimés"
+  ],
+  "variants": [
+   "Noyau du comprimé",
+   "Noyau du comprimés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 4,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0177",
+  "domain": "emea",
+  "src": "recommended starting dose",
+  "fr": "dose initiale recommandée",
+  "fr_ids": [
+   19115,
+   2930,
+   19893,
+   83093,
+   7888
+  ],
+  "fr_first_id": 19115,
+  "src_sig": [
+   "dose",
+   "recommended",
+   "starting"
+  ],
+  "fr_sig": [
+   "dose",
+   "initiale",
+   "recommandée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dose initiale recommandée",
+   "dose initiale recommandée",
+   "dose initiale recommandées"
+  ],
+  "variants": [
+   "Dose initiale recommandée",
+   "dose initiale recommandée",
+   "dose initiale recommandées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 12,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0178",
+  "domain": "emea",
+  "src": "first opening",
+  "fr": "première ouverture",
+  "fr_ids": [
+   54033,
+   5908,
+   64830
+  ],
+  "fr_first_id": 54033,
+  "src_sig": [
+   "first",
+   "opening"
+  ],
+  "fr_sig": [
+   "ouverture",
+   "première"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Première ouverture",
+   "première ouverture",
+   "première ouvertures"
+  ],
+  "variants": [
+   "Première ouverture",
+   "première ouverture",
+   "première ouvertures"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0179",
+  "domain": "emea",
+  "src": "injection sites",
+  "fr": "sites d'injection",
+  "fr_ids": [
+   6594,
+   294,
+   51052,
+   7606
+  ],
+  "fr_first_id": 6594,
+  "src_sig": [
+   "injection",
+   "sites"
+  ],
+  "fr_sig": [
+   "d'injection",
+   "sites"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Sites d'injection",
+   "sites d'injection",
+   "sites d'injections"
+  ],
+  "variants": [
+   "Sites d'injection",
+   "sites d'injection",
+   "sites d'injections"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0180",
+  "domain": "emea",
+  "src": "Vascular disorders",
+  "fr": "Affections vasculaires",
+  "fr_ids": [
+   9748,
+   37605,
+   43396,
+   3314,
+   17276
+  ],
+  "fr_first_id": 9748,
+  "src_sig": [
+   "disorders",
+   "vascular"
+  ],
+  "fr_sig": [
+   "affections",
+   "vasculaires"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Affections vasculaire",
+   "Affections vasculaires"
+  ],
+  "variants": [
+   "Affections vasculaire",
+   "Affections vasculaires"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0181",
+  "domain": "emea",
+  "src": "median time",
+  "fr": "délai médian",
+  "fr_ids": [
+   143360,
+   33930,
+   1103
+  ],
+  "fr_first_id": 143360,
+  "src_sig": [
+   "median",
+   "time"
+  ],
+  "fr_sig": [
+   "délai",
+   "médian"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Délai médian",
+   "délai médian",
+   "délai médians"
+  ],
+  "variants": [
+   "Délai médian",
+   "délai médian",
+   "délai médians"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0182",
+  "domain": "emea",
+  "src": "subcutaneous tissue",
+  "fr": "tissu sous-cutané",
+  "fr_ids": [
+   259,
+   1038,
+   84,
+   31492,
+   42221,
+   276,
+   963
+  ],
+  "fr_first_id": 259,
+  "src_sig": [
+   "subcutaneous",
+   "tissue"
+  ],
+  "fr_sig": [
+   "sous-cutané",
+   "tissu"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Tissu sous-cutané",
+   "tissu sous-cutané",
+   "tissu sous-cutanés"
+  ],
+  "variants": [
+   "Tissu sous-cutané",
+   "tissu sous-cutané",
+   "tissu sous-cutanés"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 17,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0183",
+  "domain": "emea",
+  "src": "postnatal development",
+  "fr": "post-natal",
+  "fr_ids": [
+   1736,
+   5279,
+   4212
+  ],
+  "fr_first_id": 1736,
+  "src_sig": [
+   "development",
+   "postnatal"
+  ],
+  "fr_sig": [
+   "post-natal"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Post-natal",
+   "post-natal",
+   "post-natals"
+  ],
+  "variants": [
+   "Post-natal",
+   "post-natal",
+   "post-natals"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 1,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0184",
+  "domain": "emea",
+  "src": "purified water",
+  "fr": "eau purifiée",
+  "fr_ids": [
+   384,
+   2863,
+   3999,
+   12919,
+   7888
+  ],
+  "fr_first_id": 384,
+  "src_sig": [
+   "purified",
+   "water"
+  ],
+  "fr_sig": [
+   "eau",
+   "purifiée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Eau purifiée",
+   "eau purifiée",
+   "eau purifiées"
+  ],
+  "variants": [
+   "Eau purifiée",
+   "eau purifiée",
+   "eau purifiées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0185",
+  "domain": "emea",
+  "src": "central nervous system",
+  "fr": "système nerveux central",
+  "fr_ids": [
+   71501,
+   30915,
+   2200,
+   8622
+  ],
+  "fr_first_id": 71501,
+  "src_sig": [
+   "central",
+   "nervous",
+   "system"
+  ],
+  "fr_sig": [
+   "central",
+   "nerveux",
+   "système"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Système nerveux central",
+   "système nerveux central",
+   "système nerveux centrals"
+  ],
+  "variants": [
+   "Système nerveux central",
+   "système nerveux central",
+   "système nerveux centrals"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 19,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0186",
+  "domain": "emea",
+  "src": "systemic clearance",
+  "fr": "clairance systémique",
+  "fr_ids": [
+   1185,
+   1310,
+   681,
+   41245,
+   16647,
+   2372
+  ],
+  "fr_first_id": 1185,
+  "src_sig": [
+   "clearance",
+   "systemic"
+  ],
+  "fr_sig": [
+   "clairance",
+   "systémique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Clairance systémique",
+   "clairance systémique",
+   "clairance systémiques"
+  ],
+  "variants": [
+   "Clairance systémique",
+   "clairance systémique",
+   "clairance systémiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0187",
+  "domain": "emea",
+  "src": "risk factors",
+  "fr": "facteurs de risque",
+  "fr_ids": [
+   2097,
+   37547,
+   409,
+   9824,
+   591
+  ],
+  "fr_first_id": 2097,
+  "src_sig": [
+   "factors",
+   "risk"
+  ],
+  "fr_sig": [
+   "facteurs",
+   "risque"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Facteurs de risque",
+   "facteurs de risque",
+   "facteurs de risques"
+  ],
+  "variants": [
+   "Facteurs de risque",
+   "facteurs de risque",
+   "facteurs de risques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 22,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0188",
+  "domain": "emea",
+  "src": "loading dose",
+  "fr": "dose de charge",
+  "fr_ids": [
+   19115,
+   409,
+   6757
+  ],
+  "fr_first_id": 19115,
+  "src_sig": [
+   "dose",
+   "loading"
+  ],
+  "fr_sig": [
+   "charge",
+   "dose"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dose de charge",
+   "dose de charge",
+   "dose de charges"
+  ],
+  "variants": [
+   "Dose de charge",
+   "dose de charge",
+   "dose de charges"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 22,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0189",
+  "domain": "emea",
+  "src": "Nervous system",
+  "fr": "système nerveux",
+  "fr_ids": [
+   71501,
+   30915,
+   2200
+  ],
+  "fr_first_id": 71501,
+  "src_sig": [
+   "nervous",
+   "system"
+  ],
+  "fr_sig": [
+   "nerveux",
+   "système"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Système nerveux",
+   "système nerveux",
+   "système nerveuxs"
+  ],
+  "variants": [
+   "Système nerveux",
+   "système nerveux",
+   "système nerveuxs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 70,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0190",
+  "domain": "emea",
+  "src": "plasma clearance",
+  "fr": "clairance plasmatique",
+  "fr_ids": [
+   1185,
+   1310,
+   681,
+   625,
+   300,
+   8470,
+   2372
+  ],
+  "fr_first_id": 1185,
+  "src_sig": [
+   "clearance",
+   "plasma"
+  ],
+  "fr_sig": [
+   "clairance",
+   "plasmatique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Clairance plasmatique",
+   "clairance plasmatique",
+   "clairance plasmatiques"
+  ],
+  "variants": [
+   "Clairance plasmatique",
+   "clairance plasmatique",
+   "clairance plasmatiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 10,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0191",
+  "domain": "emea",
+  "src": "recombinant DNA",
+  "fr": "l'ADN recombinant",
+  "fr_ids": [
+   326,
+   6,
+   1808,
+   45,
+   37201,
+   6863,
+   517
+  ],
+  "fr_first_id": 326,
+  "src_sig": [
+   "dna",
+   "recombinant"
+  ],
+  "fr_sig": [
+   "l'adn",
+   "recombinant"
+  ],
+  "single_token": false,
+  "accepted": [
+   "L'ADN recombinant",
+   "l'ADN recombinant",
+   "l'ADN recombinants"
+  ],
+  "variants": [
+   "L'ADN recombinant",
+   "l'ADN recombinant",
+   "l'ADN recombinants"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0192",
+  "domain": "emea",
+  "src": "skin reactions",
+  "fr": "réactions cutanées",
+  "fr_ids": [
+   9333,
+   4020,
+   3931,
+   276,
+   13700
+  ],
+  "fr_first_id": 9333,
+  "src_sig": [
+   "reactions",
+   "skin"
+  ],
+  "fr_sig": [
+   "cutanées",
+   "réactions"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Réactions cutanées",
+   "réactions cutanée",
+   "réactions cutanées"
+  ],
+  "variants": [
+   "Réactions cutanées",
+   "réactions cutanée",
+   "réactions cutanées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 27,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0193",
+  "domain": "emea",
+  "src": "microcrystalline cellulose",
+  "fr": "Cellulose microcristalline",
+  "fr_ids": [
+   13972,
+   360,
+   960,
+   8003,
+   66,
+   2819,
+   541,
+   482
+  ],
+  "fr_first_id": 13972,
+  "src_sig": [
+   "cellulose",
+   "microcrystalline"
+  ],
+  "fr_sig": [
+   "cellulose",
+   "microcristalline"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Cellulose microcristalline",
+   "Cellulose microcristallines"
+  ],
+  "variants": [
+   "Cellulose microcristalline",
+   "Cellulose microcristallines"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 26,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0194",
+  "domain": "emea",
+  "src": "rubber stopper",
+  "fr": "bouchon en caoutchouc",
+  "fr_ids": [
+   293,
+   3026,
+   263,
+   662,
+   2162,
+   411,
+   331,
+   283,
+   66
+  ],
+  "fr_first_id": 293,
+  "src_sig": [
+   "rubber",
+   "stopper"
+  ],
+  "fr_sig": [
+   "bouchon",
+   "caoutchouc"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Bouchon en caoutchouc",
+   "bouchon en caoutchouc",
+   "bouchon en caoutchoucs"
+  ],
+  "variants": [
+   "Bouchon en caoutchouc",
+   "bouchon en caoutchouc",
+   "bouchon en caoutchoucs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 25,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0195",
+  "domain": "emea",
+  "src": "fixed dose",
+  "fr": "dose fixe",
+  "fr_ids": [
+   19115,
+   5046,
+   68
+  ],
+  "fr_first_id": 19115,
+  "src_sig": [
+   "dose",
+   "fixed"
+  ],
+  "fr_sig": [
+   "dose",
+   "fixe"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Dose fixe",
+   "dose fixe",
+   "dose fixes"
+  ],
+  "variants": [
+   "Dose fixe",
+   "dose fixe",
+   "dose fixes"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0196",
+  "domain": "emea",
+  "src": "meningitis",
+  "fr": "méningite",
+  "fr_ids": [
+   31018,
+   1229,
+   632
+  ],
+  "fr_first_id": 31018,
+  "src_sig": [
+   "meningitis"
+  ],
+  "fr_sig": [
+   "méningite"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Méningite",
+   "méningite",
+   "méningites"
+  ],
+  "variants": [
+   "Méningite",
+   "méningite",
+   "méningites"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 11,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0197",
+  "domain": "emea",
+  "src": "cytotoxic agents",
+  "fr": "agents cytotoxiques",
+  "fr_ids": [
+   13009,
+   78809,
+   2072,
+   87,
+   8303
+  ],
+  "fr_first_id": 13009,
+  "src_sig": [
+   "agents",
+   "cytotoxic"
+  ],
+  "fr_sig": [
+   "agents",
+   "cytotoxiques"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Agents cytotoxiques",
+   "agents cytotoxique",
+   "agents cytotoxiques"
+  ],
+  "variants": [
+   "Agents cytotoxiques",
+   "agents cytotoxique",
+   "agents cytotoxiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0198",
+  "domain": "emea",
+  "src": "efficacy results",
+  "fr": "résultats d'efficacité",
+  "fr_ids": [
+   99146,
+   294,
+   6,
+   6445,
+   292,
+   580,
+   12815
+  ],
+  "fr_first_id": 99146,
+  "src_sig": [
+   "efficacy",
+   "results"
+  ],
+  "fr_sig": [
+   "d'efficacité",
+   "résultats"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Résultats d'efficacité",
+   "résultats d'efficacité",
+   "résultats d'efficacités"
+  ],
+  "variants": [
+   "Résultats d'efficacité",
+   "résultats d'efficacité",
+   "résultats d'efficacités"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0199",
+  "domain": "emea",
+  "src": "cell line",
+  "fr": "lignée cellulaire",
+  "fr_ids": [
+   71600,
+   7888,
+   2779,
+   73675
+  ],
+  "fr_first_id": 71600,
+  "src_sig": [
+   "cell",
+   "line"
+  ],
+  "fr_sig": [
+   "cellulaire",
+   "lignée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Lignée cellulaire",
+   "lignée cellulaire",
+   "lignée cellulaires"
+  ],
+  "variants": [
+   "Lignée cellulaire",
+   "lignée cellulaire",
+   "lignée cellulaires"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0200",
+  "domain": "emea",
+  "src": "mycophenolate mofetil",
+  "fr": "mycophénolate mofétil",
+  "fr_ids": [
+   847,
+   66,
+   5127,
+   10394,
+   33066,
+   296,
+   1055,
+   963,
+   1646
+  ],
+  "fr_first_id": 847,
+  "src_sig": [
+   "mofetil",
+   "mycophenolate"
+  ],
+  "fr_sig": [
+   "mofétil",
+   "mycophénolate"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Mycophénolate mofétil",
+   "mycophénolate mofétil",
+   "mycophénolate mofétils"
+  ],
+  "variants": [
+   "Mycophénolate mofétil",
+   "mycophénolate mofétil",
+   "mycophénolate mofétils"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 21,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0201",
+  "domain": "emea",
+  "src": "hot flushes",
+  "fr": "bouffées de chaleur",
+  "fr_ids": [
+   29770,
+   542,
+   13700,
+   409,
+   521,
+   59947
+  ],
+  "fr_first_id": 29770,
+  "src_sig": [
+   "flushes",
+   "hot"
+  ],
+  "fr_sig": [
+   "bouffées",
+   "chaleur"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Bouffées de chaleur",
+   "bouffées de chaleur",
+   "bouffées de chaleurs"
+  ],
+  "variants": [
+   "Bouffées de chaleur",
+   "bouffées de chaleur",
+   "bouffées de chaleurs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0202",
+  "domain": "emea",
+  "src": "anticancer medicine",
+  "fr": "médicament anticancéreux",
+  "fr_ids": [
+   33930,
+   292,
+   2838,
+   87043,
+   1129,
+   963,
+   265,
+   2200
+  ],
+  "fr_first_id": 33930,
+  "src_sig": [
+   "anticancer",
+   "medicine"
+  ],
+  "fr_sig": [
+   "anticancéreux",
+   "médicament"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Médicament anticancéreux",
+   "médicament anticancéreux",
+   "médicament anticancéreuxs"
+  ],
+  "variants": [
+   "Médicament anticancéreux",
+   "médicament anticancéreux",
+   "médicament anticancéreuxs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0203",
+  "domain": "emea",
+  "src": "Type I glass",
+  "fr": "verre de type I",
+  "fr_ids": [
+   2739,
+   265,
+   409,
+   943,
+   358
+  ],
+  "fr_first_id": 2739,
+  "src_sig": [
+   "glass",
+   "type"
+  ],
+  "fr_sig": [
+   "i",
+   "type",
+   "verre"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Verre de type I",
+   "verre de type I",
+   "verre de type Is"
+  ],
+  "variants": [
+   "Verre de type I",
+   "verre de type I",
+   "verre de type Is"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 24,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0204",
+  "domain": "emea",
+  "src": "toxicity studies",
+  "fr": "études de toxicité",
+  "fr_ids": [
+   13916,
+   28146,
+   409,
+   20836,
+   12815
+  ],
+  "fr_first_id": 13916,
+  "src_sig": [
+   "studies",
+   "toxicity"
+  ],
+  "fr_sig": [
+   "toxicité",
+   "études"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Études de toxicité",
+   "études de toxicité",
+   "études de toxicités"
+  ],
+  "variants": [
+   "Études de toxicité",
+   "études de toxicité",
+   "études de toxicités"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 26,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0205",
+  "domain": "emea",
+  "src": "oral suspension",
+  "fr": "suspension buvable",
+  "fr_ids": [
+   24301,
+   1031,
+   23760
+  ],
+  "fr_first_id": 24301,
+  "src_sig": [
+   "oral",
+   "suspension"
+  ],
+  "fr_sig": [
+   "buvable",
+   "suspension"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Suspension buvable",
+   "suspension buvable",
+   "suspension buvables"
+  ],
+  "variants": [
+   "Suspension buvable",
+   "suspension buvable",
+   "suspension buvables"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0206",
+  "domain": "emea",
+  "src": "pimozide",
+  "fr": "pimozide",
+  "fr_ids": [
+   281,
+   318,
+   9510,
+   577
+  ],
+  "fr_first_id": 281,
+  "src_sig": [
+   "pimozide"
+  ],
+  "fr_sig": [
+   "pimozide"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Pimozide",
+   "pimozide",
+   "pimozides"
+  ],
+  "variants": [
+   "Pimozide",
+   "pimozide",
+   "pimozides"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0207",
+  "domain": "emea",
+  "src": "well tolerated",
+  "fr": "bien tolérée",
+  "fr_ids": [
+   14370,
+   38574,
+   13763,
+   7888
+  ],
+  "fr_first_id": 14370,
+  "src_sig": [
+   "tolerated",
+   "well"
+  ],
+  "fr_sig": [
+   "bien",
+   "tolérée"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Bien tolérée",
+   "bien tolérée",
+   "bien tolérées"
+  ],
+  "variants": [
+   "Bien tolérée",
+   "bien tolérée",
+   "bien tolérées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 13,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0208",
+  "domain": "emea",
+  "src": "oral contraceptives",
+  "fr": "contraceptifs oraux",
+  "fr_ids": [
+   44836,
+   417,
+   21835,
+   476,
+   11981
+  ],
+  "fr_first_id": 44836,
+  "src_sig": [
+   "contraceptives",
+   "oral"
+  ],
+  "fr_sig": [
+   "contraceptifs",
+   "oraux"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Contraceptifs oraux",
+   "contraceptifs oraux",
+   "contraceptifs orauxs"
+  ],
+  "variants": [
+   "Contraceptifs oraux",
+   "contraceptifs oraux",
+   "contraceptifs orauxs"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 14,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0209",
+  "domain": "emea",
+  "src": "tumour cells",
+  "fr": "cellules tumorales",
+  "fr_ids": [
+   2779,
+   2425,
+   35154,
+   3831
+  ],
+  "fr_first_id": 2779,
+  "src_sig": [
+   "cells",
+   "tumour"
+  ],
+  "fr_sig": [
+   "cellules",
+   "tumorales"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Cellules tumorales",
+   "cellules tumorale",
+   "cellules tumorales"
+  ],
+  "variants": [
+   "Cellules tumorales",
+   "cellules tumorale",
+   "cellules tumorales"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0210",
+  "domain": "emea",
+  "src": "spinal cord",
+  "fr": "moelle épinière",
+  "fr_ids": [
+   4544,
+   6712,
+   49410,
+   6591,
+   12068
+  ],
+  "fr_first_id": 4544,
+  "src_sig": [
+   "cord",
+   "spinal"
+  ],
+  "fr_sig": [
+   "moelle",
+   "épinière"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Moelle épinière",
+   "moelle épinière",
+   "moelle épinières"
+  ],
+  "variants": [
+   "Moelle épinière",
+   "moelle épinière",
+   "moelle épinières"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0211",
+  "domain": "emea",
+  "src": "serum calcium",
+  "fr": "calcémie",
+  "fr_ids": [
+   10035,
+   16647,
+   645
+  ],
+  "fr_first_id": 10035,
+  "src_sig": [
+   "calcium",
+   "serum"
+  ],
+  "fr_sig": [
+   "calcémie"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Calcémie",
+   "calcémie",
+   "calcémies"
+  ],
+  "variants": [
+   "Calcémie",
+   "calcémie",
+   "calcémies"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 16,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0212",
+  "domain": "emea",
+  "src": "healthy adult",
+  "fr": "adultes sains",
+  "fr_ids": [
+   86925,
+   274,
+   1735
+  ],
+  "fr_first_id": 86925,
+  "src_sig": [
+   "adult",
+   "healthy"
+  ],
+  "fr_sig": [
+   "adultes",
+   "sains"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Adultes sains",
+   "adultes sain",
+   "adultes sains"
+  ],
+  "variants": [
+   "Adultes sains",
+   "adultes sain",
+   "adultes sains"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 7,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0213",
+  "domain": "emea",
+  "src": "channel blockers",
+  "fr": "inhibiteurs calciques",
+  "fr_ids": [
+   20142,
+   632,
+   1723,
+   10035,
+   8303
+  ],
+  "fr_first_id": 20142,
+  "src_sig": [
+   "blockers",
+   "channel"
+  ],
+  "fr_sig": [
+   "calciques",
+   "inhibiteurs"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Inhibiteurs calciques",
+   "inhibiteurs calcique",
+   "inhibiteurs calciques"
+  ],
+  "variants": [
+   "Inhibiteurs calciques",
+   "inhibiteurs calcique",
+   "inhibiteurs calciques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 5,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0214",
+  "domain": "emea",
+  "src": "cisapride",
+  "fr": "cisapride",
+  "fr_ids": [
+   66404,
+   391,
+   1399
+  ],
+  "fr_first_id": 66404,
+  "src_sig": [
+   "cisapride"
+  ],
+  "fr_sig": [
+   "cisapride"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Cisapride",
+   "cisapride",
+   "cisaprides"
+  ],
+  "variants": [
+   "Cisapride",
+   "cisapride",
+   "cisaprides"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0215",
+  "domain": "emea",
+  "src": "pharmacokinetic profile",
+  "fr": "profil pharmacocinétique",
+  "fr_ids": [
+   52354,
+   35349,
+   509,
+   258,
+   98088
+  ],
+  "fr_first_id": 52354,
+  "src_sig": [
+   "pharmacokinetic",
+   "profile"
+  ],
+  "fr_sig": [
+   "pharmacocinétique",
+   "profil"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Profil pharmacocinétique",
+   "profil pharmacocinétique",
+   "profil pharmacocinétiques"
+  ],
+  "variants": [
+   "Profil pharmacocinétique",
+   "profil pharmacocinétique",
+   "profil pharmacocinétiques"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 9,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0216",
+  "domain": "emea",
+  "src": "diluted solution",
+  "fr": "solution diluée",
+  "fr_ids": [
+   6291,
+   18840,
+   84,
+   7888
+  ],
+  "fr_first_id": 6291,
+  "src_sig": [
+   "diluted",
+   "solution"
+  ],
+  "fr_sig": [
+   "diluée",
+   "solution"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Solution diluée",
+   "solution diluée",
+   "solution diluées"
+  ],
+  "variants": [
+   "Solution diluée",
+   "solution diluée",
+   "solution diluées"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0217",
+  "domain": "emea",
+  "src": "pre-filled syringes",
+  "fr": "seringues préremplies",
+  "fr_ids": [
+   1420,
+   287,
+   1137,
+   26293,
+   1826,
+   7202
+  ],
+  "fr_first_id": 1420,
+  "src_sig": [
+   "pre-filled",
+   "syringes"
+  ],
+  "fr_sig": [
+   "préremplies",
+   "seringues"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Seringues préremplies",
+   "seringues préremplie",
+   "seringues préremplies"
+  ],
+  "variants": [
+   "Seringues préremplies",
+   "seringues préremplie",
+   "seringues préremplies"
+  ],
+  "decision": 1,
+  "score": 1.0,
+  "cooc": 25,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0218",
+  "domain": "emea",
+  "src": "mammalian cells",
+  "fr": "cellules de mammifères",
+  "fr_ids": [
+   2779,
+   2425,
+   409,
+   34941,
+   333,
+   30439
+  ],
+  "fr_first_id": 2779,
+  "src_sig": [
+   "cells",
+   "mammalian"
+  ],
+  "fr_sig": [
+   "cellules",
+   "mammifères"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Cellules de mammifères",
+   "cellules de mammifère",
+   "cellules de mammifères"
+  ],
+  "variants": [
+   "Cellules de mammifères",
+   "cellules de mammifère",
+   "cellules de mammifères"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 6,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ },
+ {
+  "id": "emea_0219",
+  "domain": "emea",
+  "src": "croscarmellose sodium",
+  "fr": "croscarmellose sodique",
+  "fr_ids": [
+   14093,
+   2388,
+   2178,
+   301,
+   1469,
+   23952,
+   2372
+  ],
+  "fr_first_id": 14093,
+  "src_sig": [
+   "croscarmellose",
+   "sodium"
+  ],
+  "fr_sig": [
+   "croscarmellose",
+   "sodique"
+  ],
+  "single_token": false,
+  "accepted": [
+   "Croscarmellose sodique",
+   "croscarmellose sodique",
+   "croscarmellose sodiques"
+  ],
+  "variants": [
+   "Croscarmellose sodique",
+   "croscarmellose sodique",
+   "croscarmellose sodiques"
+  ],
+  "decision": 2,
+  "score": 1.0,
+  "cooc": 8,
+  "test_hits": 0,
+  "provenance": "align+manual"
+ }
+]

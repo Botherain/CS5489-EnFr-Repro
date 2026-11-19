@@ -1,0 +1,251 @@
+{
+  "seed": 42,
+  "emea_block": 100,
+  "clean": {
+    "rows_read": 50000,
+    "unique_pairs": 2275,
+    "dropped_duplicates": 47725,
+    "splits": {
+      "train": 1800,
+      "dev": 200,
+      "test": 251
+    }
+  },
+  "mtnt": {
+    "train": {
+      "raw": 36058,
+      "kept": 35885,
+      "dropped": 173
+    },
+    "dev": {
+      "raw": 852,
+      "kept": 852,
+      "dropped": 0
+    },
+    "test": {
+      "raw": 1020,
+      "kept": 1020,
+      "dropped": 0
+    },
+    "train_dropped_for_eval_overlap": 260,
+    "train_after_decontam": 35625,
+    "memory_pool_unseen": 3032,
+    "train_for_sft": 32593
+  },
+  "leakage": {
+    "clean.dev": {
+      "rows": 200,
+      "exact_src_overlap": 0,
+      "8gram_overlap": 0,
+      "8gram_rate": 0.0
+    },
+    "clean.test": {
+      "rows": 251,
+      "exact_src_overlap": 0,
+      "8gram_overlap": 0,
+      "8gram_rate": 0.0
+    },
+    "mtnt.dev": {
+      "rows": 852,
+      "exact_src_overlap": 0,
+      "8gram_overlap": 1,
+      "8gram_rate": 0.0012
+    },
+    "mtnt.test": {
+      "rows": 1020,
+      "exact_src_overlap": 0,
+      "8gram_overlap": 0,
+      "8gram_rate": 0.0
+    },
+    "emea.dev": {
+      "rows": 1000,
+      "exact_src_overlap": 0,
+      "8gram_overlap": 0,
+      "8gram_rate": 0.0
+    },
+    "emea.test": {
+      "rows": 2000,
+      "exact_src_overlap": 0,
+      "8gram_overlap": 8,
+      "8gram_rate": 0.004
+    }
+  },
+  "length": {
+    "clean.dev": {
+      "rows": 200,
+      "src_words": {
+        "p50": 5,
+        "p90": 6,
+        "p95": 6,
+        "p99": 7,
+        "max": 7
+      },
+      "tgt_words": {
+        "p50": 5,
+        "p95": 6,
+        "max": 7
+      },
+      "est_src_tokens_p99": 9
+    },
+    "clean.test": {
+      "rows": 251,
+      "src_words": {
+        "p50": 5,
+        "p90": 6,
+        "p95": 6,
+        "p99": 7,
+        "max": 8
+      },
+      "tgt_words": {
+        "p50": 5,
+        "p95": 6,
+        "max": 8
+      },
+      "est_src_tokens_p99": 9
+    },
+    "clean.train": {
+      "rows": 1800,
+      "src_words": {
+        "p50": 5,
+        "p90": 6,
+        "p95": 6,
+        "p99": 7,
+        "max": 7
+      },
+      "tgt_words": {
+        "p50": 5,
+        "p95": 6,
+        "max": 8
+      },
+      "est_src_tokens_p99": 9
+    },
+    "emea.dev": {
+      "rows": 1000,
+      "src_words": {
+        "p50": 12,
+        "p90": 27,
+        "p95": 33,
+        "p99": 46,
+        "max": 59
+      },
+      "tgt_words": {
+        "p50": 13,
+        "p95": 40,
+        "max": 96
+      },
+      "est_src_tokens_p99": 62
+    },
+    "emea.memory_pool": {
+      "rows": 6000,
+      "src_words": {
+        "p50": 13,
+        "p90": 28,
+        "p95": 34,
+        "p99": 46,
+        "max": 60
+      },
+      "tgt_words": {
+        "p50": 14,
+        "p95": 41,
+        "max": 103
+      },
+      "est_src_tokens_p99": 62
+    },
+    "emea.test": {
+      "rows": 2000,
+      "src_words": {
+        "p50": 12,
+        "p90": 29,
+        "p95": 35,
+        "p99": 50,
+        "max": 60
+      },
+      "tgt_words": {
+        "p50": 14,
+        "p95": 42,
+        "max": 73
+      },
+      "est_src_tokens_p99": 67
+    },
+    "emea.train": {
+      "rows": 27000,
+      "src_words": {
+        "p50": 13,
+        "p90": 29,
+        "p95": 34,
+        "p99": 47,
+        "max": 60
+      },
+      "tgt_words": {
+        "p50": 15,
+        "p95": 41,
+        "max": 110
+      },
+      "est_src_tokens_p99": 63
+    },
+    "mtnt.dev": {
+      "rows": 852,
+      "src_words": {
+        "p50": 12,
+        "p90": 30,
+        "p95": 37,
+        "p99": 106,
+        "max": 391
+      },
+      "tgt_words": {
+        "p50": 14,
+        "p95": 45,
+        "max": 403
+      },
+      "est_src_tokens_p99": 143
+    },
+    "mtnt.memory_pool_unseen": {
+      "rows": 3032,
+      "src_words": {
+        "p50": 13,
+        "p90": 36,
+        "p95": 53,
+        "p99": 172,
+        "max": 397
+      },
+      "tgt_words": {
+        "p50": 15,
+        "p95": 61,
+        "max": 485
+      },
+      "est_src_tokens_p99": 232
+    },
+    "mtnt.test": {
+      "rows": 1020,
+      "src_words": {
+        "p50": 13,
+        "p90": 28,
+        "p95": 35,
+        "p99": 52,
+        "max": 85
+      },
+      "tgt_words": {
+        "p50": 15,
+        "p95": 38,
+        "max": 81
+      },
+      "est_src_tokens_p99": 70
+    },
+    "mtnt.train": {
+      "rows": 32593,
+      "src_words": {
+        "p50": 12,
+        "p90": 34,
+        "p95": 53,
+        "p99": 155,
+        "max": 398
+      },
+      "tgt_words": {
+        "p50": 14,
+        "p95": 60,
+        "max": 497
+      },
+      "est_src_tokens_p99": 209
+    }
+  }
+}

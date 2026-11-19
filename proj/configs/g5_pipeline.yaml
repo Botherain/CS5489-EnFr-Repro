@@ -1,0 +1,63 @@
+# G5 推理管线。核心决策：QE 打分与生成解耦（两遍式），τ 作为离线过滤器事后应用。
+# 这样 8 个 τ 点共用一次生成结果，τ 扫描的额外 GPU 成本为 0，也解决了
+# "COMET 在独立 venv" 与 "路由需要 Kiwi 常驻生成进程" 的架构冲突。
+inherit: base.yaml
+
+run_id: g5_full
+mode: pipeline
+
+# ---------------- Pass 1：生成（主 venv，GPU 常驻仅 Qwen + 检索器） ----------------
+pass1_generate:
+  adapter: runs/g5_dpo_r16_s42/adapter
+  light_path:
+    adapter: runs/g3_sft_r16_s42/adapter     # 轻通道用 SFT 模型，与 G3 完全一致
+    decode: {do_sample: false, max_new_tokens: 160}
+    batch_size: 32
+  heavy_path:
+    decode: {do_sample: false, max_new_tokens: 160}
+    batch_size: 32
+    retrieval:
+      dense: {model: BAAI/bge-m3, dtype: float16, k: 3, index: data/index/{domain}.faiss}
+      bm25: {k: 3, tokenizer: whitespace+lower}
+      fusion: {method: rrf, k: 60, top_n: 3}
+      pool: seen          # seen = SFT 训练池；unseen = memory_pool（对照臂切换）
+      prompt_budget_tokens: 320
+    constraints:
+      mode: soft_bias          # 主方案；hard_trie 臂已按工期删除
+      glossary: data/processed/glossary.emea.json
+      logit_delta: 2.0
+      active_fraction: 0.4     # 仅前 40% 生成步内生效
+    agents:
+      critic:
+        max_new_tokens: 160
+        output_schema: {issues: [{type, span, fix}], severity: int}
+      refiner:
+        max_new_tokens: 160
+      guard:                   # 触发任一条即回退 draft，并计入 fallback_rate
+        length_ratio: [0.5, 2.0]
+        max_repeat_4gram_ratio: 0.30
+        lang_must_be: fr
+  outputs: runs/{run_id}/pass1.jsonl     # 每句：draft, heavy, issues, refined, final_guarded, 各阶段耗时
+
+# ---------------- Pass 2：打分（comet venv，GPU 只装 COMET） ----------------
+pass2_score:
+  python: "D:\\HKStudy\\.venv-comet\\Scripts\\python.exe"
+  inputs: runs/{run_id}/pass1.jsonl
+  models:
+    qe: Unbabel/wmt22-cometkiwi-da          # gated；无 token 时用 metric_qe_fallback 并在报告披露
+    da: Unbabel/wmt22-comet-da
+  score: [draft, heavy_final]               # 两条都打分，τ 才能在离线阶段任意取值
+  batch_size: 64
+  outputs: runs/{run_id}/scores.jsonl       # 句级分数，供 bootstrap 与长度分桶复用
+
+# ---------------- Pass 3：路由合成（CPU） ----------------
+pass3_route:
+  tau_grid: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85]   # 8 点
+  selection_rule: >-
+    tau* = argmax_tau macro_COMET(tau)  s.t. latency(tau) <= 1.15 * latency(G4)；
+    不可行则放宽到 1.30 并标注。完整 Pareto 点列全部报告。
+  latency_model: >-
+    latency(tau) = mean_i[ t_draft_i + t_qe_i + 1{qe_i < tau} * (t_retr_i + t_heavy_i + t_critic_i + t_refiner_i) ]
+    全部来自 pass1 实测阶段耗时；tau* 处另跑一次真实串联管线做端到端校验。
+  dev_only: true               # τ 只在 mtnt.dev + emea.dev（1,852 条）上选
+  outputs: runs/{run_id}/routing.json

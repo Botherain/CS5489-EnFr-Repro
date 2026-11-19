@@ -1,0 +1,53 @@
+# 消融与归因运行矩阵。orchestrator 按本表顺序执行，夜间批次标 overnight: true。
+# est_min 为单卡实测口径下的估算（依据 logs/probe_train_mem.json 的 tokens/s 与 sent/s）。
+inherit: base.yaml
+
+value_function:
+  definition: "v(S) = 模块子集 S 在 dev 上的两域等权宏平均 COMET-DA"
+  empty_set: "v(∅) = 仅 SFT 基座（无 DPO / 无检索 / 无约束 / 无审校）"
+  note: >-
+    Shapley 效率公理给出 Σφ_i = v(full) − v(∅)。阶梯分解的和是 v(G5) − v(G1)，
+    两者相差 Δ_SFT，本就不相等，不得互相对账（G6 闸门只校验前者）。
+
+main_runs:                                # test 集，5 组
+  - {run_id: g1_zs,        set: test, decode: greedy, est_min: 8}
+  - {run_id: g1_zs_beam4,  set: test, decode: beam4,  est_min: 30, purpose: 解码敏感性}
+  - {run_id: g2_rag,       set: test, decode: greedy, est_min: 12}
+  - {run_id: g3_sft,       set: test, decode: greedy, est_min: 10}
+  - {run_id: g4_sft_rag,   set: test, decode: greedy, est_min: 14}
+  - {run_id: g5_full,      set: test, decode: greedy, est_min: 35, note: pass1 一次产出 draft+heavy}
+
+ablation_runs:                            # test 集，留一
+  - {run_id: g5_no_dpo,   remove: dpo,        est_min: 35}
+  - {run_id: g5_no_rag,   remove: retrieval,  est_min: 30}
+  - {run_id: g5_no_rag_len, remove: retrieval, control: length_matched_random_context, est_min: 30,
+     note: 排除"长 prompt 本身有效"的混淆}
+  - {run_id: g5_no_con,   remove: soft_bias,  est_min: 35}
+  - {run_id: g5_no_agent, remove: agents,     est_min: 25}
+
+dev_runs:                                 # dev 集，机制对照与归因
+  - {run_id: g2_k1, set: dev, k: 1, est_min: 6}
+  - {run_id: g2_k3, set: dev, k: 3, est_min: 6}
+  - {run_id: g2_k5, set: dev, k: 5, est_min: 8}
+  - {run_id: g4_pool_seen,   set: dev, pool: seen,   pool_size: 6000, est_min: 8}
+  - {run_id: g4_pool_unseen, set: dev, pool: unseen, pool_size: 6000, est_min: 8,
+     note: 与 seen 臂规模匹配（都抽 6,000），差异才可归因于"是否被 SFT 见过"}
+  - {run_id: g5_always_heavy, set: dev, tau: -inf, est_min: 20}
+  - {run_id: g5_route_sweep,  set: dev, tau: from_grid, est_min: 0,
+     note: τ 为离线过滤器，8 个点复用同一次 pass1，无额外生成成本}
+  - {run_id: dpo_random_pairs, type: retrain, set: dev+test, est_min: 95,
+     note: chosen/rejected 随机打乱后重训 DPO；保护"DPO 有效"这一头条结论的对照臂，降级顺序中不得先砍}
+
+shapley:                                  # dev 集，2^4=16 子集，夜间
+  modules: [dpo, rag, con, agt]
+  subsets: 16
+  reuse: "draft 与 QE 分数与子集无关，pass1 只跑一次并缓存；16 个子集只在离线阶段重组 heavy 输出"
+  est_min: 150          # 若不做缓存复用则约 330 分钟
+  overnight: true
+  gate: "Σφ_i 与 v(full) − v(∅) 相对误差 < 1%（同一 dev、同一口径，理应恒等）"
+
+deleted_for_schedule:                     # 已按工期删除，报告中说明理由
+  - {item: hard_trie_constrained_decoding, reason: "工程半天换一句 dev 定性结论；软偏置已覆盖约束解码因子"}
+  - {item: dual_annotator_kappa_alpha, reason: "单人无法履行第二标注人；改为单标注 + 裁判模型复核 30 条并披露"}
+  - {item: cot_planning, reason: "v2 文档的 CoT 组件删除：1.5B 模型上 CoT 收益不稳，且与工期冲突（差异已登记）"}
+  - {item: second_seed, reason: "可选，时间富余时对 g3/g5 各补 1 个 seed（+3.5h）"}

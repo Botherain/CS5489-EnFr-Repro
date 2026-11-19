@@ -1,0 +1,57 @@
+# G3：LoRA SFT。键名已按 TRL 1.18 / transformers 5.17 实测校验（见 logs/smoke_all.log）。
+# 注意：本版 TRL 没有 warmup_ratio，只有 warmup_steps；train_dataset 必须是 datasets.Dataset。
+inherit: base.yaml
+
+run_id: g3_sft_r16_s42
+task: sft
+
+data:
+  sources:
+    - {file: mtnt.train.jsonl, weight: 1.0}        # 32,593 条
+    - {file: emea.train.jsonl, weight: 1.0}        # 27,000 条
+    - {file: clean.train.jsonl, weight: 1.0}       # 1,800 条
+  format: messages                                  # system/user/assistant 三段
+  max_length: 384                                   # 实测覆盖 98.3% MTNT train
+  truncation_mode: keep_end
+  packing: true
+  packing_strategy: bfd                             # best-fit-decreasing，配 padding_free 自动生效
+  shuffle: true
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  task_type: CAUSAL_LM
+  # 实测可训练参数 18.46M = 1.18%（v2 文档写的 0.2% 与此不符）
+
+trainer:                        # 直接映射 trl.SFTConfig
+  assistant_only_loss: true     # 仅对 assistant 段计 CE（取代已删除的 DataCollatorForCompletionOnlyLM）
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 2      # 有效 batch 16
+  num_train_epochs: 2
+  learning_rate: 2.0e-4
+  lr_scheduler_type: cosine
+  warmup_steps: 120                   # ≈3% of 3,900 步
+  weight_decay: 0.0
+  max_grad_norm: 1.0
+  optim: adamw_torch                  # 不用 bitsandbytes（sm_120 内核风险，LoRA 优化器状态仅 0.22GB）
+  bf16: true
+  gradient_checkpointing: true
+  gradient_checkpointing_kwargs: {use_reentrant: false}
+  dataloader_num_workers: 0
+  eval_strategy: steps
+  eval_steps: 400
+  per_device_eval_batch_size: 8
+  save_strategy: steps
+  save_steps: 400
+  save_total_limit: 2
+  logging_steps: 20
+  report_to: []
+  seed: 42
+  use_liger_kernel: false
+  torch_compile: false
+
+output:
+  adapter_dir: runs/g3_sft_r16_s42/adapter
+  registry_row: true

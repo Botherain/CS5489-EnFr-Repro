@@ -1,0 +1,28 @@
+{
+  "run_id": "g5_full",
+  "split": "test",
+  "rows": 3271,
+  "flags": {
+    "dpo": true,
+    "rag": true,
+    "rag_control": "none",
+    "con": true,
+    "agent": true
+  },
+  "k": 3,
+  "pool": "seen",
+  "wallclock_min": 26.91,
+  "mean_ms": {
+    "t_draft": 117.7,
+    "t_heavy": 124.7,
+    "t_critic": 119.0,
+    "t_refiner": 130.8
+  },
+  "fallback": 275,
+  "fallback_reasons": {
+    "length": 274,
+    "repeat": 1
+  },
+  "glossary_hits": 478,
+  "peak_vram_gb": 7.537
+}

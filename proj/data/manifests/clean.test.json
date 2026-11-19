@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\clean.test.jsonl",
+  "rows": 251,
+  "sha256": "008681aed34d6211e33894fbcb28f52cbc680cf69c0a6a02a74eb349f14ee99a",
+  "domain": "clean",
+  "split": "test",
+  "seed": 42
+}

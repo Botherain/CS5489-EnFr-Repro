@@ -1,0 +1,187 @@
+{
+  "emea": {
+    "keep": 184,
+    "cat:drug": 48,
+    "conf:high": 242,
+    "cat:disease": 42,
+    "cat:anatomy": 22,
+    "reject": 65,
+    "cat:fragment": 26,
+    "cat:general": 58,
+    "conf:medium": 40,
+    "cat:procedure": 43,
+    "cat:regulatory": 11,
+    "fix": 37,
+    "cat:dosage_form": 28,
+    "cat:route": 6,
+    "conf:low": 4,
+    "cat:abbreviation": 2
+  },
+  "mtnt": {
+    "reject": 25,
+    "mode:omit": 29,
+    "conf:high": 126,
+    "conf:medium": 57,
+    "keep": 175,
+    "mode:keep": 117,
+    "mode:translate": 54,
+    "conf:low": 17
+  },
+  "missing": {
+    "emea": 0,
+    "mtnt": 0
+  },
+  "low_confidence": [
+    {
+      "domain": "emea",
+      "i": 150,
+      "en": "acidosis",
+      "fr": "lactique",
+      "decision": "keep",
+      "reason": "例句只支持“acidocétose”而未提供 acidosis 的独立译法，现有候选不足以据证改译。"
+    },
+    {
+      "domain": "emea",
+      "i": 181,
+      "en": "coated tablet",
+      "fr": "comprimé enrobé",
+      "decision": "keep",
+      "reason": "例句只提供 film-coated tablet 的译法，未能确认一般 coated tablet 是否应区别处理。"
+    },
+    {
+      "domain": "emea",
+      "i": 226,
+      "en": "renal or hepatic",
+      "fr": "rénale ou hépatique",
+      "decision": "reject",
+      "reason": "输入只是 renal or hepatic 的不完整形容词片段，不能据此确定完整术语译法。"
+    },
+    {
+      "domain": "emea",
+      "i": 273,
+      "en": "vial containing",
+      "fr": "flacon contenant",
+      "decision": "reject",
+      "reason": "vial containing 是未完成的英语短语片段，不宜作为术语候选保留。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 29,
+      "token": "btw",
+      "decision": "keep",
+      "reason": "btw 在例句中意译为「d'ailleurs」或「au fait」，对应方式不唯一。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 48,
+      "token": "ds",
+      "decision": "keep",
+      "reason": "DS 在例句中多处原样保留，但对应含义因语境而异。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 56,
+      "token": "bs",
+      "decision": "keep",
+      "reason": "例句未呈现 bs 的稳定法语对应，属于语气或句意改写。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 58,
+      "token": "mp",
+      "decision": "reject",
+      "reason": "MP 在例句中指代不同事物，未显示该候选俚语的稳定对应。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 63,
+      "token": "mr",
+      "decision": "keep",
+      "reason": "游戏语境例句将 MR 对应内容译为「résistance magique」，另有称谓 Mr. 的不同用法。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 68,
+      "token": "dm",
+      "decision": "keep",
+      "reason": "一条例句将 DM 展开为「maître de donjon」，另有用法保留缩写。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 85,
+      "token": "wc",
+      "decision": "keep",
+      "reason": "WC 在例句译文中保留，另有一处被误译为「toilettes」。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 130,
+      "token": "ppl",
+      "decision": "keep",
+      "reason": "例句中“ppl”有译为“gens”的用例，但译法不完全一致。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 133,
+      "token": "spd",
+      "decision": "keep",
+      "reason": "例句将数值属性“spd”写作“VIT”，但另一例保留原缩写。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 134,
+      "token": "cl",
+      "decision": "keep",
+      "reason": "足球语境例句将“CL”译为“ligue des champions”，但该缩写有其他含义。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 142,
+      "token": "rl",
+      "decision": "keep",
+      "reason": "例句把“RL”表示现实生活时译为“vraie vie”，但另有不同含义。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 151,
+      "token": "mrw",
+      "decision": "keep",
+      "reason": "例句将表情模板“MRW”译为“Ma réaction quand”，另有原样保留用例。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 169,
+      "token": "dp",
+      "decision": "keep",
+      "reason": "例句将“dragon piercer”译为“perceur de dragon”，另有“DP”原样保留。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 170,
+      "token": "smh",
+      "decision": "keep",
+      "reason": "例句将“smh”释译为“secouant la tête”，但另有保留和省略用例。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 175,
+      "token": "mc",
+      "decision": "keep",
+      "reason": "例句把“MC”对应为“personnage principal”，但另有原样保留的用例。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 180,
+      "token": "hm",
+      "decision": "keep",
+      "reason": "一条例句将“hm”写作“Hum”，另有保留和省略用例。"
+    },
+    {
+      "domain": "mtnt",
+      "i": 190,
+      "token": "mgs",
+      "decision": "keep",
+      "reason": "剂量例句将“mgs”写作“mg”，但另一例中的“MGS”是游戏缩写。"
+    }
+  ]
+}

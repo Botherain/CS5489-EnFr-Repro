@@ -1,0 +1,100 @@
+{"i":0,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"try 是例句中的普通动词，不是俚语或缩写。","mode":"omit"}
+{"i":1,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"th 在例句中是截断片段或普通词开头，未显示为固定缩写。","mode":"omit"}
+{"i":2,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"例句中 PCC 原样保留在法语译文中。","mode":"keep"}
+{"i":3,"decision":"keep","fr":"MP","confidence":"medium","category":"abbreviation","reason":"例句将 PM 译作 MP，另有一处意译为 message。","mode":"translate"}
+{"i":4,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"PS 在例句中作为附言缩写保留为 Ps。","mode":"keep"}
+{"i":5,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"PC 在便携电脑语境的例句译文中原样保留。","mode":"keep"}
+{"i":6,"decision":"keep","fr":"pour être honnête","confidence":"high","category":"abbreviation","reason":"两条例句将 tbh 意译为「pour être honnête」。","mode":"translate"}
+{"i":7,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"HP 在例句中作为缩写原样保留。","mode":"keep"}
+{"i":8,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"CC 在例句中原样保留于法语译文。","mode":"keep"}
+{"i":9,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"地名中的 St 在例句译文中原样保留。","mode":"keep"}
+{"i":10,"decision":"keep","fr":"télé","confidence":"medium","category":"abbreviation","reason":"一条例句将 TV 译作「télé」，另两处保留 TV。","mode":"translate"}
+{"i":11,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"RD 在招生语境例句的法语译文中原样保留。","mode":"keep"}
+{"i":12,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"ND 作为 Miata 代际标记在例句中原样保留。","mode":"keep"}
+{"i":13,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"dry 是普通形容词，例句里的「comté sec」也不是俚语缩写。","mode":"omit"}
+{"i":14,"decision":"keep","fr":"niveau","confidence":"medium","category":"abbreviation","reason":"例句将 lvl 译为「niveau」，另有两处保留缩写。","mode":"translate"}
+{"i":15,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"cry 是普通动词，例句按「pleure」翻译。","mode":"omit"}
+{"i":16,"decision":"keep","fr":"livres","confidence":"medium","category":"abbreviation","reason":"重量语境例句将 pounds 译为「livres」，另有 lbs 原样保留。","mode":"translate"}
+{"i":17,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"称谓 Dr 在例句译文中原样保留。","mode":"keep"}
+{"i":18,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"gym 是普通名词，例句分别译作「gym」和「gymnase」，不构成固定缩写。","mode":"omit"}
+{"i":19,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"游戏语境中的 BR 在三条例句译文中均原样保留。","mode":"keep"}
+{"i":20,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"DPS 在游戏语境例句中原样保留。","mode":"keep"}
+{"i":21,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"GB 在内存和游戏按键语境中都原样保留。","mode":"keep"}
+{"i":22,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"wtf 在例句译文中保留为 wtf／WTF，另有一处语气意译。","mode":"keep"}
+{"i":23,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"MM 在例句译文中原样保留，具体含义随语境变化。","mode":"keep"}
+{"i":24,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"MVP 在三条例句的法语译文中均原样保留。","mode":"keep"}
+{"i":25,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"PvP／PVP 在例句译文中原样保留。","mode":"keep"}
+{"i":26,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"DLC 在三条例句的法语译文中原样保留。","mode":"keep"}
+{"i":27,"decision":"keep","fr":"an","confidence":"medium","category":"abbreviation","reason":"例句将 yr 译为「an」或「ans」，此处采用译文中的「an」。","mode":"translate"}
+{"i":28,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"交易语境的 FT 在两条例句译文中原样保留。","mode":"keep"}
+{"i":29,"decision":"keep","fr":"d'ailleurs","confidence":"low","category":"abbreviation","reason":"btw 在例句中意译为「d'ailleurs」或「au fait」，对应方式不唯一。","mode":"translate"}
+{"i":30,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"fly 是例句中的普通动词，不是俚语缩写。","mode":"omit"}
+{"i":31,"decision":"reject","fr":"","confidence":"high","category":"abbreviation","reason":"该条没有训练例句，无法从官方译文确认固定对应。","mode":"omit"}
+{"i":32,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"每秒帧数语境的 fps 在译文中保留，另有一处被展开意译。","mode":"keep"}
+{"i":33,"decision":"keep","fr":"parce que","confidence":"medium","category":"abbreviation","reason":"例句将 bc 译为「parce que」，另有一处保留为 pcq。","mode":"translate"}
+{"i":34,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"QB 在三条例句的法语译文中均原样保留。","mode":"keep"}
+{"i":35,"decision":"keep","fr":"dégâts","confidence":"medium","category":"abbreviation","reason":"两条例句将 dmg 对应的 damage 译为「dégâts」。","mode":"translate"}
+{"i":36,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"NFL 在例句译文中原样保留。","mode":"keep"}
+{"i":37,"decision":"keep","fr":"Fil de discussion du match","confidence":"medium","category":"abbreviation","reason":"作为比赛讨论帖缩写时，例句将 GT 译为「Fil de discussion du match」。","mode":"translate"}
+{"i":38,"decision":"keep","fr":"Déconseillé au boulot","confidence":"medium","category":"abbreviation","reason":"一条例句将 NSFW 译为「Déconseillé au boulot」，另有两处意译或保留。","mode":"translate"}
+{"i":39,"decision":"keep","fr":"réalité virtuelle","confidence":"medium","category":"abbreviation","reason":"一条例句将 VR 译为「réalité virtuelle」，另两处保留 VR。","mode":"translate"}
+{"i":40,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"交易帖中的 LF 在三条例句法语侧均原样保留。","mode":"keep"}
+{"i":41,"decision":"keep","fr":"heures","confidence":"medium","category":"abbreviation","reason":"时长语境的 hr 在例句中译为「heures」，其他语境含不同缩写义。","mode":"translate"}
+{"i":42,"decision":"keep","fr":"Fil de Discussion Général","confidence":"medium","category":"abbreviation","reason":"一条例句将 GDT 展开为「Fil de Discussion Général」，另有一处保留缩写。","mode":"translate"}
+{"i":43,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"DC 在例句中作为专名缩写原样保留。","mode":"keep"}
+{"i":44,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"SP 在游戏和硬件语境的例句中原样保留。","mode":"keep"}
+{"i":45,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"GM 在职位和专名语境的法语译文中原样保留。","mode":"keep"}
+{"i":46,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"sky 是普通名词或用户名组成部分，不能据例句确定为俚语缩写。","mode":"omit"}
+{"i":47,"decision":"keep","fr":"petit-ami","confidence":"medium","category":"abbreviation","reason":"关系语境例句将 bf 译为「petit-ami」，另有游戏标题保留 BF。","mode":"translate"}
+{"i":48,"decision":"keep","fr":"","confidence":"low","category":"abbreviation","reason":"DS 在例句中多处原样保留，但对应含义因语境而异。","mode":"keep"}
+{"i":49,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"染色体语境中的 XX 在例句译文中原样保留。","mode":"keep"}
+{"i":50,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"BB 在例句中作为专名缩写原样保留，其他出现与该缩写无关。","mode":"keep"}
+{"i":51,"decision":"keep","fr":"de suite","confidence":"medium","category":"abbreviation","reason":"例句将 rn 译为「de suite」，其余例句没有呈现该缩写。","mode":"translate"}
+{"i":52,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"姓名后缀 Jr. 在例句译文中原样保留。","mode":"keep"}
+{"i":53,"decision":"reject","fr":"","confidence":"high","category":"general","reason":"Nyx 在例句中是专名而非俚语或缩写。","mode":"omit"}
+{"i":54,"decision":"keep","fr":"niveau","confidence":"medium","category":"abbreviation","reason":"例句将 lv 译为「niveau」，其他例句中则保留 lv。","mode":"translate"}
+{"i":55,"decision":"keep","fr":"petite amie","confidence":"medium","category":"abbreviation","reason":"GF 表示女友的例句译作「petite amie」或「copine」。","mode":"translate"}
+{"i":56,"decision":"keep","fr":"","confidence":"low","category":"general","reason":"例句未呈现 bs 的稳定法语对应，属于语气或句意改写。","mode":"omit"}
+{"i":57,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"Facebook 语境中的 FB 在例句译文中原样保留。","mode":"keep"}
+{"i":58,"decision":"reject","fr":"","confidence":"low","category":"abbreviation","reason":"MP 在例句中指代不同事物，未显示该候选俚语的稳定对应。","mode":"omit"}
+{"i":59,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"CD 在例句的法语译文中原样保留。","mode":"keep"}
+{"i":60,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"XP 在游戏语境的例句中原样保留。","mode":"keep"}
+{"i":61,"decision":"keep","fr":"cuillère à soupe","confidence":"high","category":"abbreviation","reason":"两条例句将 tbsp 展开译为「cuillère à soupe」。","mode":"translate"}
+{"i":62,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"Hz 在两条例句的法语译文中均原样保留。","mode":"keep"}
+{"i":63,"decision":"keep","fr":"résistance magique","confidence":"low","category":"abbreviation","reason":"游戏语境例句将 MR 对应内容译为「résistance magique」，另有称谓 Mr. 的不同用法。","mode":"translate"}
+{"i":64,"decision":"keep","fr":"putain","confidence":"medium","category":"abbreviation","reason":"两条例句将语气用法的 tf 意译为「putain」。","mode":"translate"}
+{"i":65,"decision":"keep","fr":"star wars","confidence":"medium","category":"abbreviation","reason":"一条例句将 SW 展开为「star wars」，另有一处保留 SW。","mode":"translate"}
+{"i":66,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"GTX 在三条例句的法语译文中原样保留。","mode":"keep"}
+{"i":67,"decision":"keep","fr":"Astuce du jour","confidence":"medium","category":"abbreviation","reason":"例句将 LPT 译为「Astuce du jour」，另一译文采用「Conseils de Vie de Pro」。","mode":"translate"}
+{"i":68,"decision":"keep","fr":"maître de donjon","confidence":"low","category":"abbreviation","reason":"一条例句将 DM 展开为「maître de donjon」，另有用法保留缩写。","mode":"translate"}
+{"i":69,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"RNG 在游戏语境例句的法语译文中原样保留。","mode":"keep"}
+{"i":70,"decision":"keep","fr":"heures","confidence":"high","category":"abbreviation","reason":"两条例句将 hrs 译为「heures」。","mode":"translate"}
+{"i":71,"decision":"keep","fr":"médecin généraliste","confidence":"high","category":"abbreviation","reason":"两条例句将 GP 译为「médecin généraliste」。","mode":"translate"}
+{"i":72,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"感叹词 Hmm 在例句译文中保留为 Hmm／Humm。","mode":"keep"}
+{"i":73,"decision":"keep","fr":"livres","confidence":"medium","category":"abbreviation","reason":"重量语境例句将 lb(s) 译为「livres」，另有游戏缩写保留。","mode":"translate"}
+{"i":74,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"LMR 在例句译文中原样保留。","mode":"keep"}
+{"i":75,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"CM 在游戏和专名语境中原样保留。","mode":"keep"}
+{"i":76,"decision":"keep","fr":"En résumé","confidence":"medium","category":"abbreviation","reason":"一条例句将 TL:DR 译为「En résumé」，另外两处保留缩写。","mode":"translate"}
+{"i":77,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"pp 在三种语境的例句译文中均原样保留。","mode":"keep"}
+{"i":78,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"HD 在三条例句的法语译文中原样保留。","mode":"keep"}
+{"i":79,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"NHL 在两条例句译文中保留，另有一处译为 LNH。","mode":"keep"}
+{"i":80,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"速度单位 mph 在例句译文中仍以 MpH／MPH 表示。","mode":"keep"}
+{"i":81,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"TW 在例句中作为游戏缩写原样保留。","mode":"keep"}
+{"i":82,"decision":"keep","fr":"points","confidence":"medium","category":"abbreviation","reason":"两条例句将 pt 展开译为「points」，另有一处保留 pt。","mode":"translate"}
+{"i":83,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"表情 XD 在例句译文中原样保留。","mode":"keep"}
+{"i":84,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"CR 在例句译文中作为名称缩写原样保留。","mode":"keep"}
+{"i":85,"decision":"keep","fr":"","confidence":"low","category":"abbreviation","reason":"WC 在例句译文中保留，另有一处被误译为「toilettes」。","mode":"keep"}
+{"i":86,"decision":"reject","fr":"","confidence":"high","category":"abbreviation","reason":"例句中没有出现 twls，无法从官方译文确认对应表达。","mode":"omit"}
+{"i":87,"decision":"keep","fr":"New York","confidence":"medium","category":"abbreviation","reason":"地名缩写 NY 在例句中展开译为「New York」，其他专名中保留。","mode":"translate"}
+{"i":88,"decision":"reject","fr":"","confidence":"high","category":"abbreviation","reason":"该条没有训练例句，无法从官方译文确认固定对应。","mode":"omit"}
+{"i":89,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"MF 在两条例句中以 mf／MF 原样保留。","mode":"keep"}
+{"i":90,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"SB 在商品和品牌语境的例句译文中原样保留。","mode":"keep"}
+{"i":91,"decision":"keep","fr":"sugar daddy","confidence":"medium","category":"abbreviation","reason":"关系语境例句将 SD 展开为「sugar daddy」，另一语境保留 SD。","mode":"translate"}
+{"i":92,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"HTML 实体 &nbsp; 在法语译文中原样保留。","mode":"keep"}
+{"i":93,"decision":"keep","fr":"science-fiction","confidence":"high","category":"abbreviation","reason":"三条例句均将 SF 展开译为「science-fiction」。","mode":"translate"}
+{"i":94,"decision":"keep","fr":"playstation network","confidence":"medium","category":"abbreviation","reason":"一条例句将 PSN 展开为「playstation network」，另有两处保留 PSN。","mode":"translate"}
+{"i":95,"decision":"keep","fr":"s'il vous plaît","confidence":"medium","category":"abbreviation","reason":"一条例句将 pls 意译为「s'il vous plaît」，另有一处保留 pls。","mode":"translate"}
+{"i":96,"decision":"keep","fr":"","confidence":"high","category":"abbreviation","reason":"CV 在舰船航空母舰语境的例句中原样保留。","mode":"keep"}
+{"i":97,"decision":"keep","fr":"","confidence":"medium","category":"abbreviation","reason":"回复用法 Np 在译文中保留，其他例句里的 NP 属不同游戏缩写。","mode":"keep"}
+{"i":98,"decision":"keep","fr":"New York","confidence":"high","category":"abbreviation","reason":"NYC 在例句译文中展开为「New York」。","mode":"translate"}
+{"i":99,"decision":"keep","fr":"En résumé","confidence":"medium","category":"abbreviation","reason":"一条例句将 TL:DR 译为「En résumé」，另一处保留 TL:DR。","mode":"translate"}

@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\emea.dev.jsonl",
+  "rows": 1000,
+  "sha256": "757abc473805b2ee5517f56e08766032bfb611744616de139508fd70b2c80487",
+  "domain": "emea",
+  "split": "dev",
+  "seed": 42
+}

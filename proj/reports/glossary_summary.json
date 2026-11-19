@@ -1,0 +1,44 @@
+{
+  "emea_terms": 221,
+  "mtnt_terms": 175,
+  "emea_single_token": 1,
+  "mtnt_modes": {
+    "keep": 117,
+    "translate": 54,
+    "omit": 4
+  },
+  "emea_test": {
+    "rows": 2000,
+    "covered": 397,
+    "coverage_pct": 19.9,
+    "term_hits": 508
+  },
+  "mtnt_test": {
+    "rows": 1020,
+    "covered": 37,
+    "coverage_pct": 3.6,
+    "term_hits": 38
+  },
+  "verification": {
+    "model": "claude-haiku-5-5",
+    "sample": 30,
+    "agree": 27,
+    "agreement_pct": 90.0,
+    "problems": {
+      "none": 27,
+      "no_evidence": 1,
+      "wrong_decision": 2
+    },
+    "accepted_suggestions": [
+      {
+        "en": "concentrate for solution",
+        "fr": "solution à diluer"
+      },
+      {
+        "en": "Cardboard box",
+        "fr": "boîte en carton"
+      }
+    ],
+    "notes": "pulmonary oedema 被判 no_evidence，但 œdème pulmonaire 是标准法语，保持 keep"
+  }
+}

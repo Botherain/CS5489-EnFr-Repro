@@ -1,0 +1,70 @@
+# 评测协议。所有数字从 runs/registry.csv + 句级分数文件生成，禁止手抄。
+inherit: base.yaml
+
+eval_sets:
+  main:                                  # 结论只由这两域产生
+    - {domain: mtnt, file: mtnt.test.jsonl, rows: 1020}
+    - {domain: emea, file: emea.test.jsonl, rows: 2000}
+  sanity:                                # 单列一节，不参与跨系统结论
+    - {domain: clean, file: clean.test.jsonl, rows: 251}
+  dev:                                   # 选 k / τ / prompt，绝不用于主表
+    - {domain: mtnt, file: mtnt.dev.jsonl, rows: 852}
+    - {domain: emea, file: emea.dev.jsonl, rows: 1000}
+
+headline_metric: macro_comet_da          # 两域等权（clean 不计入）
+
+metrics:
+  - {name: comet_da, tool: Unbabel/wmt22-comet-da, venv: comet, level: [corpus, segment]}
+  - {name: cometkiwi, tool: Unbabel/wmt22-cometkiwi-da, venv: comet, level: [corpus, segment]}
+  - {name: bleu, tool: sacrebleu, signature: "tok=13a", level: [corpus]}
+  - {name: chrfpp, tool: sacrebleu, char_order: 6, word_order: 2, level: [corpus]}
+  - {name: term_hit, tool: src/eval/term_hit.py, level: [corpus], glossary: [emea 200, mtnt 100]}
+  - {name: length_ratio, level: [corpus]}
+  - {name: repetition_rate, def: "4-gram 重复占比 > 0.30 的句比例", level: [corpus]}
+  - {name: degeneration_rate, def: "空输出 / 非 fr / 超长截断 的句比例", level: [corpus]}
+  - {name: latency, level: [p50, p95, mean], unit: ms, source: pass1 阶段耗时}
+  - {name: peak_vram_gb, level: [per-run]}
+
+statistics:
+  bootstrap:
+    iterations: 10000
+    seed: 42
+    comet: segment              # COMET 可句级分解，直接对句级分数重采样
+    bleu_chrf: corpus_recompute # 重采样句对后重算语料级指标（句级 BLEU 均值有偏，不可用）
+    mtnt_clustering: comment_id # 同帖句子相关，按 comment_id 分块重采样
+  significance:
+    test: paired_bootstrap       # 双侧，p = 2*min(P(diff<=0), P(diff>=0))
+    correction: holm
+    families:                    # 明确划分比较族，避免族错误率失控
+      main: [g3-g1, g4-g3, g5-g4, g5-g1]        # 4 个比较，Holm 校正
+      ablation: [no_dpo, no_rag, no_con, no_agent]  # 4 个比较，Holm 校正
+      exploratory: 分域/分长度桶，不校正，报告中标注 exploratory
+  power:
+    mde_comet: 0.012             # n=1020（MTNT）下配对差值可稳定分辨的量级，实测后回填
+    rule: >-
+      |Δ| < mde 记为 "below resolution"，与 "证伪" 分开表述；
+      单个模块的 φ 值若低于 mde，只报区间不报结论。
+
+analysis:
+  length_buckets: [tercile_by_src_tokens]     # 短/中/长三分位 × 系统 × 域
+  error_taxonomy:
+    labels: [omission, negation, term, idiom, named_entity, morphology, register, repetition]
+    sample: {mtnt: 60, emea: 60}              # G4/G5 差值最大各半
+    annotators: 1                             # 单人 + LLM 裁判复核 30 条；κ/α 协议已按工期删除
+    report: [分布表, 卡方检验, 3 个完整案例]
+
+judge:
+  enabled: optional                  # 工期紧张时整块砍掉，不影响主结论
+  sample_per_domain: 300
+  dims: [faithfulness, terminology, register, naturalness]
+  scale: 1-5
+  blind: true                        # A/B 身份打乱，位置随机
+  self_consistency: 30               # 重复项测自一致
+  backend: "api 优先；无 API 时用本地缓存的 Qwen3.8-27B-GGUF（llama.cpp），需披露量化等级"
+
+registry: runs/registry.csv
+registry_columns:
+  [run_id, group, variant, data_manifest, adapter, decode, batch, max_length, tau,
+   bleu, chrfpp, comet_da, comet_da_ci_lo, comet_da_ci_hi, kiwi, term_hit,
+   repetition_rate, degeneration_rate, latency_p50, latency_p95, peak_vram_gb,
+   wallclock_min, git_commit, model_revision, note]

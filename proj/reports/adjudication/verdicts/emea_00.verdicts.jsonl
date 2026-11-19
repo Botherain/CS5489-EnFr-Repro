@@ -1,0 +1,95 @@
+{"i":0,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将该成分译为“phosphate disodique dihydraté”。"}
+{"i":1,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均将该病名译为“rhumatisme psoriasique”。"}
+{"i":2,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句使用“filtration glomérulaire”，与现译一致。"}
+{"i":3,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"locally advanced 是依附疾病名的修饰片段，不能独立作为术语。"}
+{"i":4,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将该辅料译为“eau purifiée”。"}
+{"i":5,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"acute renal 是未完成的修饰片段，例句对应完整术语“insuffisance rénale aiguë”。"}
+{"i":6,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句将该病名译为“myélome multiple”。"}
+{"i":7,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"英文仅为未完成的“torsade de”，完整术语是“torsade de pointes”。"}
+{"i":8,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句均使用“paroi abdominale”。"}
+{"i":9,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将该辅料译为“paraffine liquide”。"}
+{"i":10,"decision":"keep","fr":"","confidence":"medium","category":"general","reason":"例句使用“à température ambiante”，现译对应，但该词组属一般温度表达。"}
+{"i":11,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均将药代动力学术语译为“biodisponibilité absolue”。"}
+{"i":12,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句均将该辅料译为“dioxyde de titane”。"}
+{"i":13,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"two main studies 是一般研究数量描述，不构成独立专业术语。"}
+{"i":14,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句均使用“système nerveux central”。"}
+{"i":15,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"候选缺少 area，例句对应完整表达“body surface area”。"}
+{"i":16,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将 insulin requirements 译为“besoins en insuline”。"}
+{"i":17,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句均使用“anticorps monoclonal”。"}
+{"i":18,"decision":"keep","fr":"","confidence":"high","category":"regulatory","reason":"例句将“full EPAR”译为“EPAR complet”。"}
+{"i":19,"decision":"keep","fr":"","confidence":"medium","category":"general","reason":"例句使用“qualité de vie”，该固定临床结局表达译法相符。"}
+{"i":20,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句使用“ventriculaire gauche”，现译准确。"}
+{"i":21,"decision":"fix","fr":"jaune orangé sunset","confidence":"medium","category":"drug","reason":"例句对含 E110 的名称采用“jaune orangé sunset”，现译遗漏 sunset。"}
+{"i":22,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句将 fibrosis 译为“fibrose”。"}
+{"i":23,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"例句中的相关表达使用“poids moléculaire”，现译相符。"}
+{"i":24,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均将该病名译为“spondylarthrite ankylosante”。"}
+{"i":25,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将该成分译为“acide citrique”。"}
+{"i":26,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均使用“congestion nasale”。"}
+{"i":27,"decision":"fix","fr":"solution pour spot-on","confidence":"high","category":"dosage_form","reason":"例句使用“solution pour spot-on”，现译遗漏 on。"}
+{"i":28,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均将药代动力学术语译为“clairance rénale”。"}
+{"i":29,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句将 film-coated tablets 译为“comprimés pelliculés”。"}
+{"i":30,"decision":"keep","fr":"","confidence":"medium","category":"general","reason":"例句使用“modèles animaux”，现译相符；该词组属于实验研究表达。"}
+{"i":31,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均使用“clairance systémique”。"}
+{"i":32,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将 nicotinic acid 译为“acide nicotinique”，现译含定冠词但词义一致。"}
+{"i":33,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句明确使用“métabolite actif”。"}
+{"i":34,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句证据支持“polyarthrite rhumatoïde”。"}
+{"i":35,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"候选是说明书标题中的截断片段，完整标题为“Driving and using machines”。"}
+{"i":36,"decision":"keep","fr":"","confidence":"medium","category":"general","reason":"例句均使用“facteurs de risque”，该医学风险概念译法相符。"}
+{"i":37,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"congestive heart 是未完成的名词短语，完整术语为“insuffisance cardiaque congestive”。"}
+{"i":38,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均使用“toxicité maternelle”。"}
+{"i":39,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"body mass 是一般身体指标表达，例句证据实际对应“body mass index”。"}
+{"i":40,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"air bubbles 是一般操作描述，不是独立医药术语。"}
+{"i":41,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"juvenile idiopathic 是未完成的修饰语，不能独立对应疾病名称。"}
+{"i":42,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句均将该辅料译为“chlorure de sodium”。"}
+{"i":43,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句支持“stéarate de magnésium”，仅大小写不同。"}
+{"i":44,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"six weeks 是普通时间长度表达，不构成独立术语。"}
+{"i":45,"decision":"keep","fr":"","confidence":"medium","category":"regulatory","reason":"例句使用“conformément aux recommandations officielles”，现译相符。"}
+{"i":46,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均将该病名译为“insuffisance cardiaque congestive”。"}
+{"i":47,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均使用“rhinite”。"}
+{"i":48,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"first study 是一般序数描述，不构成独立专业术语。"}
+{"i":49,"decision":"fix","fr":"Précautions particulières de conservation","confidence":"high","category":"regulatory","reason":"例句中的规范标题为“Précautions particulières de conservation”，现译漏掉首词。"}
+{"i":50,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均将该临床结局指标译为“survie globale”。"}
+{"i":51,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"first infusion 是普通治疗事件描述，不是独立术语。"}
+{"i":52,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"例句采用“études épidémiologiques”，现译与该研究类型相符。"}
+{"i":53,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句中“dose de charge”与现译一致。"}
+{"i":54,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"kilogram body 是不完整英文片段，例句对应完整表达“kilogram body weight”。"}
+{"i":55,"decision":"keep","fr":"","confidence":"medium","category":"general","reason":"例句均使用“cellules cancéreuses”，该医学表达译法正确。"}
+{"i":56,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句均将其译为“système immunitaire”。"}
+{"i":57,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句均使用“système nerveux”。"}
+{"i":58,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"concentrate for solution 是不完整剂型名称，例句对应完整的溶液配制剂型。"}
+{"i":59,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"maximum recommended 缺少中心名词，例句中分别修饰 dose 和 concentration。"}
+{"i":60,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"third study 是一般序数描述，不构成独立专业术语。"}
+{"i":61,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均使用“clairance plasmatique”。"}
+{"i":62,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"例句明确将该研究称为“étude de toxicité”。"}
+{"i":63,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"contain lactose 是说明性谓语，不是独立术语。"}
+{"i":64,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"benefit has 是从疑问句截出的普通语言片段，不是术语。"}
+{"i":65,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"main studies 是一般研究描述，例句译法也不唯一，不能作为独立术语保留。"}
+{"i":66,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句将其译为“vaisseaux sanguins”。"}
+{"i":67,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句将剂型描述译为“poudre et solvant”。"}
+{"i":68,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句均使用“ADN recombinant”。"}
+{"i":69,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句均将该剂型译为“solution injectable”。"}
+{"i":70,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句将该不良反应术语译为“réactions cutanées”。"}
+{"i":71,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"young children 是一般人群称谓，不构成独立医药术语。"}
+{"i":72,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句均使用“vaisseau sanguin”。"}
+{"i":73,"decision":"keep","fr":"","confidence":"high","category":"procedure","reason":"例句均采用“potentiel carcinogène”。"}
+{"i":74,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将相关生物学术语表述为“facteur de croissance”。"}
+{"i":75,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句将解剖结构译为“canal artériel”。"}
+{"i":76,"decision":"keep","fr":"","confidence":"high","category":"dosage_form","reason":"例句均将该剂型译为“suspension injectable”。"}
+{"i":77,"decision":"fix","fr":"arthrite juvénile idiopathique","confidence":"high","category":"disease","reason":"例句明确使用“arthrite juvénile idiopathique”，现译漏译 idiopathic 且含上下文成分。"}
+{"i":78,"decision":"fix","fr":"eau pour préparations injectables","confidence":"high","category":"dosage_form","reason":"例句将该药用水名称译为“eau pour préparations injectables”，现译遗漏 eau pour。"}
+{"i":79,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句将 hydrochloride 译为“chlorhydrate”。"}
+{"i":80,"decision":"keep","fr":"","confidence":"medium","category":"anatomy","reason":"例句使用“site d’application”，与现译一致；此处指给药部位。"}
+{"i":81,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均使用“infections opportunistes”。"}
+{"i":82,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"first year 是普通时间表达，不是独立医药术语。"}
+{"i":83,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"例句支持“première dose”，该给药时序表达译法相符。"}
+{"i":84,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"has told 是普通句子片段，且例句中的完整表达采用不同句法。"}
+{"i":85,"decision":"keep","fr":"","confidence":"medium","category":"procedure","reason":"例句出现“sujets sains”，现译准确；另一例使用同义的“volontaires sains”。"}
+{"i":86,"decision":"keep","fr":"","confidence":"high","category":"drug","reason":"例句均将该辅料译为“cellulose microcristalline”。"}
+{"i":87,"decision":"keep","fr":"","confidence":"high","category":"anatomy","reason":"例句使用“voies respiratoires supérieures”，现译一致。"}
+{"i":88,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"risk associated 是未完成短语，例句显示其后还需补充关联对象。"}
+{"i":89,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均将其译为“réactions d’hypersensibilité”。"}
+{"i":90,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均使用“rhinopharyngite”。"}
+{"i":91,"decision":"keep","fr":"","confidence":"medium","category":"general","reason":"例句使用“bouchon en caoutchouc”，该包装部件名称译法正确。"}
+{"i":92,"decision":"reject","fr":"","confidence":"high","category":"fragment","reason":"looks like 是普通说明书句子片段，不是术语；例句对应完整栏目标题。"}
+{"i":93,"decision":"reject","fr":"","confidence":"medium","category":"general","reason":"Committee recommended 是句子谓语片段，不是法规程序名称。"}
+{"i":94,"decision":"keep","fr":"","confidence":"high","category":"disease","reason":"例句均将 leukaemia 译为“leucémie”。"}

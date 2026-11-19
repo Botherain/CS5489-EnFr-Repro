@@ -1,0 +1,9 @@
+{
+ "domain": "emea",
+ "n": 150,
+ "noisy_refs": 15,
+ "teacher_raw": 0.8223,
+ "teacher_norm": 0.8232,
+ "g3_raw": 0.8127,
+ "g3_norm": 0.8136
+}

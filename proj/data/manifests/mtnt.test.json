@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\mtnt.test.jsonl",
+  "rows": 1020,
+  "sha256": "038ef1f20a06f150e386b2d8697e74b52332629bacb6deb6a2f23ae4e86b834c",
+  "domain": "mtnt",
+  "split": "test",
+  "seed": 42
+}

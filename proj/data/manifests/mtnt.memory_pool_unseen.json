@@ -1,0 +1,8 @@
+{
+  "file": "data\\processed\\mtnt.memory_pool_unseen.jsonl",
+  "rows": 3032,
+  "sha256": "41489a5e8e783c6c293586672dc18f758b48209a6eb8fd8130eaa161bbe9ea81",
+  "domain": "mtnt",
+  "split": "memory_pool_unseen",
+  "seed": 42
+}

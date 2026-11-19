@@ -1,0 +1,18 @@
+{
+  "run_id": "g3_sft_r16_s42",
+  "train_rows": 61393,
+  "eval_rows": 600,
+  "epochs": 2.0,
+  "batch": 16,
+  "accum": 1,
+  "max_length": 384,
+  "lr": 0.0002,
+  "lora_r": 16,
+  "trainable_M": 18.46,
+  "trainable_pct": 1.182,
+  "hours": 1.78,
+  "peak_vram_gb": 8.117,
+  "final_train_loss": null,
+  "steps_per_epoch": 3837,
+  "git_commit": "n/a"
+}

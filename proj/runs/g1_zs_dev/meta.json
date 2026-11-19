@@ -1,0 +1,28 @@
+{
+  "run_id": "g1_zs_dev",
+  "mode": "zeroshot",
+  "split": "dev",
+  "domains": "mtnt,emea,clean",
+  "adapter": null,
+  "k": null,
+  "pool": null,
+  "decode": "greedy",
+  "batch": 32,
+  "max_new_tokens": 160,
+  "rows": 2052,
+  "wallclock_min": 1.98,
+  "sent_per_sec": 17.28,
+  "gen_tokens_total": 58473,
+  "tok_per_sec": 492.5,
+  "latency_batch1": {
+    "n": 0,
+    "p50_ms": null,
+    "p95_ms": null,
+    "mean_ms": null
+  },
+  "peak_vram_gb": 4.735,
+  "git_commit": "524be80",
+  "seed": 42,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "main"
+}
